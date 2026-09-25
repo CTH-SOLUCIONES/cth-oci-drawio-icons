@@ -22,7 +22,9 @@ draw.io no sirve: son glifos genéricos en negro, no los íconos oficiales.
 | `catalogo.md` | La misma lista, legible, por categoría |
 | `scripts/extraer.py` | Regenera todo desde el `.drawio` del toolkit cuando Oracle publique una versión nueva |
 | `scripts/embeber.py` | Reemplaza las URLs por los SVG en línea para el entregable |
-| `skills/diagramas-oci/` | Skill para agentes: cómo buscar los íconos, armar el diagrama en el MCP, las reglas de diagramación verificadas y la entrega |
+| `scripts/buscar.py` | Busca en el catálogo por slug, etiqueta o categoría, sin cargarlo entero |
+| `scripts/empaquetar.py` | Copia íconos, catálogo y scripts a la skill y arma `dist/diagramas-oci.zip` |
+| `skills/diagramas-oci/` | Skill para agentes, autocontenida: cómo buscar los íconos, armar el diagrama en el MCP, las reglas de diagramación verificadas y la entrega |
 
 ## Cómo se usa
 
@@ -38,9 +40,21 @@ suya.
 
 ## La skill
 
-Para que un agente lo haga siempre igual: `npx skills@latest add CTH-SOLUCIONES/cth-oci-drawio-icons -g -y`.
-Queda disponible para Claude Code y los demás agentes que gestiona la CLI `skills`; en Claude
-Desktop se sube como skill desde la configuración.
+La skill `diagramas-oci` hace que un agente lo haga siempre igual. Lleva su propia copia de los
+íconos, del catálogo y de los scripts, porque en claude.ai el entorno de ejecución solo sale por
+defecto a gestores de paquetes y no alcanzaría el CDN para embeber. La fuente de verdad es la raíz
+del repositorio, y `python3 scripts/empaquetar.py` sincroniza la copia y arma el `.zip`. Córrelo
+antes de cada commit que toque `svg/`, el catálogo o los scripts.
+
+**Para la organización en Claude:** el propietario sube `dist/diagramas-oci.zip` en
+*Organization settings > Plugins & skills > Add > Upload a skill*. Con eso queda activa para
+todos los miembros en claude.ai, Claude Desktop, Cowork y Claude Code con sesión de la
+organización. Cada miembro puede apagarla, pero no borrarla. Requiere que la pestaña *Policy*
+tenga activos *Cloud code execution and file creation* y *Skills*. Al diseñar, cada miembro necesita
+además el conector de draw.io.
+
+**Fuera de la organización, o en otros agentes** (Codex, Gemini CLI…):
+`npx skills@latest add CTH-SOLUCIONES/cth-oci-drawio-icons -g -y`.
 
 ## Propiedad de los íconos
 
