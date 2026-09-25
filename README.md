@@ -22,6 +22,7 @@ draw.io no sirve: son glifos genéricos en negro, no los íconos oficiales.
 | `catalogo.md` | La misma lista, legible, por categoría |
 | `scripts/extraer.py` | Regenera todo desde el `.drawio` del toolkit cuando Oracle publique una versión nueva |
 | `scripts/embeber.py` | Reemplaza las URLs por los SVG en línea para el entregable |
+| `skills/diagramas-oci/` | Skill para agentes: cómo buscar los íconos, armar el diagrama en el MCP, las reglas de diagramación verificadas y la entrega |
 
 ## Cómo se usa
 
@@ -34,6 +35,12 @@ draw.io no sirve: son glifos genéricos en negro, no los íconos oficiales.
 
 La URL fija la versión (`@v24.2.1`: toolkit 24.2 de Oracle, revisión 1 de este repositorio): cuando llegue otra, los diagramas viejos siguen apuntando a la
 suya.
+
+## La skill
+
+Para que un agente lo haga siempre igual: `npx skills@latest add CTH-SOLUCIONES/cth-oci-drawio-icons -g -y`.
+Queda disponible para Claude Code y los demás agentes que gestiona la CLI `skills`; en Claude
+Desktop se sube como skill desde la configuración.
 
 ## Propiedad de los íconos
 
