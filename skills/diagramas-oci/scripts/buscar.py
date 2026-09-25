@@ -3,30 +3,25 @@
 
 Uso:
   buscar.py <texto> [<texto>…]   # coincide con slug, etiqueta o categoría, sin tildes ni mayúsculas
-  buscar.py --estilo <slug>…     # estilo con el SVG en línea: se ve en el visor del MCP de draw.io
-  buscar.py --url <slug>…        # estilo con el ícono por URL: liviano, pero el visor no lo muestra
+  buscar.py --estilo <slug>…     # estilo en línea (stencil): se ve en el visor del MCP de draw.io
+  buscar.py --url <slug>…        # estilo por URL: liviano, pero el visor del MCP no lo muestra
   buscar.py --contenedores       # los 10 contenedores de la vista física, con su estilo
+
+Con --estilo, al final suma lo que pesan los estilos pedidos contra el presupuesto del XML.
 """
-import base64
 import json
-import re
 import sys
 import unicodedata
 from pathlib import Path
 
-BASE = Path(__file__).resolve().parent.parent
-CATALOGO = BASE / "catalogo.json"
-PAQUETE = BASE / "iconos.json"  # en la skill; en el repositorio los SVG están en svg/
+CATALOGO = Path(__file__).resolve().parent.parent / "catalogo.json"
+# `create_diagram` devuelve el XML entero, y el cliente corta los resultados de más de 25.000 tokens:
+# un XML de unos 50 KB ya no llegó al visor. 30.000 caracteres deja margen para contenedores y flechas.
+PRESUPUESTO = 30_000
 
 
 def _norm(s: str) -> str:
     return "".join(c for c in unicodedata.normalize("NFD", s.lower()) if unicodedata.category(c) != "Mn")
-
-
-def _svg(slug: str) -> bytes:
-    if PAQUETE.exists():
-        return json.loads(PAQUETE.read_text(encoding="utf-8"))["iconos"][slug].encode("utf-8")
-    return (BASE / "svg" / f"{slug}.svg").read_bytes()
 
 
 def main() -> None:
@@ -40,16 +35,19 @@ def main() -> None:
         return
     if args[0] in ("--estilo", "--url"):
         por_slug = {i["slug"]: i for i in cat["iconos"]}
+        clave = "estilo" if args[0] == "--estilo" else "estilo_url"
+        total = 0
         for s in args[1:]:
             i = por_slug.get(s)
             if i is None:
                 print(f"{s} | no está en el catálogo")
                 continue
-            estilo = i["estilo"]
-            if args[0] == "--estilo":
-                # draw.io usa `data:<tipo>,<base64>` sin `;base64`: el `;` separa claves de estilo.
-                estilo = re.sub(r"image=[^;]*$", "image=data:image/svg+xml," + base64.b64encode(_svg(s)).decode(), estilo)
-            print(f"{s} | {i['ancho']}x{i['alto']} | {estilo}")
+            total += len(i[clave])
+            print(f"{s} | {i['ancho']}x{i['alto']} | {i[clave]}")
+        if clave == "estilo":
+            print(f"# {total} caracteres en estilos (cada celda que repita un ícono suma el suyo otra vez); "
+                  f"el XML completo debe quedar bajo {PRESUPUESTO}"
+                  + ("" if total < PRESUPUESTO * 0.8 else ": no cabe, usa --url y avisa que el visor no mostrará los íconos"))
         return
     terminos = [_norm(a) for a in args]
     hallados = [i for i in cat["iconos"]

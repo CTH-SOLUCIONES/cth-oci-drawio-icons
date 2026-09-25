@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
-"""Deja en línea y canónicos los íconos OCI de un .drawio, para que el entregable no dependa de ninguna URL.
+"""Deja canónicos y en línea los íconos OCI de un .drawio, para que el entregable no dependa de ninguna URL.
 
 Cada ícono del catálogo lleva en su estilo `ociIcon=<slug>`. En cada celda con esa clave, este
-script pone en `image=` el SVG canónico en línea, venga la imagen por URL o ya en línea. Si la
-imagen ya venía en línea, como la escribe el agente para que se vea en el visor del MCP, una copia
-mal transcrita queda corregida. Las celdas de diagramas anteriores a `ociIcon` se reconocen por la
-URL del CDN.
+script pone la forma canónica del catálogo: el stencil en línea (`shape=stencil(…)`). Da igual si el
+ícono venía por URL, como stencil o como imagen en línea de una versión anterior. Si el agente
+transcribió mal un stencil, queda corregido. Las demás claves de estilo de la celda se conservan.
+Las celdas de diagramas anteriores a `ociIcon` se reconocen por la URL del CDN.
 
-El SVG sale de la carpeta `svg/` del repositorio o de `iconos.json` de la skill. Si el diagrama usa
-íconos de otro toolkit, se descargan.
+Todo sale de `catalogo.json`, sin red. Si el diagrama usa íconos de otro toolkit, se descargan y
+quedan como imagen en línea.
 
 Uso:
   embeber.py diagrama.drawio              # escribe diagrama.drawio embebido (guarda .bak)
@@ -23,60 +23,60 @@ import urllib.request
 import zlib
 from pathlib import Path
 
-BASE = Path(__file__).resolve().parent.parent
-SVG_LOCAL = BASE / "svg"  # el repositorio: un archivo por ícono
-# La skill los lleva todos en un solo archivo, porque claude.ai rechaza zips de más de 200 archivos.
-PAQUETE = BASE / "iconos.json"
+CATALOGO = Path(__file__).resolve().parent.parent / "catalogo.json"
 URL_ICONO = re.compile(r"https://cdn\.jsdelivr\.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@([^/]+)/svg/([a-z0-9-]+)\.svg")
-_local: tuple[str, dict[str, bytes]] | None = None
+QUITAR = {"shape", "image", "imageAspect"}  # las pone la forma canónica, o dejan de aplicar
+_cat: tuple[str, dict[str, str]] | None = None
 
 
 def _toolkit(version: str) -> str:
-    return version.rsplit(".", 1)[0]  # v24.2.2 → v24.2: las revisiones de este repo no cambian el dibujo
+    return version.rsplit(".", 1)[0]  # v24.2.3 → v24.2: las revisiones de este repo no cambian el dibujo
 
 
-def _iconos_locales() -> tuple[str, dict[str, bytes]]:
-    global _local
-    if _local is None:
-        if PAQUETE.exists():
-            p = json.loads(PAQUETE.read_text(encoding="utf-8"))
-            _local = (p["version"], {s: v.encode("utf-8") for s, v in p["iconos"].items()})
-        else:
-            version = json.loads((BASE / "catalogo.json").read_text(encoding="utf-8"))["version"]
-            _local = (version, {f.stem: f.read_bytes() for f in SVG_LOCAL.glob("*.svg")})
-    return _local
+def _catalogo() -> tuple[str, dict[str, str]]:
+    global _cat
+    if _cat is None:
+        c = json.loads(CATALOGO.read_text(encoding="utf-8"))
+        _cat = (c["version"], {i["slug"]: i["estilo"] for i in c["iconos"]})
+    return _cat
 
 
-def _svg(slug: str, url: str | None) -> bytes | None:
-    version, iconos = _iconos_locales()
-    m = URL_ICONO.fullmatch(url or "")
-    if m is None or _toolkit(m.group(1)) == _toolkit(version):
-        return iconos.get(slug)
-    with urllib.request.urlopen(url, timeout=30) as r:  # íconos de otro toolkit
-        return r.read()
+def _claves(estilo: str) -> list[tuple[str, str | None]]:
+    """El estilo como lista ordenada de (clave, valor); `None` para entradas sin `=`, como `ellipse`."""
+    out = []
+    for parte in estilo.split(";"):
+        if parte:
+            k, _, v = parte.partition("=")
+            out.append((k, v if _ else None))
+    return out
 
 
 def _estilo(estilo: str, cuenta: dict) -> str:
-    clave = re.search(r"(?:^|;)ociIcon=([a-z0-9-]+)", estilo)
-    img = re.search(r"(?:^|;)image=([^;]*)", estilo)
-    url = img.group(1) if img and img.group(1).startswith("https://") else None
-    if clave is not None:
-        slug = clave.group(1)
-    else:
-        m = URL_ICONO.fullmatch(url or "")
-        if m is None:
-            return estilo
-        slug = m.group(2)
-    svg = _svg(slug, url)
-    if svg is None:
+    claves = _claves(estilo)
+    d = dict(claves)
+    url = d.get("image") if (d.get("image") or "").startswith("https://") else None
+    m = URL_ICONO.fullmatch(url or "")
+    slug = d.get("ociIcon") or (m.group(2) if m else None)
+    if slug is None:
+        return estilo
+    version, iconos = _catalogo()
+    if m is not None and _toolkit(m.group(1)) != _toolkit(version):  # íconos de otro toolkit
+        with urllib.request.urlopen(url, timeout=30) as r:
+            cuenta["total"] += 1
+            # draw.io usa `data:<tipo>,<base64>` sin `;base64`: el `;` separa claves de estilo.
+            d["image"] = "data:image/svg+xml," + base64.b64encode(r.read()).decode()
+            return ";".join(k if v is None else f"{k}={d[k]}" for k, v in claves) + ";"
+    canon = iconos.get(slug)
+    if canon is None:
         cuenta["faltan"].append(slug)
         return estilo
     cuenta["total"] += 1
-    # draw.io usa `data:<tipo>,<base64>` sin `;base64`: el `;` separa claves de estilo.
-    nuevo = "data:image/svg+xml," + base64.b64encode(svg).decode()
-    if img is None:
-        return estilo.rstrip(";") + ";image=" + nuevo
-    return estilo[:img.start(1)] + nuevo + estilo[img.end(1):]
+    canon_claves = _claves(canon)
+    propias = {k for k, _ in canon_claves}
+    # La forma canónica primero; después, lo que la celda agregó o cambió (tamaño de letra, posición…).
+    resto = [(k, v) for k, v in claves if k not in QUITAR and k not in propias]
+    cambios = {k: v for k, v in claves if k in propias and k not in QUITAR}
+    return ";".join(k if v is None else f"{k}={cambios.get(k, v)}" for k, v in canon_claves + resto) + ";"
 
 
 def _inflar(contenido: str) -> str:
@@ -84,7 +84,7 @@ def _inflar(contenido: str) -> str:
 
 
 def embeber(texto: str) -> tuple[str, dict]:
-    """Devuelve el archivo con los íconos en línea y la cuenta. Los diagramas comprimidos se
+    """Devuelve el archivo con los íconos canónicos y la cuenta. Los diagramas comprimidos se
     descomprimen: draw.io abre igual el XML plano."""
     cuenta = {"total": 0, "faltan": []}
 

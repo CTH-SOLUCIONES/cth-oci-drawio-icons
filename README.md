@@ -1,18 +1,21 @@
 # cth-oci-drawio-icons
 
 Los íconos oficiales de OCI, del **OCI Architecture Diagram Toolkit v24.2** de Oracle, convertidos
-a un SVG optimizado por ícono para usarlos con el servidor MCP de draw.io.
+a stencils de draw.io y a SVG optimizados para usarlos con el servidor MCP de draw.io.
 
 ## Por qué existe
 
 Los íconos del toolkit son grupos de formas vectoriales de 5 a 20 KB cada uno. Metidos en el XML
 de un diagrama, una vista física real pesa 150–200 KB, demasiado para escribirla en una llamada al
-MCP. Aquí cada ícono es un solo SVG adelgazado: 2 KB de mediana entre los más usados.
+MCP. Además, `create_diagram` devuelve el XML entero, y el cliente corta los resultados de más de
+25.000 tokens: un XML de unos 50 KB le llegó al visor como aviso de error.
 
 Hay dos formas de usarlos:
 
-- **En línea (`data:`)**: se ven en el visor del chat.
-- **Por URL del CDN**: unos 260 caracteres por ícono, pero **el visor del chat no los muestra**.
+- **En línea, como stencil** (`shape=stencil(…)`, vectorial y comprimido): se ven en el visor del
+  chat. Pesan 1,4 KB de mediana entre los más usados, y una vista física de 9 íconos queda en unos
+  24.000 caracteres.
+- **Por URL del CDN**: unos 300 caracteres por ícono, pero **el visor del chat no los muestra**.
   Su política de contenido solo deja cargar imágenes de diagrams.net o en línea. draw.io, en
   cambio, sí los abre.
 
@@ -26,12 +29,13 @@ no los íconos oficiales.
 | Ruta | Contenido |
 |---|---|
 | `svg/<slug>.svg` | 232 íconos, exportados con draw.io desde la página «Icons» del toolkit, sin redibujar, y optimizados con SVGO a 0,01 px |
-| `catalogo.json` | Por ícono: slug, etiqueta oficial, categoría, tamaño y el estilo por URL; y 10 contenedores de la vista física (región, AD, fault domain, tenancy, compartment, VCN, subnet, clúster OKE, on-premises, internet) con el estilo de la leyenda del toolkit |
+| `catalogo.json` | Por ícono: slug, etiqueta oficial, categoría, tamaño, el estilo en línea (`estilo`, stencil) y el estilo por URL (`estilo_url`); y 10 contenedores de la vista física (región, AD, fault domain, tenancy, compartment, VCN, subnet, clúster OKE, on-premises, internet) con el estilo de la leyenda del toolkit |
 | `catalogo.md` | La misma lista, legible, por categoría |
 | `scripts/extraer.py` | Regenera todo desde el `.drawio` del toolkit cuando Oracle publique una versión nueva |
 | `scripts/optimizar.py` | Adelgaza los SVG exportados. Lo llama `extraer.py` |
-| `scripts/buscar.py` | Busca en el catálogo sin cargarlo entero y da el estilo en línea (`--estilo`) o por URL (`--url`) |
-| `scripts/embeber.py` | Deja en el entregable cada ícono en línea y canónico |
+| `scripts/stencil.py` | Convierte cada SVG en stencil de draw.io, con coordenadas absolutas a 0,1 px. Lo llama `extraer.py` |
+| `scripts/buscar.py` | Busca en el catálogo sin cargarlo entero, da el estilo en línea (`--estilo`) o por URL (`--url`) y suma contra el presupuesto de 30.000 caracteres |
+| `scripts/embeber.py` | Deja en el entregable cada ícono como el stencil canónico, conservando el resto del estilo de la celda |
 | `scripts/empaquetar.py` | Copia íconos, catálogo y scripts a la skill y arma `dist/diagramas-oci.zip` |
 | `skills/diagramas-oci/` | Skill para agentes, autocontenida: cómo buscar los íconos, armar el diagrama en el MCP, las reglas de diagramación verificadas y la entrega |
 
@@ -43,23 +47,25 @@ no los íconos oficiales.
    y que identifica el ícono aunque la imagen vaya en línea.
 2. **Guardar el XML** que devuelve el MCP como `.drawio` en la carpeta del proyecto.
 3. **Embeber antes de entregar**, siempre: `python3 scripts/embeber.py diagrama.drawio`.
-   - Pone en cada celda con `ociIcon` el SVG canónico, así corrige una copia mal transcrita y
-     cambia las URLs por el SVG.
+   - Pone en cada celda con `ociIcon` el stencil canónico, así corrige una copia mal transcrita y
+     cambia las URLs por el stencil.
    - Los diagramas anteriores a `ociIcon` se reconocen por la URL del CDN.
    - El entregable queda autocontenido: no depende de este repositorio ni de la red.
 
-La URL fija la versión: `@v24.2.2` es el toolkit 24.2 de Oracle en la revisión 2 de este
+La URL fija la versión: `@v24.2.3` es el toolkit 24.2 de Oracle en la revisión 3 de este
 repositorio. Cuando llegue otra, los diagramas viejos siguen apuntando a la suya. Las revisiones
-cambian la codificación, no el dibujo. Se retiró la v24.2 por los colores adaptativos, y la v24.2.1
-son los SVG sin optimizar.
+cambian la codificación, no el dibujo:
+- se retiró la v24.2 por los colores adaptativos;
+- la v24.2.1 son los SVG sin optimizar;
+- la v24.2.2 embebía los SVG en base64 y desbordaba el resultado del MCP.
 
 ## La skill
 
 La skill `diagramas-oci` hace que un agente lo haga siempre igual. Lleva su propia copia de los
 íconos, del catálogo y de los scripts, porque en claude.ai el entorno de ejecución solo sale por
-defecto a gestores de paquetes y no alcanzaría el CDN para embeber. Los íconos van juntos en
-`iconos.json` y no uno por archivo, porque la subida de skills en claude.ai rechaza zips de más de
-200 archivos. La fuente de verdad es la raíz
+defecto a gestores de paquetes y no alcanzaría el CDN para embeber. Los íconos van dentro del
+catálogo, como stencils, y no uno por archivo, porque la subida de skills en claude.ai rechaza zips
+de más de 200 archivos. La fuente de verdad es la raíz
 del repositorio, y `python3 scripts/empaquetar.py` sincroniza la copia y arma el `.zip`. Córrelo
 antes de cada commit que toque `svg/`, el catálogo o los scripts.
 

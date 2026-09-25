@@ -5,24 +5,23 @@ description: Diagramas de arquitectura OCI en draw.io con los íconos oficiales 
 
 # Diagramas de arquitectura OCI con los íconos oficiales
 
-Los íconos son los del **OCI Architecture Diagram Toolkit v24.2** de Oracle, un SVG por ícono,
-publicados en el repositorio `CTH-SOLUCIONES/cth-oci-drawio-icons`. En el XML que va al MCP van
-**en línea**, porque el visor del chat solo carga imágenes de diagrams.net o en línea: por URL no
-se ven. Antes de entregar se **embeben siempre** con el script, que los deja canónicos. Nunca uses
-formas genéricas ni el set «OCI Icons» que trae el propio servicio de draw.io, porque no son los
-oficiales.
+Los íconos son los del **OCI Architecture Diagram Toolkit v24.2** de Oracle, publicados en el
+repositorio `CTH-SOLUCIONES/cth-oci-drawio-icons`. En el XML que va al MCP van **en línea, como
+stencils** de draw.io (`shape=stencil(…)`): vectoriales, comprimidos y sin imagen externa. Por URL
+no se ven, porque el visor del chat solo carga imágenes de diagrams.net. Antes de entregar se
+**embeben siempre** con el script, que los deja canónicos. Nunca uses formas genéricas ni el set
+«OCI Icons» que trae el propio servicio de draw.io, porque no son los oficiales.
 
-Esta skill trae consigo el catálogo, los 232 SVG (juntos en `iconos.json`, que solo lee
-`embeber.py`) y los scripts. Las rutas son relativas a la carpeta de esta skill, así que funciona
-sin red y sin clonar nada.
+Esta skill trae consigo el catálogo, con los 232 íconos como stencil, y los scripts. Las rutas son
+relativas a la carpeta de esta skill, así que funciona sin red y sin clonar nada.
 
 ## 1. Buscar los íconos y los contenedores
 
-No leas `catalogo.json` entero (pesa 112 KB). Búscalo:
+No leas `catalogo.json` entero (pesa 700 KB). Búscalo:
 
 ```bash
 python3 scripts/buscar.py kubernetes          # slug | etiqueta | categoría | ancho x alto
-python3 scripts/buscar.py --estilo vault waf  # estilo con el SVG en línea, listo para pegar
+python3 scripts/buscar.py --estilo vault waf  # estilo en línea, listo para pegar, y lo que suma
 python3 scripts/buscar.py --contenedores      # región, AD, VCN, subnet… con su estilo
 ```
 
@@ -58,12 +57,16 @@ del usuario, un sistema del cliente) va con una forma neutra y su nombre.
   con el `width` y el `height` del catálogo. La etiqueta va en `value` y el estilo ya la pone
   debajo del ícono.
 - **Copia el estilo de `--estilo` completo y sin tocarlo**, incluida la clave `ociIcon=<slug>`,
-  con la que el script identifica el ícono al embeber. Los más usados pesan en línea 2 KB de
-  mediana y 7 KB como máximo; algunos del catálogo llegan a 20 KB. Una vista de 9 íconos suma
-  unos 26 KB. Pide el estilo una
-  vez por servicio y repítelo en cada celda que lo use.
-- **Con más de 25 íconos, usa `--url`**. El estilo pesa unos 260 caracteres, pero el visor muestra
-  el ícono vacío. Avísale a la persona que los verá al abrir el archivo en draw.io.
+  con la que el script identifica el ícono al embeber. Pide el estilo una vez por servicio y
+  repítelo en cada celda que lo use.
+- **Presupuesto: el XML completo, bajo 30.000 caracteres.** `create_diagram` devuelve el XML
+  entero, y el cliente corta los resultados de más de 25.000 tokens. Con unos 50 KB, el visor
+  recibió el aviso de error en vez del diagrama. Los íconos más usados pesan 1,4 KB de mediana, y
+  una vista física de 9 íconos quedó en 24.000 caracteres. `--estilo` suma lo que pediste y avisa
+  si no cabe; cada celda que repite un ícono suma otra vez.
+- **Si no cabe**, parte el diagrama en vistas (física y lógica, o por capa) o usa `--url` para los
+  íconos. `--url` pesa unos 300 caracteres por ícono, pero el visor muestra el ícono vacío: avísale
+  a la persona que lo verá al abrir el archivo en draw.io, y embebe igual antes de entregar.
 - **Contenedor.** Lleva su estilo y la etiqueta en `value`. Escribe los contenedores **antes**
   que los íconos para que queden detrás, en este orden: región → VCN → subnet.
 - Las páginas «Logical» y «Physical» del toolkit fijan la convención. La vista física lleva
@@ -103,9 +106,10 @@ renderizando con ese enrutado por defecto:
 1. Guarda el XML como `.drawio`, envuelto en `<mxfile><diagram name="…">…</diagram></mxfile>`.
    Va en la carpeta del proyecto o, en claude.ai, como archivo descargable.
 2. **Embebe siempre** con `python3 scripts/embeber.py diagrama.drawio`, aunque los íconos ya
-   vayan en línea. El script pone en cada celda con `ociIcon` el SVG canónico que trae esta skill,
-   sin red, y deja un `.bak`. Así corrige cualquier copia mal transcrita y cambia las URLs por el
-   SVG, y el entregable queda autocontenido.
+   vayan en línea. El script pone en cada celda con `ociIcon` el stencil canónico del catálogo,
+   sin red, y deja un `.bak`. Conserva lo demás que tenga la celda, como el tamaño de letra. Así
+   corrige cualquier copia mal transcrita y cambia las URLs por el stencil, y el entregable queda
+   autocontenido.
 3. **Revisa el resultado antes de entregarlo.**
    - Si está draw.io de escritorio, renderiza y abre el PNG. En macOS es
      `/Applications/draw.io.app/Contents/MacOS/draw.io -x -f png -s 2 -o revision.png diagrama.drawio`,

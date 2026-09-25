@@ -2,8 +2,9 @@
 
 Segmenta la página «Icons» por posición (formas que se tocan = un pictograma; el texto justo
 debajo = su etiqueta; el encabezado más cercano por encima = su categoría), exporta cada
-pictograma con el CLI de draw.io, lo adelgaza con `optimizar.py` y toma los contenedores de la
-leyenda de la página «Physical». Escribe `svg/`, `catalogo.json` y `catalogo.md`.
+pictograma con el CLI de draw.io, lo adelgaza con `optimizar.py`, lo convierte en stencil con
+`stencil.py` y toma los contenedores de la leyenda de la página «Physical». Escribe `svg/`,
+`catalogo.json` y `catalogo.md`.
 
 Uso: extraer.py   (toolkit en la variable OCI_TOOLKIT; exige /Applications/draw.io.app y npx)
 """
@@ -116,12 +117,15 @@ def categorias(iconos,textos,etiquetas_usadas):
 
 # ----------------------------------------------------------------------------- catálogo
 REPO = "CTH-SOLUCIONES/cth-oci-drawio-icons"
-VERSION = "v24.2.2"  # toolkit 24.2 de Oracle; el último dígito es la revisión de este repo
+VERSION = "v24.2.3"  # toolkit 24.2 de Oracle; el último dígito es la revisión de este repo
 BASE_URL = f"https://cdn.jsdelivr.net/gh/{REPO}@{VERSION}/svg"
-ESTILO_ICONO = ("shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;"
-                "imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon={slug};image={url}")
-# `ociIcon` no es de draw.io, que conserva las claves que no conoce: identifica el ícono aunque la
-# imagen vaya en línea, para que `embeber.py` la reemplace por la canónica.
+# `ociIcon` no es de draw.io, que conserva las claves que no conoce: identifica el ícono en cualquier
+# forma, para que `embeber.py` lo deje canónico.
+ESTILO_BASE = ("html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;aspect=fixed;"
+               "fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon={slug};")
+# En línea: el visor del MCP lo dibuja sin cargar nada. Por URL: liviano, pero el visor no lo carga.
+ESTILO_STENCIL = "shape=stencil({stencil});" + ESTILO_BASE
+ESTILO_URL = "shape=image;imageAspect=0;" + ESTILO_BASE + "image={url}"
 CONTENEDORES = {  # tipo -> etiqueta que lo identifica en la leyenda de la página Physical
     "region": "OCI Region", "availability-domain": "Availability Domain", "fault-domain": "Fault Domain",
     "tenancy": "Tenancy", "compartment": "Compartment A", "vcn": "VCN", "subnet": "Subnet 0.0.0.0/00",
@@ -160,7 +164,7 @@ def main():
         s = base if cuenta[base] == 1 else f"{base}-{cuenta[base]}"
         open(os.path.join(tmp, s + ".drawio"), "w").write(drawio_de(ic))
         cat.append(dict(slug=s, etiqueta=ic["etiqueta"], categoria=ic["categoria"], ancho=round(ic["w"]), alto=round(ic["h"]),
-                        archivo=f"svg/{s}.svg", estilo=ESTILO_ICONO.format(slug=s, url=f"{BASE_URL}/{s}.svg")))
+                        archivo=f"svg/{s}.svg", estilo=None, estilo_url=ESTILO_URL.format(slug=s, url=f"{BASE_URL}/{s}.svg")))
     os.makedirs(os.path.join(raiz, "svg"), exist_ok=True)
     # `--theme light`: sin él, draw.io exporta colores adaptativos (light-dark) y en un visor oscuro el
     # interior blanco de los íconos sale negro.
@@ -168,6 +172,11 @@ def main():
                     "-o", os.path.join(raiz, "svg"), tmp], check=True, capture_output=True)
     shutil.rmtree(tmp)
     subprocess.run([sys.executable, os.path.join(raiz, "scripts", "optimizar.py"), os.path.join(raiz, "svg")], check=True)
+    sys.path.insert(0, os.path.join(raiz, "scripts"))
+    import stencil
+    for i in cat:
+        svg = open(os.path.join(raiz, i["archivo"]), encoding="utf-8").read()
+        i["estilo"] = ESTILO_STENCIL.format(stencil=stencil.stencil(svg), slug=i["slug"])
     json.dump(dict(fuente=f"OCI Architecture Diagram Toolkit {VERSION} (Oracle), página Icons y leyenda de la página Physical",
                    version=VERSION, base_url=BASE_URL, iconos=cat, contenedores=contenedores()),
               open(os.path.join(raiz, "catalogo.json"), "w"), ensure_ascii=False, indent=1)
