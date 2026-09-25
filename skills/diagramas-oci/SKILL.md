@@ -11,8 +11,9 @@ referencian por URL, así el XML queda chico y cabe en una llamada al MCP. Antes
 **embeben siempre**. Nunca uses formas genéricas ni el set «OCI Icons» que trae el propio
 servicio de draw.io, porque no son los oficiales.
 
-Esta skill trae consigo el catálogo, los 232 SVG y los scripts. Las rutas `catalogo.json` y
-`scripts/…` son relativas a la carpeta de esta skill, así que funciona sin red y sin clonar nada.
+Esta skill trae consigo el catálogo, los 232 SVG (juntos en `iconos.json`, que solo lee
+`embeber.py`) y los scripts. Las rutas son relativas a la carpeta de esta skill, así que funciona
+sin red y sin clonar nada.
 
 ## 1. Buscar los íconos y los contenedores
 

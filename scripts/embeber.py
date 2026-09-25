@@ -4,13 +4,15 @@
 Un diagrama se diseña con el MCP de draw.io referenciando los íconos por URL (estilos cortos,
 el XML cabe en una llamada). Antes de entregarlo, este script reemplaza cada
 `image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@<versión>/svg/<slug>.svg`
-por el SVG en línea, tomado de la carpeta `svg/` de este repositorio (o descargado si no está).
+por el SVG en línea. Lo toma de la carpeta `svg/` del repositorio o de `iconos.json` de la skill, y
+si no está en ninguno de los dos, lo descarga.
 
 Uso:
   embeber.py diagrama.drawio              # escribe diagrama.drawio embebido (guarda .bak)
   embeber.py diagrama.drawio salida.drawio
 """
 import base64
+import json
 import re
 import sys
 import urllib.parse
@@ -18,14 +20,31 @@ import urllib.request
 import zlib
 from pathlib import Path
 
-SVG_LOCAL = Path(__file__).resolve().parent.parent / "svg"
-URL_ICONO = re.compile(r"image=(https://cdn\.jsdelivr\.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@[^/]+/svg/([a-z0-9-]+)\.svg)")
+BASE = Path(__file__).resolve().parent.parent
+SVG_LOCAL = BASE / "svg"  # el repositorio: un archivo por ícono
+# La skill los lleva todos en un solo archivo, porque claude.ai rechaza zips de más de 200 archivos.
+PAQUETE = BASE / "iconos.json"
+URL_ICONO = re.compile(r"image=(https://cdn\.jsdelivr\.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@([^/]+)/svg/([a-z0-9-]+)\.svg)")
+_paquete: dict | None = None
 
 
-def _svg(url: str, slug: str) -> bytes:
+def _del_paquete(version: str, slug: str) -> bytes | None:
+    global _paquete
+    if _paquete is None:
+        _paquete = json.loads(PAQUETE.read_text(encoding="utf-8")) if PAQUETE.exists() else {}
+    if _paquete.get("version") != version:  # un diagrama hecho con otra versión de los íconos
+        return None
+    svg = _paquete["iconos"].get(slug)
+    return svg.encode("utf-8") if svg else None
+
+
+def _svg(url: str, version: str, slug: str) -> bytes:
     local = SVG_LOCAL / f"{slug}.svg"
     if local.exists():
         return local.read_bytes()
+    svg = _del_paquete(version, slug)
+    if svg:
+        return svg
     with urllib.request.urlopen(url, timeout=30) as r:  # ícono de una versión que no está en disco
         return r.read()
 
@@ -45,7 +64,7 @@ def embeber(texto: str) -> tuple[str, int]:
             nonlocal total
             total += 1
             # draw.io usa `data:<tipo>,<base64>` sin `;base64`: el `;` separa claves de estilo.
-            return "image=data:image/svg+xml," + base64.b64encode(_svg(m.group(1), m.group(2))).decode()
+            return "image=data:image/svg+xml," + base64.b64encode(_svg(m.group(1), m.group(2), m.group(3))).decode()
         return URL_ICONO.sub(uno, xml)
 
     def diagrama(m):

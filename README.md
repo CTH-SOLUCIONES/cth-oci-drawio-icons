@@ -42,7 +42,9 @@ suya.
 
 La skill `diagramas-oci` hace que un agente lo haga siempre igual. Lleva su propia copia de los
 íconos, del catálogo y de los scripts, porque en claude.ai el entorno de ejecución solo sale por
-defecto a gestores de paquetes y no alcanzaría el CDN para embeber. La fuente de verdad es la raíz
+defecto a gestores de paquetes y no alcanzaría el CDN para embeber. Los íconos van juntos en
+`iconos.json` y no uno por archivo, porque la subida de skills en claude.ai rechaza zips de más de
+200 archivos. La fuente de verdad es la raíz
 del repositorio, y `python3 scripts/empaquetar.py` sincroniza la copia y arma el `.zip`. Córrelo
 antes de cada commit que toque `svg/`, el catálogo o los scripts.
 
