@@ -115,7 +115,7 @@ def categorias(iconos,textos,etiquetas_usadas):
 
 # ----------------------------------------------------------------------------- catálogo
 REPO = "CTH-SOLUCIONES/cth-oci-drawio-icons"
-VERSION = "v24.2"
+VERSION = "v24.2.1"  # toolkit 24.2 de Oracle; el último dígito es la revisión de este repo
 BASE_URL = f"https://cdn.jsdelivr.net/gh/{REPO}@{VERSION}/svg"
 ESTILO_ICONO = ("shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;"
                 "imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image={url}")
@@ -159,7 +159,9 @@ def main():
         cat.append(dict(slug=s, etiqueta=ic["etiqueta"], categoria=ic["categoria"], ancho=round(ic["w"]), alto=round(ic["h"]),
                         archivo=f"svg/{s}.svg", estilo=ESTILO_ICONO.format(url=f"{BASE_URL}/{s}.svg")))
     os.makedirs(os.path.join(raiz, "svg"), exist_ok=True)
-    subprocess.run(["/Applications/draw.io.app/Contents/MacOS/draw.io", "-x", "-f", "svg", "-b", "0",
+    # `--theme light`: sin él, draw.io exporta colores adaptativos (light-dark) y en un visor oscuro el
+    # interior blanco de los íconos sale negro.
+    subprocess.run(["/Applications/draw.io.app/Contents/MacOS/draw.io", "-x", "-f", "svg", "-b", "0", "--theme", "light",
                     "-o", os.path.join(raiz, "svg"), tmp], check=True, capture_output=True)
     shutil.rmtree(tmp)
     json.dump(dict(fuente=f"OCI Architecture Diagram Toolkit {VERSION} (Oracle), página Icons y leyenda de la página Physical",

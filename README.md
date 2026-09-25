@@ -27,12 +27,12 @@ draw.io no sirve: son glifos genéricos en negro, no los íconos oficiales.
 
 1. **Diseñar con el MCP de draw.io.** Cada ícono es una celda con el `estilo` del catálogo y la
    etiqueta en `value`; cada contenedor, una celda con su estilo. URL de un ícono:
-   `https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/<slug>.svg`.
+   `https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/<slug>.svg`.
 2. **Guardar el XML** que devuelve el MCP como `.drawio` en la carpeta del proyecto.
 3. **Embeber antes de entregar**, siempre: `python3 scripts/embeber.py diagrama.drawio`. El
    entregable queda autocontenido: no depende de este repositorio ni de la red.
 
-La URL fija la versión (`@v24.2`): cuando llegue otra, los diagramas viejos siguen apuntando a la
+La URL fija la versión (`@v24.2.1`: toolkit 24.2 de Oracle, revisión 1 de este repositorio): cuando llegue otra, los diagramas viejos siguen apuntando a la
 suya.
 
 ## Propiedad de los íconos
