@@ -1,0 +1,2167 @@
+{
+ "fuente": "OCI Architecture Diagram Toolkit v24.2 (Oracle), página Icons y leyenda de la página Physical",
+ "version": "v24.2",
+ "base_url": "https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg",
+ "iconos": [
+  {
+   "slug": "compute",
+   "etiqueta": "OCI Compute",
+   "categoria": "Compute",
+   "ancho": 42,
+   "alto": 42,
+   "archivo": "svg/compute.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/compute.svg"
+  },
+  {
+   "slug": "instance-pools",
+   "etiqueta": "Instance Pools",
+   "categoria": "Compute",
+   "ancho": 42,
+   "alto": 42,
+   "archivo": "svg/instance-pools.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/instance-pools.svg"
+  },
+  {
+   "slug": "functions",
+   "etiqueta": "OCI Functions",
+   "categoria": "Compute",
+   "ancho": 42,
+   "alto": 42,
+   "archivo": "svg/functions.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/functions.svg"
+  },
+  {
+   "slug": "virtual-machine",
+   "etiqueta": "Virtual Machine",
+   "categoria": "Compute",
+   "ancho": 42,
+   "alto": 42,
+   "archivo": "svg/virtual-machine.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/virtual-machine.svg"
+  },
+  {
+   "slug": "autoscaling",
+   "etiqueta": "Autoscaling",
+   "categoria": "Compute",
+   "ancho": 42,
+   "alto": 42,
+   "archivo": "svg/autoscaling.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/autoscaling.svg"
+  },
+  {
+   "slug": "flex-vm",
+   "etiqueta": "Flex VM",
+   "categoria": "Compute",
+   "ancho": 42,
+   "alto": 42,
+   "archivo": "svg/flex-vm.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/flex-vm.svg"
+  },
+  {
+   "slug": "burstable-vm",
+   "etiqueta": "Burstable VM",
+   "categoria": "Compute",
+   "ancho": 42,
+   "alto": 42,
+   "archivo": "svg/burstable-vm.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/burstable-vm.svg"
+  },
+  {
+   "slug": "virtual-machine-application",
+   "etiqueta": "Virtual Machine Application",
+   "categoria": "Compute",
+   "ancho": 42,
+   "alto": 42,
+   "archivo": "svg/virtual-machine-application.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/virtual-machine-application.svg"
+  },
+  {
+   "slug": "virtual-machine-gpu",
+   "etiqueta": "Virtual Machine GPU",
+   "categoria": "Compute",
+   "ancho": 42,
+   "alto": 40,
+   "archivo": "svg/virtual-machine-gpu.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/virtual-machine-gpu.svg"
+  },
+  {
+   "slug": "virtual-machine-generic-use",
+   "etiqueta": "Virtual Machine (generic use)",
+   "categoria": "Compute",
+   "ancho": 42,
+   "alto": 37,
+   "archivo": "svg/virtual-machine-generic-use.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/virtual-machine-generic-use.svg"
+  },
+  {
+   "slug": "file-storage-replication-process",
+   "etiqueta": "File Storage Replication Process",
+   "categoria": "Storage",
+   "ancho": 61,
+   "alto": 62,
+   "archivo": "svg/file-storage-replication-process.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/file-storage-replication-process.svg"
+  },
+  {
+   "slug": "block-storage",
+   "etiqueta": "Block Storage",
+   "categoria": "Storage",
+   "ancho": 42,
+   "alto": 42,
+   "archivo": "svg/block-storage.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/block-storage.svg"
+  },
+  {
+   "slug": "back-up-restore",
+   "etiqueta": "Back Up/ Restore",
+   "categoria": "Storage",
+   "ancho": 42,
+   "alto": 42,
+   "archivo": "svg/back-up-restore.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/back-up-restore.svg"
+  },
+  {
+   "slug": "block-storage-cloning",
+   "etiqueta": "Block Storage Cloning",
+   "categoria": "Storage",
+   "ancho": 42,
+   "alto": 42,
+   "archivo": "svg/block-storage-cloning.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/block-storage-cloning.svg"
+  },
+  {
+   "slug": "file-storage",
+   "etiqueta": "File Storage",
+   "categoria": "Storage",
+   "ancho": 42,
+   "alto": 42,
+   "archivo": "svg/file-storage.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/file-storage.svg"
+  },
+  {
+   "slug": "file-storage-replica",
+   "etiqueta": "File Storage Replica",
+   "categoria": "Storage",
+   "ancho": 42,
+   "alto": 42,
+   "archivo": "svg/file-storage-replica.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/file-storage-replica.svg"
+  },
+  {
+   "slug": "file-storage-snapshots",
+   "etiqueta": "File Storage Snapshots",
+   "categoria": "Storage",
+   "ancho": 42,
+   "alto": 42,
+   "archivo": "svg/file-storage-snapshots.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/file-storage-snapshots.svg"
+  },
+  {
+   "slug": "file-storage-cloning-process",
+   "etiqueta": "File Storage Cloning Process",
+   "categoria": "Storage",
+   "ancho": 42,
+   "alto": 42,
+   "archivo": "svg/file-storage-cloning-process.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/file-storage-cloning-process.svg"
+  },
+  {
+   "slug": "file-storage-clone",
+   "etiqueta": "File Storage Clone",
+   "categoria": "Storage",
+   "ancho": 42,
+   "alto": 40,
+   "archivo": "svg/file-storage-clone.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/file-storage-clone.svg"
+  },
+  {
+   "slug": "file-storage-mount-target",
+   "etiqueta": "File Storage Mount Target",
+   "categoria": "Storage",
+   "ancho": 41,
+   "alto": 41,
+   "archivo": "svg/file-storage-mount-target.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/file-storage-mount-target.svg"
+  },
+  {
+   "slug": "block-storage-multiple",
+   "etiqueta": "Block Storage Multiple",
+   "categoria": "Storage",
+   "ancho": 42,
+   "alto": 35,
+   "archivo": "svg/block-storage-multiple.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/block-storage-multiple.svg"
+  },
+  {
+   "slug": "object-storage",
+   "etiqueta": "OCI Object Storage",
+   "categoria": "Storage",
+   "ancho": 63,
+   "alto": 63,
+   "archivo": "svg/object-storage.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/object-storage.svg"
+  },
+  {
+   "slug": "object-storage-buckets",
+   "etiqueta": "OCI Object Storage Buckets",
+   "categoria": "Storage",
+   "ancho": 42,
+   "alto": 42,
+   "archivo": "svg/object-storage-buckets.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/object-storage-buckets.svg"
+  },
+  {
+   "slug": "elastic-performance",
+   "etiqueta": "Elastic Performance",
+   "categoria": "Storage",
+   "ancho": 40,
+   "alto": 42,
+   "archivo": "svg/elastic-performance.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/elastic-performance.svg"
+  },
+  {
+   "slug": "local-storage",
+   "etiqueta": "Local Storage",
+   "categoria": "Storage",
+   "ancho": 26,
+   "alto": 42,
+   "archivo": "svg/local-storage.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/local-storage.svg"
+  },
+  {
+   "slug": "storage-gateway",
+   "etiqueta": "Storage Gateway",
+   "categoria": "Storage",
+   "ancho": 43,
+   "alto": 36,
+   "archivo": "svg/storage-gateway.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/storage-gateway.svg"
+  },
+  {
+   "slug": "persistent-volume",
+   "etiqueta": "Persistent Volume",
+   "categoria": "Storage",
+   "ancho": 42,
+   "alto": 24,
+   "archivo": "svg/persistent-volume.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/persistent-volume.svg"
+  },
+  {
+   "slug": "load-balancer",
+   "etiqueta": "Load Balancer",
+   "categoria": "Networking",
+   "ancho": 42,
+   "alto": 42,
+   "archivo": "svg/load-balancer.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/load-balancer.svg"
+  },
+  {
+   "slug": "flexible-load-balancer",
+   "etiqueta": "Flexible Load Balancer",
+   "categoria": "Networking",
+   "ancho": 42,
+   "alto": 42,
+   "archivo": "svg/flexible-load-balancer.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/flexible-load-balancer.svg"
+  },
+  {
+   "slug": "customer-premises-equipment",
+   "etiqueta": "Customer Premises Equipment",
+   "categoria": "Networking",
+   "ancho": 42,
+   "alto": 42,
+   "archivo": "svg/customer-premises-equipment.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/customer-premises-equipment.svg"
+  },
+  {
+   "slug": "vtap",
+   "etiqueta": "VTAP",
+   "categoria": "Networking",
+   "ancho": 42,
+   "alto": 41,
+   "archivo": "svg/vtap.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/vtap.svg"
+  },
+  {
+   "slug": "on-premises-data-center",
+   "etiqueta": "On-premises data center",
+   "categoria": "Networking",
+   "ancho": 23,
+   "alto": 42,
+   "archivo": "svg/on-premises-data-center.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/on-premises-data-center.svg"
+  },
+  {
+   "slug": "backbone",
+   "etiqueta": "Backbone",
+   "categoria": "Networking",
+   "ancho": 42,
+   "alto": 42,
+   "archivo": "svg/backbone.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/backbone.svg"
+  },
+  {
+   "slug": "network-switch",
+   "etiqueta": "Network Switch",
+   "categoria": "Networking",
+   "ancho": 42,
+   "alto": 42,
+   "archivo": "svg/network-switch.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/network-switch.svg"
+  },
+  {
+   "slug": "vnic",
+   "etiqueta": "VNIC",
+   "categoria": "Networking",
+   "ancho": 42,
+   "alto": 41,
+   "archivo": "svg/vnic.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/vnic.svg"
+  },
+  {
+   "slug": "dns",
+   "etiqueta": "DNS",
+   "categoria": "Networking",
+   "ancho": 42,
+   "alto": 39,
+   "archivo": "svg/dns.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/dns.svg"
+  },
+  {
+   "slug": "cdn",
+   "etiqueta": "CDN",
+   "categoria": "Networking",
+   "ancho": 42,
+   "alto": 38,
+   "archivo": "svg/cdn.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/cdn.svg"
+  },
+  {
+   "slug": "ip-pools",
+   "etiqueta": "IP Pools",
+   "categoria": "Networking",
+   "ancho": 42,
+   "alto": 29,
+   "archivo": "svg/ip-pools.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/ip-pools.svg"
+  },
+  {
+   "slug": "byoip",
+   "etiqueta": "BYOIP",
+   "categoria": "Networking",
+   "ancho": 42,
+   "alto": 26,
+   "archivo": "svg/byoip.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/byoip.svg"
+  },
+  {
+   "slug": "route-table",
+   "etiqueta": "Route Table",
+   "categoria": "Networking",
+   "ancho": 42,
+   "alto": 42,
+   "archivo": "svg/route-table.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/route-table.svg"
+  },
+  {
+   "slug": "route-table-and-security-list",
+   "etiqueta": "Route Table and Security List",
+   "categoria": "Networking",
+   "ancho": 42,
+   "alto": 42,
+   "archivo": "svg/route-table-and-security-list.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/route-table-and-security-list.svg"
+  },
+  {
+   "slug": "drg",
+   "etiqueta": "DRG",
+   "categoria": "Networking",
+   "ancho": 42,
+   "alto": 42,
+   "archivo": "svg/drg.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/drg.svg"
+  },
+  {
+   "slug": "service-gateway",
+   "etiqueta": "Service Gateway",
+   "categoria": "Networking",
+   "ancho": 42,
+   "alto": 42,
+   "archivo": "svg/service-gateway.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/service-gateway.svg"
+  },
+  {
+   "slug": "internet-gateway",
+   "etiqueta": "Internet Gateway",
+   "categoria": "Networking",
+   "ancho": 38,
+   "alto": 42,
+   "archivo": "svg/internet-gateway.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/internet-gateway.svg"
+  },
+  {
+   "slug": "nat-gateway",
+   "etiqueta": "NAT Gateway",
+   "categoria": "Networking",
+   "ancho": 36,
+   "alto": 42,
+   "archivo": "svg/nat-gateway.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/nat-gateway.svg"
+  },
+  {
+   "slug": "local-peering-gateway",
+   "etiqueta": "Local Peering Gateway",
+   "categoria": "Networking",
+   "ancho": 42,
+   "alto": 42,
+   "archivo": "svg/local-peering-gateway.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/local-peering-gateway.svg"
+  },
+  {
+   "slug": "network-performance-inspector",
+   "etiqueta": "Network Performance Inspector",
+   "categoria": "Networking",
+   "ancho": 42,
+   "alto": 42,
+   "archivo": "svg/network-performance-inspector.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/network-performance-inspector.svg"
+  },
+  {
+   "slug": "vcn-region-identifier",
+   "etiqueta": "VCN (Region Identifier)",
+   "categoria": "Networking",
+   "ancho": 42,
+   "alto": 40,
+   "archivo": "svg/vcn-region-identifier.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/vcn-region-identifier.svg"
+  },
+  {
+   "slug": "oracle-services-network",
+   "etiqueta": "Oracle Services Network",
+   "categoria": "Networking",
+   "ancho": 42,
+   "alto": 39,
+   "archivo": "svg/oracle-services-network.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/oracle-services-network.svg"
+  },
+  {
+   "slug": "database",
+   "etiqueta": "Database",
+   "categoria": "Database",
+   "ancho": 37,
+   "alto": 42,
+   "archivo": "svg/database.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/database.svg"
+  },
+  {
+   "slug": "migrate-autonomous-database",
+   "etiqueta": "OCI Migrate Autonomous Database",
+   "categoria": "Database",
+   "ancho": 42,
+   "alto": 42,
+   "archivo": "svg/migrate-autonomous-database.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/migrate-autonomous-database.svg"
+  },
+  {
+   "slug": "oracle-autonomous-data-warehouse",
+   "etiqueta": "Oracle Autonomous Data Warehouse",
+   "categoria": "Database",
+   "ancho": 39,
+   "alto": 42,
+   "archivo": "svg/oracle-autonomous-data-warehouse.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/oracle-autonomous-data-warehouse.svg"
+  },
+  {
+   "slug": "adw-d",
+   "etiqueta": "ADW-D",
+   "categoria": "Database",
+   "ancho": 39,
+   "alto": 42,
+   "archivo": "svg/adw-d.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/adw-d.svg"
+  },
+  {
+   "slug": "oracle-exadata-database-service",
+   "etiqueta": "Oracle Exadata Database Service",
+   "categoria": "Database",
+   "ancho": 32,
+   "alto": 42,
+   "archivo": "svg/oracle-exadata-database-service.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/oracle-exadata-database-service.svg"
+  },
+  {
+   "slug": "oracle-compute-cloud-customer",
+   "etiqueta": "Oracle Compute Cloud@Customer",
+   "categoria": "Database",
+   "ancho": 40,
+   "alto": 42,
+   "archivo": "svg/oracle-compute-cloud-customer.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/oracle-compute-cloud-customer.svg"
+  },
+  {
+   "slug": "exadata-cloud-customer",
+   "etiqueta": "Exadata Cloud@Customer",
+   "categoria": "Database",
+   "ancho": 40,
+   "alto": 42,
+   "archivo": "svg/exadata-cloud-customer.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/exadata-cloud-customer.svg"
+  },
+  {
+   "slug": "exadata-fleet-update",
+   "etiqueta": "Exadata Fleet Update",
+   "categoria": "Database",
+   "ancho": 39,
+   "alto": 42,
+   "archivo": "svg/exadata-fleet-update.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/exadata-fleet-update.svg"
+  },
+  {
+   "slug": "atp-d",
+   "etiqueta": "ATP-D",
+   "categoria": "Database",
+   "ancho": 42,
+   "alto": 38,
+   "archivo": "svg/atp-d.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/atp-d.svg"
+  },
+  {
+   "slug": "oracle-base-database",
+   "etiqueta": "Oracle Base Database",
+   "categoria": "Database",
+   "ancho": 42,
+   "alto": 39,
+   "archivo": "svg/oracle-base-database.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/oracle-base-database.svg"
+  },
+  {
+   "slug": "oracle-autonomous-transaction-processing-atp",
+   "etiqueta": "Oracle Autonomous Transaction Processing ATP",
+   "categoria": "Database",
+   "ancho": 42,
+   "alto": 38,
+   "archivo": "svg/oracle-autonomous-transaction-processing-atp.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/oracle-autonomous-transaction-processing-atp.svg"
+  },
+  {
+   "slug": "oracle-autonomous-database",
+   "etiqueta": "Oracle Autonomous Database",
+   "categoria": "Database",
+   "ancho": 42,
+   "alto": 36,
+   "archivo": "svg/oracle-autonomous-database.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/oracle-autonomous-database.svg"
+  },
+  {
+   "slug": "adb-d",
+   "etiqueta": "ADB-D",
+   "categoria": "Database",
+   "ancho": 39,
+   "alto": 42,
+   "archivo": "svg/adb-d.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/adb-d.svg"
+  },
+  {
+   "slug": "data-safe",
+   "etiqueta": "Data Safe",
+   "categoria": "Database",
+   "ancho": 43,
+   "alto": 41,
+   "archivo": "svg/data-safe.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/data-safe.svg"
+  },
+  {
+   "slug": "nosql-database",
+   "etiqueta": "NoSQL Database",
+   "categoria": "Database",
+   "ancho": 38,
+   "alto": 42,
+   "archivo": "svg/nosql-database.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/nosql-database.svg"
+  },
+  {
+   "slug": "mysql-database-system",
+   "etiqueta": "MySQL Database System",
+   "categoria": "Database",
+   "ancho": 37,
+   "alto": 42,
+   "archivo": "svg/mysql-database-system.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/mysql-database-system.svg"
+  },
+  {
+   "slug": "rac",
+   "etiqueta": "RAC",
+   "categoria": "Database",
+   "ancho": 36,
+   "alto": 42,
+   "archivo": "svg/rac.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/rac.svg"
+  },
+  {
+   "slug": "opensearch",
+   "etiqueta": "OpenSearch",
+   "categoria": "Database",
+   "ancho": 39,
+   "alto": 42,
+   "archivo": "svg/opensearch.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/opensearch.svg"
+  },
+  {
+   "slug": "network-path-analyzer",
+   "etiqueta": "Network Path Analyzer",
+   "categoria": "Database",
+   "ancho": 42,
+   "alto": 42,
+   "archivo": "svg/network-path-analyzer.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/network-path-analyzer.svg"
+  },
+  {
+   "slug": "network-visualizer",
+   "etiqueta": "Network Visualizer",
+   "categoria": "Database",
+   "ancho": 37,
+   "alto": 42,
+   "archivo": "svg/network-visualizer.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/network-visualizer.svg"
+  },
+  {
+   "slug": "oracle-cloud-migration-advisor",
+   "etiqueta": "Oracle Cloud Migration Advisor",
+   "categoria": "Database",
+   "ancho": 38,
+   "alto": 41,
+   "archivo": "svg/oracle-cloud-migration-advisor.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/oracle-cloud-migration-advisor.svg"
+  },
+  {
+   "slug": "adb-exadata-cloud-customer",
+   "etiqueta": "ADB Exadata Cloud@Customer",
+   "categoria": "Database",
+   "ancho": 42,
+   "alto": 41,
+   "archivo": "svg/adb-exadata-cloud-customer.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/adb-exadata-cloud-customer.svg"
+  },
+  {
+   "slug": "inter-region-latency",
+   "etiqueta": "Inter-Region Latency",
+   "categoria": "Database",
+   "ancho": 40,
+   "alto": 40,
+   "archivo": "svg/inter-region-latency.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/inter-region-latency.svg"
+  },
+  {
+   "slug": "data-guard",
+   "etiqueta": "Data Guard",
+   "categoria": "Database",
+   "ancho": 38,
+   "alto": 42,
+   "archivo": "svg/data-guard.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/data-guard.svg"
+  },
+  {
+   "slug": "data-guard-recovery",
+   "etiqueta": "Data Guard Recovery",
+   "categoria": "Database",
+   "ancho": 42,
+   "alto": 42,
+   "archivo": "svg/data-guard-recovery.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/data-guard-recovery.svg"
+  },
+  {
+   "slug": "data-lake",
+   "etiqueta": "Data Lake",
+   "categoria": "Database",
+   "ancho": 38,
+   "alto": 42,
+   "archivo": "svg/data-lake.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/data-lake.svg"
+  },
+  {
+   "slug": "oracle-rest-data-services",
+   "etiqueta": "Oracle REST Data Services",
+   "categoria": "Database",
+   "ancho": 36,
+   "alto": 42,
+   "archivo": "svg/oracle-rest-data-services.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/oracle-rest-data-services.svg"
+  },
+  {
+   "slug": "database-flashback",
+   "etiqueta": "Database Flashback",
+   "categoria": "Database",
+   "ancho": 39,
+   "alto": 42,
+   "archivo": "svg/database-flashback.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/database-flashback.svg"
+  },
+  {
+   "slug": "migration-workbench",
+   "etiqueta": "Migration Workbench",
+   "categoria": "Database",
+   "ancho": 36,
+   "alto": 42,
+   "archivo": "svg/migration-workbench.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/migration-workbench.svg"
+  },
+  {
+   "slug": "oracle-database-migration-service",
+   "etiqueta": "Oracle Database Migration Service",
+   "categoria": "Database",
+   "ancho": 40,
+   "alto": 41,
+   "archivo": "svg/oracle-database-migration-service.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/oracle-database-migration-service.svg"
+  },
+  {
+   "slug": "database-with-postgresql",
+   "etiqueta": "OCI Database with PostgreSQL",
+   "categoria": "Database",
+   "ancho": 41,
+   "alto": 42,
+   "archivo": "svg/database-with-postgresql.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/database-with-postgresql.svg"
+  },
+  {
+   "slug": "estate-explorer",
+   "etiqueta": "Estate Explorer",
+   "categoria": "Database",
+   "ancho": 42,
+   "alto": 40,
+   "archivo": "svg/estate-explorer.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/estate-explorer.svg"
+  },
+  {
+   "slug": "database-management",
+   "etiqueta": "Database Management",
+   "categoria": "Database",
+   "ancho": 42,
+   "alto": 40,
+   "archivo": "svg/database-management.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/database-management.svg"
+  },
+  {
+   "slug": "mysql-heatwave",
+   "etiqueta": "MySQL HeatWave",
+   "categoria": "Database",
+   "ancho": 42,
+   "alto": 39,
+   "archivo": "svg/mysql-heatwave.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/mysql-heatwave.svg"
+  },
+  {
+   "slug": "data-lakehouse",
+   "etiqueta": "Data Lakehouse",
+   "categoria": "Database",
+   "ancho": 42,
+   "alto": 33,
+   "archivo": "svg/data-lakehouse.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/data-lakehouse.svg"
+  },
+  {
+   "slug": "goldengate-director",
+   "etiqueta": "GoldenGate Director",
+   "categoria": "Database",
+   "ancho": 42,
+   "alto": 36,
+   "archivo": "svg/goldengate-director.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/goldengate-director.svg"
+  },
+  {
+   "slug": "goldengate-studio",
+   "etiqueta": "GoldenGate Studio",
+   "categoria": "Database",
+   "ancho": 42,
+   "alto": 36,
+   "archivo": "svg/goldengate-studio.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/goldengate-studio.svg"
+  },
+  {
+   "slug": "goldengate-application-adapter",
+   "etiqueta": "GoldenGate Application Adapter",
+   "categoria": "Database",
+   "ancho": 42,
+   "alto": 36,
+   "archivo": "svg/goldengate-application-adapter.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/goldengate-application-adapter.svg"
+  },
+  {
+   "slug": "goldengate-plug-in",
+   "etiqueta": "GoldenGate Plug-in",
+   "categoria": "Database",
+   "ancho": 42,
+   "alto": 37,
+   "archivo": "svg/goldengate-plug-in.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/goldengate-plug-in.svg"
+  },
+  {
+   "slug": "goldengate-stream-analytics",
+   "etiqueta": "GoldenGate Stream Analytics",
+   "categoria": "Database",
+   "ancho": 42,
+   "alto": 37,
+   "archivo": "svg/goldengate-stream-analytics.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/goldengate-stream-analytics.svg"
+  },
+  {
+   "slug": "goldengate-veridata",
+   "etiqueta": "GoldenGate Veridata",
+   "categoria": "Database",
+   "ancho": 42,
+   "alto": 36,
+   "archivo": "svg/goldengate-veridata.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/goldengate-veridata.svg"
+  },
+  {
+   "slug": "goldengate-monitor",
+   "etiqueta": "GoldenGate Monitor",
+   "categoria": "Database",
+   "ancho": 42,
+   "alto": 36,
+   "archivo": "svg/goldengate-monitor.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/goldengate-monitor.svg"
+  },
+  {
+   "slug": "goldengate-hp-non-stop-guardian",
+   "etiqueta": "GoldenGate HP Non-Stop Guardian",
+   "categoria": "Database",
+   "ancho": 42,
+   "alto": 36,
+   "archivo": "svg/goldengate-hp-non-stop-guardian.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/goldengate-hp-non-stop-guardian.svg"
+  },
+  {
+   "slug": "goldengate-free",
+   "etiqueta": "GoldenGate Free",
+   "categoria": "Database",
+   "ancho": 42,
+   "alto": 37,
+   "archivo": "svg/goldengate-free.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/goldengate-free.svg"
+  },
+  {
+   "slug": "goldengate",
+   "etiqueta": "GoldenGate",
+   "categoria": "Database",
+   "ancho": 42,
+   "alto": 32,
+   "archivo": "svg/goldengate.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/goldengate.svg"
+  },
+  {
+   "slug": "goldengate-on-premises",
+   "etiqueta": "GoldenGate On-Premises",
+   "categoria": "Database",
+   "ancho": 42,
+   "alto": 24,
+   "archivo": "svg/goldengate-on-premises.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/goldengate-on-premises.svg"
+  },
+  {
+   "slug": "data-integration",
+   "etiqueta": "OCI Data Integration",
+   "categoria": "Analytics and AI",
+   "ancho": 42,
+   "alto": 42,
+   "archivo": "svg/data-integration.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/data-integration.svg"
+  },
+  {
+   "slug": "data-flow",
+   "etiqueta": "Data Flow",
+   "categoria": "Analytics and AI",
+   "ancho": 41,
+   "alto": 42,
+   "archivo": "svg/data-flow.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/data-flow.svg"
+  },
+  {
+   "slug": "streaming",
+   "etiqueta": "OCI Streaming",
+   "categoria": "Analytics and AI",
+   "ancho": 42,
+   "alto": 42,
+   "archivo": "svg/streaming.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/streaming.svg"
+  },
+  {
+   "slug": "service-connector-hub",
+   "etiqueta": "Service Connector Hub",
+   "categoria": "Analytics and AI",
+   "ancho": 37,
+   "alto": 42,
+   "archivo": "svg/service-connector-hub.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/service-connector-hub.svg"
+  },
+  {
+   "slug": "data-science",
+   "etiqueta": "OCI Data Science",
+   "categoria": "Analytics and AI",
+   "ancho": 38,
+   "alto": 42,
+   "archivo": "svg/data-science.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/data-science.svg"
+  },
+  {
+   "slug": "artificial-intelligence",
+   "etiqueta": "Artificial Intelligence",
+   "categoria": "Analytics and AI",
+   "ancho": 39,
+   "alto": 42,
+   "archivo": "svg/artificial-intelligence.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/artificial-intelligence.svg"
+  },
+  {
+   "slug": "big-data",
+   "etiqueta": "Big Data",
+   "categoria": "Analytics and AI",
+   "ancho": 42,
+   "alto": 41,
+   "archivo": "svg/big-data.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/big-data.svg"
+  },
+  {
+   "slug": "document-understanding",
+   "etiqueta": "Document Understanding",
+   "categoria": "Analytics and AI",
+   "ancho": 43,
+   "alto": 41,
+   "archivo": "svg/document-understanding.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/document-understanding.svg"
+  },
+  {
+   "slug": "machine-learning",
+   "etiqueta": "Machine Learning",
+   "categoria": "Analytics and AI",
+   "ancho": 41,
+   "alto": 40,
+   "archivo": "svg/machine-learning.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/machine-learning.svg"
+  },
+  {
+   "slug": "data-catalog",
+   "etiqueta": "Data Catalog",
+   "categoria": "Analytics and AI",
+   "ancho": 42,
+   "alto": 37,
+   "archivo": "svg/data-catalog.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/data-catalog.svg"
+  },
+  {
+   "slug": "digital-assistant",
+   "etiqueta": "Digital Assistant",
+   "categoria": "Analytics and AI",
+   "ancho": 41,
+   "alto": 36,
+   "archivo": "svg/digital-assistant.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/digital-assistant.svg"
+  },
+  {
+   "slug": "oracle-analytics-cloud",
+   "etiqueta": "Oracle Analytics Cloud",
+   "categoria": "Analytics and AI",
+   "ancho": 43,
+   "alto": 36,
+   "archivo": "svg/oracle-analytics-cloud.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/oracle-analytics-cloud.svg"
+  },
+  {
+   "slug": "essbase",
+   "etiqueta": "Essbase",
+   "categoria": "Analytics and AI",
+   "ancho": 40,
+   "alto": 42,
+   "archivo": "svg/essbase.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/essbase.svg"
+  },
+  {
+   "slug": "message-listener",
+   "etiqueta": "Message Listener",
+   "categoria": "Analytics and AI",
+   "ancho": 42,
+   "alto": 42,
+   "archivo": "svg/message-listener.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/message-listener.svg"
+  },
+  {
+   "slug": "message-producer",
+   "etiqueta": "Message Producer",
+   "categoria": "Analytics and AI",
+   "ancho": 42,
+   "alto": 42,
+   "archivo": "svg/message-producer.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/message-producer.svg"
+  },
+  {
+   "slug": "forecasting",
+   "etiqueta": "Forecasting",
+   "categoria": "Analytics and AI",
+   "ancho": 42,
+   "alto": 42,
+   "archivo": "svg/forecasting.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/forecasting.svg"
+  },
+  {
+   "slug": "language",
+   "etiqueta": "OCI Language",
+   "categoria": "Analytics and AI",
+   "ancho": 39,
+   "alto": 42,
+   "archivo": "svg/language.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/language.svg"
+  },
+  {
+   "slug": "speech",
+   "etiqueta": "OCI Speech",
+   "categoria": "Analytics and AI",
+   "ancho": 42,
+   "alto": 42,
+   "archivo": "svg/speech.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/speech.svg"
+  },
+  {
+   "slug": "vision",
+   "etiqueta": "OCI Vision",
+   "categoria": "Analytics and AI",
+   "ancho": 41,
+   "alto": 41,
+   "archivo": "svg/vision.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/vision.svg"
+  },
+  {
+   "slug": "generative-ai",
+   "etiqueta": "OCI Generative AI",
+   "categoria": "Analytics and AI",
+   "ancho": 42,
+   "alto": 39,
+   "archivo": "svg/generative-ai.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/generative-ai.svg"
+  },
+  {
+   "slug": "generative-ai-2",
+   "etiqueta": "OCI Generative AI",
+   "categoria": "Analytics and AI",
+   "ancho": 42,
+   "alto": 39,
+   "archivo": "svg/generative-ai-2.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/generative-ai-2.svg"
+  },
+  {
+   "slug": "container-engine-for-kubernetes",
+   "etiqueta": "OCI Container Engine for Kubernetes",
+   "categoria": "Developer Services",
+   "ancho": 42,
+   "alto": 42,
+   "archivo": "svg/container-engine-for-kubernetes.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/container-engine-for-kubernetes.svg"
+  },
+  {
+   "slug": "container-registry",
+   "etiqueta": "OCI Container Registry",
+   "categoria": "Developer Services",
+   "ancho": 42,
+   "alto": 42,
+   "archivo": "svg/container-registry.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/container-registry.svg"
+  },
+  {
+   "slug": "container",
+   "etiqueta": "Container",
+   "categoria": "Developer Services",
+   "ancho": 42,
+   "alto": 42,
+   "archivo": "svg/container.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/container.svg"
+  },
+  {
+   "slug": "service-mesh",
+   "etiqueta": "Service Mesh",
+   "categoria": "Developer Services",
+   "ancho": 42,
+   "alto": 42,
+   "archivo": "svg/service-mesh.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/service-mesh.svg"
+  },
+  {
+   "slug": "apex",
+   "etiqueta": "APEX",
+   "categoria": "Developer Services",
+   "ancho": 42,
+   "alto": 42,
+   "archivo": "svg/apex.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/apex.svg"
+  },
+  {
+   "slug": "private-endpoint-ip",
+   "etiqueta": "Private Endpoint IP",
+   "categoria": "Developer Services",
+   "ancho": 30,
+   "alto": 42,
+   "archivo": "svg/private-endpoint-ip.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/private-endpoint-ip.svg"
+  },
+  {
+   "slug": "api-gateway",
+   "etiqueta": "API Gateway",
+   "categoria": "Developer Services",
+   "ancho": 40,
+   "alto": 42,
+   "archivo": "svg/api-gateway.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/api-gateway.svg"
+  },
+  {
+   "slug": "api-service",
+   "etiqueta": "API Service",
+   "categoria": "Developer Services",
+   "ancho": 42,
+   "alto": 42,
+   "archivo": "svg/api-service.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/api-service.svg"
+  },
+  {
+   "slug": "notifications",
+   "etiqueta": "Notifications",
+   "categoria": "Developer Services",
+   "ancho": 42,
+   "alto": 42,
+   "archivo": "svg/notifications.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/notifications.svg"
+  },
+  {
+   "slug": "integration",
+   "etiqueta": "Integration",
+   "categoria": "Developer Services",
+   "ancho": 42,
+   "alto": 38,
+   "archivo": "svg/integration.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/integration.svg"
+  },
+  {
+   "slug": "container-instances",
+   "etiqueta": "Container Instances",
+   "categoria": "Developer Services",
+   "ancho": 43,
+   "alto": 37,
+   "archivo": "svg/container-instances.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/container-instances.svg"
+  },
+  {
+   "slug": "multiple-containers",
+   "etiqueta": "Multiple Containers",
+   "categoria": "Developer Services",
+   "ancho": 42,
+   "alto": 34,
+   "archivo": "svg/multiple-containers.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/multiple-containers.svg"
+  },
+  {
+   "slug": "devops",
+   "etiqueta": "DevOps",
+   "categoria": "Developer Services",
+   "ancho": 40,
+   "alto": 42,
+   "archivo": "svg/devops.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/devops.svg"
+  },
+  {
+   "slug": "content-management",
+   "etiqueta": "Content Management",
+   "categoria": "Developer Services",
+   "ancho": 40,
+   "alto": 42,
+   "archivo": "svg/content-management.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/content-management.svg"
+  },
+  {
+   "slug": "jet",
+   "etiqueta": "Jet",
+   "categoria": "Developer Services",
+   "ancho": 42,
+   "alto": 42,
+   "archivo": "svg/jet.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/jet.svg"
+  },
+  {
+   "slug": "logic-flow",
+   "etiqueta": "Logic Flow",
+   "categoria": "Developer Services",
+   "ancho": 42,
+   "alto": 42,
+   "archivo": "svg/logic-flow.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/logic-flow.svg"
+  },
+  {
+   "slug": "application-dependency-management",
+   "etiqueta": "Application Dependency Management",
+   "categoria": "Developer Services",
+   "ancho": 37,
+   "alto": 42,
+   "archivo": "svg/application-dependency-management.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/application-dependency-management.svg"
+  },
+  {
+   "slug": "oke-virtual-node",
+   "etiqueta": "OKE Virtual Node",
+   "categoria": "Developer Services",
+   "ancho": 42,
+   "alto": 42,
+   "archivo": "svg/oke-virtual-node.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/oke-virtual-node.svg"
+  },
+  {
+   "slug": "process-automation",
+   "etiqueta": "OCI Process Automation",
+   "categoria": "Developer Services",
+   "ancho": 37,
+   "alto": 42,
+   "archivo": "svg/process-automation.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/process-automation.svg"
+  },
+  {
+   "slug": "visual-builder",
+   "etiqueta": "Visual Builder",
+   "categoria": "Developer Services",
+   "ancho": 42,
+   "alto": 39,
+   "archivo": "svg/visual-builder.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/visual-builder.svg"
+  },
+  {
+   "slug": "resource-manager",
+   "etiqueta": "Resource Manager",
+   "categoria": "Developer Services",
+   "ancho": 41,
+   "alto": 38,
+   "archivo": "svg/resource-manager.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/resource-manager.svg"
+  },
+  {
+   "slug": "email-delivery",
+   "etiqueta": "Email Delivery",
+   "categoria": "Developer Services",
+   "ancho": 42,
+   "alto": 29,
+   "archivo": "svg/email-delivery.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/email-delivery.svg"
+  },
+  {
+   "slug": "user",
+   "etiqueta": "User",
+   "categoria": "Identity & Security",
+   "ancho": 41,
+   "alto": 42,
+   "archivo": "svg/user.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/user.svg"
+  },
+  {
+   "slug": "user-2",
+   "etiqueta": "User",
+   "categoria": "Identity & Security",
+   "ancho": 33,
+   "alto": 42,
+   "archivo": "svg/user-2.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/user-2.svg"
+  },
+  {
+   "slug": "user-3",
+   "etiqueta": "User",
+   "categoria": "Identity & Security",
+   "ancho": 38,
+   "alto": 42,
+   "archivo": "svg/user-3.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/user-3.svg"
+  },
+  {
+   "slug": "policies",
+   "etiqueta": "Policies",
+   "categoria": "Identity & Security",
+   "ancho": 42,
+   "alto": 41,
+   "archivo": "svg/policies.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/policies.svg"
+  },
+  {
+   "slug": "iam",
+   "etiqueta": "IAM",
+   "categoria": "Identity & Security",
+   "ancho": 42,
+   "alto": 39,
+   "archivo": "svg/iam.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/iam.svg"
+  },
+  {
+   "slug": "oracle-identity-cloud-service",
+   "etiqueta": "Oracle Identity Cloud Service",
+   "categoria": "Identity & Security",
+   "ancho": 42,
+   "alto": 38,
+   "archivo": "svg/oracle-identity-cloud-service.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/oracle-identity-cloud-service.svg"
+  },
+  {
+   "slug": "cloud-guard",
+   "etiqueta": "Cloud Guard",
+   "categoria": "Identity & Security",
+   "ancho": 43,
+   "alto": 38,
+   "archivo": "svg/cloud-guard.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/cloud-guard.svg"
+  },
+  {
+   "slug": "compartments",
+   "etiqueta": "Compartments",
+   "categoria": "Identity & Security",
+   "ancho": 42,
+   "alto": 33,
+   "archivo": "svg/compartments.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/compartments.svg"
+  },
+  {
+   "slug": "user-group",
+   "etiqueta": "User Group",
+   "categoria": "Identity & Security",
+   "ancho": 42,
+   "alto": 31,
+   "archivo": "svg/user-group.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/user-group.svg"
+  },
+  {
+   "slug": "user-group-2",
+   "etiqueta": "User Group",
+   "categoria": "Identity & Security",
+   "ancho": 42,
+   "alto": 23,
+   "archivo": "svg/user-group-2.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/user-group-2.svg"
+  },
+  {
+   "slug": "user-group-3",
+   "etiqueta": "User Group",
+   "categoria": "Identity & Security",
+   "ancho": 42,
+   "alto": 22,
+   "archivo": "svg/user-group-3.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/user-group-3.svg"
+  },
+  {
+   "slug": "certificates",
+   "etiqueta": "Certificates",
+   "categoria": "Identity & Security",
+   "ancho": 41,
+   "alto": 42,
+   "archivo": "svg/certificates.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/certificates.svg"
+  },
+  {
+   "slug": "maximum-security-zone",
+   "etiqueta": "Maximum Security Zone",
+   "categoria": "Identity & Security",
+   "ancho": 41,
+   "alto": 42,
+   "archivo": "svg/maximum-security-zone.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/maximum-security-zone.svg"
+  },
+  {
+   "slug": "threat-intelligence",
+   "etiqueta": "Threat Intelligence",
+   "categoria": "Identity & Security",
+   "ancho": 32,
+   "alto": 42,
+   "archivo": "svg/threat-intelligence.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/threat-intelligence.svg"
+  },
+  {
+   "slug": "vulnerability-scanning",
+   "etiqueta": "Vulnerability Scanning",
+   "categoria": "Identity & Security",
+   "ancho": 36,
+   "alto": 42,
+   "archivo": "svg/vulnerability-scanning.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/vulnerability-scanning.svg"
+  },
+  {
+   "slug": "bastion",
+   "etiqueta": "Bastion",
+   "categoria": "Identity & Security",
+   "ancho": 27,
+   "alto": 42,
+   "archivo": "svg/bastion.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/bastion.svg"
+  },
+  {
+   "slug": "security-lists",
+   "etiqueta": "Security Lists",
+   "categoria": "Identity & Security",
+   "ancho": 32,
+   "alto": 42,
+   "archivo": "svg/security-lists.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/security-lists.svg"
+  },
+  {
+   "slug": "waf",
+   "etiqueta": "WAF",
+   "categoria": "Identity & Security",
+   "ancho": 43,
+   "alto": 41,
+   "archivo": "svg/waf.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/waf.svg"
+  },
+  {
+   "slug": "vault",
+   "etiqueta": "Vault",
+   "categoria": "Identity & Security",
+   "ancho": 42,
+   "alto": 40,
+   "archivo": "svg/vault.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/vault.svg"
+  },
+  {
+   "slug": "firewall",
+   "etiqueta": "Firewall",
+   "categoria": "Identity & Security",
+   "ancho": 42,
+   "alto": 38,
+   "archivo": "svg/firewall.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/firewall.svg"
+  },
+  {
+   "slug": "ddos-protection",
+   "etiqueta": "DDoS Protection",
+   "categoria": "Identity & Security",
+   "ancho": 42,
+   "alto": 38,
+   "archivo": "svg/ddos-protection.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/ddos-protection.svg"
+  },
+  {
+   "slug": "key-vault",
+   "etiqueta": "Key Vault",
+   "categoria": "Identity & Security",
+   "ancho": 42,
+   "alto": 38,
+   "archivo": "svg/key-vault.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/key-vault.svg"
+  },
+  {
+   "slug": "key-management",
+   "etiqueta": "Key Management",
+   "categoria": "Identity & Security",
+   "ancho": 32,
+   "alto": 42,
+   "archivo": "svg/key-management.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/key-management.svg"
+  },
+  {
+   "slug": "encryption",
+   "etiqueta": "Encryption",
+   "categoria": "Identity & Security",
+   "ancho": 28,
+   "alto": 42,
+   "archivo": "svg/encryption.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/encryption.svg"
+  },
+  {
+   "slug": "nsg",
+   "etiqueta": "NSG",
+   "categoria": "Identity & Security",
+   "ancho": 32,
+   "alto": 42,
+   "archivo": "svg/nsg.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/nsg.svg"
+  },
+  {
+   "slug": "security-lists-2",
+   "etiqueta": "Security Lists",
+   "categoria": "Identity & Security",
+   "ancho": 32,
+   "alto": 42,
+   "archivo": "svg/security-lists-2.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/security-lists-2.svg"
+  },
+  {
+   "slug": "active-directory",
+   "etiqueta": "Active Directory",
+   "categoria": "Identity & Security",
+   "ancho": 42,
+   "alto": 41,
+   "archivo": "svg/active-directory.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/active-directory.svg"
+  },
+  {
+   "slug": "threat-defense",
+   "etiqueta": "Threat Defense",
+   "categoria": "Identity & Security",
+   "ancho": 42,
+   "alto": 38,
+   "archivo": "svg/threat-defense.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/threat-defense.svg"
+  },
+  {
+   "slug": "auditing",
+   "etiqueta": "Auditing",
+   "categoria": "Observability and Management",
+   "ancho": 42,
+   "alto": 42,
+   "archivo": "svg/auditing.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/auditing.svg"
+  },
+  {
+   "slug": "monitoring",
+   "etiqueta": "Monitoring",
+   "categoria": "Observability and Management",
+   "ancho": 42,
+   "alto": 42,
+   "archivo": "svg/monitoring.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/monitoring.svg"
+  },
+  {
+   "slug": "alarms",
+   "etiqueta": "Alarms",
+   "categoria": "Observability and Management",
+   "ancho": 40,
+   "alto": 41,
+   "archivo": "svg/alarms.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/alarms.svg"
+  },
+  {
+   "slug": "health-checks",
+   "etiqueta": "Health Checks",
+   "categoria": "Observability and Management",
+   "ancho": 31,
+   "alto": 42,
+   "archivo": "svg/health-checks.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/health-checks.svg"
+  },
+  {
+   "slug": "vcn-flow-logs",
+   "etiqueta": "VCN Flow Logs",
+   "categoria": "Observability and Management",
+   "ancho": 42,
+   "alto": 41,
+   "archivo": "svg/vcn-flow-logs.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/vcn-flow-logs.svg"
+  },
+  {
+   "slug": "workflow",
+   "etiqueta": "Workflow",
+   "categoria": "Observability and Management",
+   "ancho": 42,
+   "alto": 42,
+   "archivo": "svg/workflow.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/workflow.svg"
+  },
+  {
+   "slug": "fullstack-disaster-recovery",
+   "etiqueta": "Fullstack Disaster Recovery",
+   "categoria": "Observability and Management",
+   "ancho": 40,
+   "alto": 42,
+   "archivo": "svg/fullstack-disaster-recovery.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/fullstack-disaster-recovery.svg"
+  },
+  {
+   "slug": "logging",
+   "etiqueta": "Logging",
+   "categoria": "Observability and Management",
+   "ancho": 43,
+   "alto": 41,
+   "archivo": "svg/logging.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/logging.svg"
+  },
+  {
+   "slug": "events",
+   "etiqueta": "Events",
+   "categoria": "Observability and Management",
+   "ancho": 42,
+   "alto": 41,
+   "archivo": "svg/events.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/events.svg"
+  },
+  {
+   "slug": "queue",
+   "etiqueta": "OCI Queue",
+   "categoria": "Observability and Management",
+   "ancho": 42,
+   "alto": 41,
+   "archivo": "svg/queue.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/queue.svg"
+  },
+  {
+   "slug": "operations-insights",
+   "etiqueta": "Operations Insights",
+   "categoria": "Observability and Management",
+   "ancho": 42,
+   "alto": 40,
+   "archivo": "svg/operations-insights.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/operations-insights.svg"
+  },
+  {
+   "slug": "search",
+   "etiqueta": "Search",
+   "categoria": "Observability and Management",
+   "ancho": 43,
+   "alto": 39,
+   "archivo": "svg/search.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/search.svg"
+  },
+  {
+   "slug": "logging-analytics",
+   "etiqueta": "Logging Analytics",
+   "categoria": "Observability and Management",
+   "ancho": 42,
+   "alto": 37,
+   "archivo": "svg/logging-analytics.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/logging-analytics.svg"
+  },
+  {
+   "slug": "application-performance-monitoring",
+   "etiqueta": "Application Performance Monitoring",
+   "categoria": "Observability and Management",
+   "ancho": 42,
+   "alto": 32,
+   "archivo": "svg/application-performance-monitoring.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/application-performance-monitoring.svg"
+  },
+  {
+   "slug": "dedicated-region",
+   "etiqueta": "Dedicated Region",
+   "categoria": "Hybrid",
+   "ancho": 42,
+   "alto": 42,
+   "archivo": "svg/dedicated-region.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/dedicated-region.svg"
+  },
+  {
+   "slug": "roving-edge-device-red",
+   "etiqueta": "Roving Edge Device (RED)",
+   "categoria": "Hybrid",
+   "ancho": 42,
+   "alto": 41,
+   "archivo": "svg/roving-edge-device-red.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/roving-edge-device-red.svg"
+  },
+  {
+   "slug": "roving-edge-ultra",
+   "etiqueta": "Roving Edge Ultra",
+   "categoria": "Hybrid",
+   "ancho": 42,
+   "alto": 41,
+   "archivo": "svg/roving-edge-ultra.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/roving-edge-ultra.svg"
+  },
+  {
+   "slug": "roving-edge-infrastructure",
+   "etiqueta": "Roving Edge Infrastructure",
+   "categoria": "Hybrid",
+   "ancho": 42,
+   "alto": 40,
+   "archivo": "svg/roving-edge-infrastructure.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/roving-edge-infrastructure.svg"
+  },
+  {
+   "slug": "roving-edge-service",
+   "etiqueta": "Roving Edge Service",
+   "categoria": "Hybrid",
+   "ancho": 43,
+   "alto": 36,
+   "archivo": "svg/roving-edge-service.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/roving-edge-service.svg"
+  },
+  {
+   "slug": "database-migration",
+   "etiqueta": "Database Migration",
+   "categoria": "Migration",
+   "ancho": 42,
+   "alto": 39,
+   "archivo": "svg/database-migration.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/database-migration.svg"
+  },
+  {
+   "slug": "data-transfer",
+   "etiqueta": "Data Transfer",
+   "categoria": "Migration",
+   "ancho": 43,
+   "alto": 22,
+   "archivo": "svg/data-transfer.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/data-transfer.svg"
+  },
+  {
+   "slug": "organization",
+   "etiqueta": "Organization",
+   "categoria": "Governance and Administration",
+   "ancho": 39,
+   "alto": 42,
+   "archivo": "svg/organization.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/organization.svg"
+  },
+  {
+   "slug": "license-manager",
+   "etiqueta": "License Manager",
+   "categoria": "Governance and Administration",
+   "ancho": 35,
+   "alto": 42,
+   "archivo": "svg/license-manager.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/license-manager.svg"
+  },
+  {
+   "slug": "tagging",
+   "etiqueta": "Tagging",
+   "categoria": "Governance and Administration",
+   "ancho": 42,
+   "alto": 42,
+   "archivo": "svg/tagging.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/tagging.svg"
+  },
+  {
+   "slug": "cloud-advisor",
+   "etiqueta": "Cloud Advisor",
+   "categoria": "Governance and Administration",
+   "ancho": 42,
+   "alto": 41,
+   "archivo": "svg/cloud-advisor.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/cloud-advisor.svg"
+  },
+  {
+   "slug": "cloud-migrations",
+   "etiqueta": "Cloud Migrations",
+   "categoria": "Governance and Administration",
+   "ancho": 42,
+   "alto": 36,
+   "archivo": "svg/cloud-migrations.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/cloud-migrations.svg"
+  },
+  {
+   "slug": "oracle-cloud-identifier",
+   "etiqueta": "Oracle Cloud Identifier",
+   "categoria": "Governance and Administration",
+   "ancho": 43,
+   "alto": 22,
+   "archivo": "svg/oracle-cloud-identifier.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/oracle-cloud-identifier.svg"
+  },
+  {
+   "slug": "oracle-soa-suite",
+   "etiqueta": "Oracle SOA Suite",
+   "categoria": "Applications",
+   "ancho": 42,
+   "alto": 42,
+   "archivo": "svg/oracle-soa-suite.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/oracle-soa-suite.svg"
+  },
+  {
+   "slug": "inventory-management",
+   "etiqueta": "Inventory Management",
+   "categoria": "Applications",
+   "ancho": 42,
+   "alto": 40,
+   "archivo": "svg/inventory-management.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/inventory-management.svg"
+  },
+  {
+   "slug": "product-master-data-management",
+   "etiqueta": "Product Master Data Management",
+   "categoria": "Applications",
+   "ancho": 42,
+   "alto": 40,
+   "archivo": "svg/product-master-data-management.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/product-master-data-management.svg"
+  },
+  {
+   "slug": "e-business-suite",
+   "etiqueta": "E-Business Suite",
+   "categoria": "Applications",
+   "ancho": 43,
+   "alto": 40,
+   "archivo": "svg/e-business-suite.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/e-business-suite.svg"
+  },
+  {
+   "slug": "supply-chain-planning",
+   "etiqueta": "Supply Chain Planning",
+   "categoria": "Applications",
+   "ancho": 42,
+   "alto": 40,
+   "archivo": "svg/supply-chain-planning.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/supply-chain-planning.svg"
+  },
+  {
+   "slug": "innovation-management",
+   "etiqueta": "Innovation Management",
+   "categoria": "Applications",
+   "ancho": 42,
+   "alto": 40,
+   "archivo": "svg/innovation-management.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/innovation-management.svg"
+  },
+  {
+   "slug": "project-financial-managment",
+   "etiqueta": "Project Financial Managment",
+   "categoria": "Applications",
+   "ancho": 42,
+   "alto": 40,
+   "archivo": "svg/project-financial-managment.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/project-financial-managment.svg"
+  },
+  {
+   "slug": "engagement",
+   "etiqueta": "Engagement",
+   "categoria": "Applications",
+   "ancho": 42,
+   "alto": 40,
+   "archivo": "svg/engagement.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/engagement.svg"
+  },
+  {
+   "slug": "bi-cloud-connector",
+   "etiqueta": "BI Cloud Connector",
+   "categoria": "Applications",
+   "ancho": 42,
+   "alto": 37,
+   "archivo": "svg/bi-cloud-connector.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/bi-cloud-connector.svg"
+  },
+  {
+   "slug": "cloud-operations",
+   "etiqueta": "Cloud Operations",
+   "categoria": "Applications",
+   "ancho": 42,
+   "alto": 38,
+   "archivo": "svg/cloud-operations.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/cloud-operations.svg"
+  },
+  {
+   "slug": "erp",
+   "etiqueta": "ERP",
+   "categoria": "Applications",
+   "ancho": 42,
+   "alto": 33,
+   "archivo": "svg/erp.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/erp.svg"
+  },
+  {
+   "slug": "hcm",
+   "etiqueta": "HCM",
+   "categoria": "Applications",
+   "ancho": 42,
+   "alto": 31,
+   "archivo": "svg/hcm.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/hcm.svg"
+  },
+  {
+   "slug": "fusion",
+   "etiqueta": "Fusion",
+   "categoria": "Applications",
+   "ancho": 42,
+   "alto": 42,
+   "archivo": "svg/fusion.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/fusion.svg"
+  },
+  {
+   "slug": "project-management",
+   "etiqueta": "Project Management",
+   "categoria": "Applications",
+   "ancho": 42,
+   "alto": 40,
+   "archivo": "svg/project-management.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/project-management.svg"
+  },
+  {
+   "slug": "financials",
+   "etiqueta": "Financials",
+   "categoria": "Applications",
+   "ancho": 42,
+   "alto": 40,
+   "archivo": "svg/financials.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/financials.svg"
+  },
+  {
+   "slug": "order-management",
+   "etiqueta": "Order Management",
+   "categoria": "Applications",
+   "ancho": 42,
+   "alto": 40,
+   "archivo": "svg/order-management.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/order-management.svg"
+  },
+  {
+   "slug": "procurement",
+   "etiqueta": "Procurement",
+   "categoria": "Applications",
+   "ancho": 42,
+   "alto": 40,
+   "archivo": "svg/procurement.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/procurement.svg"
+  },
+  {
+   "slug": "cpq",
+   "etiqueta": "CPQ",
+   "categoria": "Applications",
+   "ancho": 42,
+   "alto": 40,
+   "archivo": "svg/cpq.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/cpq.svg"
+  },
+  {
+   "slug": "manufacturing",
+   "etiqueta": "Manufacturing",
+   "categoria": "Applications",
+   "ancho": 42,
+   "alto": 40,
+   "archivo": "svg/manufacturing.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/manufacturing.svg"
+  },
+  {
+   "slug": "epm",
+   "etiqueta": "EPM",
+   "categoria": "Applications",
+   "ancho": 42,
+   "alto": 40,
+   "archivo": "svg/epm.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/epm.svg"
+  },
+  {
+   "slug": "healthcare",
+   "etiqueta": "Healthcare",
+   "categoria": "Applications",
+   "ancho": 43,
+   "alto": 36,
+   "archivo": "svg/healthcare.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/healthcare.svg"
+  },
+  {
+   "slug": "crm",
+   "etiqueta": "CRM",
+   "categoria": "Applications",
+   "ancho": 42,
+   "alto": 33,
+   "archivo": "svg/crm.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/crm.svg"
+  },
+  {
+   "slug": "media-flow",
+   "etiqueta": "Media Flow",
+   "categoria": "Applications",
+   "ancho": 42,
+   "alto": 38,
+   "archivo": "svg/media-flow.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/media-flow.svg"
+  },
+  {
+   "slug": "digital-media",
+   "etiqueta": "Digital Media",
+   "categoria": "Applications",
+   "ancho": 42,
+   "alto": 38,
+   "archivo": "svg/digital-media.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/digital-media.svg"
+  },
+  {
+   "slug": "media-streams",
+   "etiqueta": "Media Streams",
+   "categoria": "Applications",
+   "ancho": 42,
+   "alto": 38,
+   "archivo": "svg/media-streams.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/media-streams.svg"
+  },
+  {
+   "slug": "marketplace",
+   "etiqueta": "Marketplace",
+   "categoria": "Marketplace",
+   "ancho": 35,
+   "alto": 38,
+   "archivo": "svg/marketplace.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/marketplace.svg"
+  },
+  {
+   "slug": "cloud-native-environment",
+   "etiqueta": "Cloud Native Environment",
+   "categoria": "Other",
+   "ancho": 39,
+   "alto": 42,
+   "archivo": "svg/cloud-native-environment.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/cloud-native-environment.svg"
+  },
+  {
+   "slug": "private-cloud",
+   "etiqueta": "Private Cloud",
+   "categoria": "Other",
+   "ancho": 40,
+   "alto": 42,
+   "archivo": "svg/private-cloud.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/private-cloud.svg"
+  },
+  {
+   "slug": "data-integrator",
+   "etiqueta": "Data Integrator",
+   "categoria": "Other",
+   "ancho": 38,
+   "alto": 42,
+   "archivo": "svg/data-integrator.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/data-integrator.svg"
+  },
+  {
+   "slug": "remote-agent",
+   "etiqueta": "Remote Agent",
+   "categoria": "Other",
+   "ancho": 42,
+   "alto": 42,
+   "archivo": "svg/remote-agent.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/remote-agent.svg"
+  },
+  {
+   "slug": "iot",
+   "etiqueta": "IoT",
+   "categoria": "Other",
+   "ancho": 42,
+   "alto": 42,
+   "archivo": "svg/iot.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/iot.svg"
+  },
+  {
+   "slug": "internet",
+   "etiqueta": "Internet",
+   "categoria": "Other",
+   "ancho": 40,
+   "alto": 42,
+   "archivo": "svg/internet.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/internet.svg"
+  },
+  {
+   "slug": "zero-data-loss-recovery-appliance",
+   "etiqueta": "Zero Data Loss Recovery Appliance",
+   "categoria": "Other",
+   "ancho": 25,
+   "alto": 42,
+   "archivo": "svg/zero-data-loss-recovery-appliance.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/zero-data-loss-recovery-appliance.svg"
+  },
+  {
+   "slug": "blockchain",
+   "etiqueta": "Blockchain",
+   "categoria": "Other",
+   "ancho": 42,
+   "alto": 39,
+   "archivo": "svg/blockchain.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/blockchain.svg"
+  },
+  {
+   "slug": "content-delivery-network-service",
+   "etiqueta": "Content Delivery Network Service",
+   "categoria": "Other",
+   "ancho": 42,
+   "alto": 41,
+   "archivo": "svg/content-delivery-network-service.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/content-delivery-network-service.svg"
+  },
+  {
+   "slug": "transaction-manager",
+   "etiqueta": "Transaction Manager",
+   "categoria": "Other",
+   "ancho": 42,
+   "alto": 33,
+   "archivo": "svg/transaction-manager.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/transaction-manager.svg"
+  },
+  {
+   "slug": "cross-domain",
+   "etiqueta": "Cross Domain",
+   "categoria": "Other",
+   "ancho": 42,
+   "alto": 32,
+   "archivo": "svg/cross-domain.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/cross-domain.svg"
+  },
+  {
+   "slug": "multicloud",
+   "etiqueta": "OCI Multicloud",
+   "categoria": "Other",
+   "ancho": 42,
+   "alto": 31,
+   "archivo": "svg/multicloud.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/multicloud.svg"
+  },
+  {
+   "slug": "other-oracle-cloud-service",
+   "etiqueta": "Other Oracle Cloud Service",
+   "categoria": "Other",
+   "ancho": 42,
+   "alto": 22,
+   "archivo": "svg/other-oracle-cloud-service.svg",
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2/svg/other-oracle-cloud-service.svg"
+  }
+ ],
+ "contenedores": [
+  {
+   "tipo": "region",
+   "etiqueta": "OCI Region",
+   "estilo": "whiteSpace=wrap;html=1;align=center;fontFamily=Oracle Sans;verticalAlign=top;fillColor=#F5F4F2;rounded=1;arcSize=10;strokeColor=#9E9892;fontColor=#312D2A;fontSize=12;",
+   "ancho": 120,
+   "alto": 60
+  },
+  {
+   "tipo": "availability-domain",
+   "etiqueta": "Availability Domain",
+   "estilo": "whiteSpace=wrap;html=1;strokeWidth=1;align=center;fontFamily=Oracle Sans;verticalAlign=top;rounded=1;arcSize=8;fillColor=#DFDCD8;strokeColor=#9E9892;fontColor=#312D2A;fontSize=12;",
+   "ancho": 120,
+   "alto": 60
+  },
+  {
+   "tipo": "fault-domain",
+   "etiqueta": "Fault Domain",
+   "estilo": "whiteSpace=wrap;html=1;strokeWidth=1;align=center;fontFamily=Oracle Sans;verticalAlign=top;rounded=1;arcSize=7;fontColor=#312D2A;strokeColor=#9E9892;fillColor=#FCFBFA;fontStyle=1;fontSize=12;",
+   "ancho": 120,
+   "alto": 60
+  },
+  {
+   "tipo": "tenancy",
+   "etiqueta": "Tenancy",
+   "estilo": "whiteSpace=wrap;html=1;strokeWidth=1;dashed=1;align=left;fontFamily=Oracle Sans;verticalAlign=top;fillColor=none;fontColor=#312D2A;strokeColor=#9E9892;fontSize=12;spacingLeft=5;",
+   "ancho": 120,
+   "alto": 60
+  },
+  {
+   "tipo": "compartment",
+   "etiqueta": "Compartment A",
+   "estilo": "whiteSpace=wrap;html=1;strokeWidth=1;dashed=1;align=center;fontFamily=Oracle Sans;verticalAlign=top;fillColor=none;fontColor=#312d2a;strokeColor=#AE562C;dashPattern=1 1;fontSize=12;perimeterSpacing=0;spacingLeft=5;",
+   "ancho": 140,
+   "alto": 243
+  },
+  {
+   "tipo": "vcn",
+   "etiqueta": "VCN",
+   "estilo": "whiteSpace=wrap;html=1;strokeWidth=2;dashed=1;align=left;fontFamily=Oracle Sans;verticalAlign=top;fillColor=none;fontColor=#AE562C;strokeColor=#AE562C;perimeterSpacing=0;fontSize=12;spacingLeft=5;",
+   "ancho": 120,
+   "alto": 60
+  },
+  {
+   "tipo": "subnet",
+   "etiqueta": "Subnet 0.0.0.0/00",
+   "estilo": "whiteSpace=wrap;html=1;strokeWidth=1;dashed=1;align=left;fontFamily=Oracle Sans;verticalAlign=top;fillColor=none;fontColor=#AE562C;perimeterSpacing=0;strokeColor=#AE562C;fontSize=12;spacingLeft=5;",
+   "ancho": 120,
+   "alto": 60
+  },
+  {
+   "tipo": "oke-cluster",
+   "etiqueta": "Container Engine for Kubernetes Cluster",
+   "estilo": "whiteSpace=wrap;html=1;strokeWidth=1;dashed=1;align=center;fontFamily=Oracle Sans;verticalAlign=top;fillColor=none;fontColor=#312d2a;strokeColor=#AE562C;dashPattern=1 1;fontSize=12;",
+   "ancho": 630,
+   "alto": 164
+  },
+  {
+   "tipo": "on-premises",
+   "etiqueta": "On-Premises",
+   "estilo": "whiteSpace=wrap;html=1;align=center;fontFamily=Oracle Sans;verticalAlign=top;fillColor=#F5F4F2;fontColor=#312D2A;strokeColor=#9E9892;rounded=1;arcSize=9;fontSize=11;spacingRight=5;container=0;",
+   "ancho": 90,
+   "alto": 415
+  },
+  {
+   "tipo": "internet",
+   "etiqueta": "Internet",
+   "estilo": "rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;gradientColor=none;fontFamily=Oracle Sans;fontSize=11;align=center;fillColor=#F5F4F2;strokeColor=#9E9892;arcSize=6;verticalAlign=top;fontColor=#312D2A;spacingRight=5;",
+   "ancho": 310,
+   "alto": 76
+  }
+ ]
+}
