@@ -1,15 +1,23 @@
 # cth-oci-drawio-icons
 
 Los íconos oficiales de OCI, del **OCI Architecture Diagram Toolkit v24.2** de Oracle, convertidos
-a un SVG por ícono para usarlos por URL con el servidor MCP de draw.io.
+a un SVG optimizado por ícono para usarlos con el servidor MCP de draw.io.
 
 ## Por qué existe
 
 Los íconos del toolkit son grupos de formas vectoriales de 5 a 20 KB cada uno. Metidos en el XML
 de un diagrama, una vista física real pesa 150–200 KB, demasiado para escribirla en una llamada al
-MCP. Referenciados por URL, cada ícono ocupa unos 260 caracteres y el diagrama entero cabe en una
-llamada, se ve en el chat y se ajusta ahí mismo. El set «OCI Icons» que trae el propio servicio de
-draw.io no sirve: son glifos genéricos en negro, no los íconos oficiales.
+MCP. Aquí cada ícono es un solo SVG adelgazado: 2 KB de mediana entre los más usados.
+
+Hay dos formas de usarlos:
+
+- **En línea (`data:`)**: se ven en el visor del chat.
+- **Por URL del CDN**: unos 260 caracteres por ícono, pero **el visor del chat no los muestra**.
+  Su política de contenido solo deja cargar imágenes de diagrams.net o en línea. draw.io, en
+  cambio, sí los abre.
+
+El set «OCI Icons» que trae el propio servicio de draw.io no sirve: son glifos genéricos en negro,
+no los íconos oficiales.
 
 **Para quién:** quien diagrame arquitecturas de OCI en CTH Soluciones, sea una persona o un agente.
 
@@ -17,26 +25,33 @@ draw.io no sirve: son glifos genéricos en negro, no los íconos oficiales.
 
 | Ruta | Contenido |
 |---|---|
-| `svg/<slug>.svg` | 232 íconos, exportados con draw.io desde la página «Icons» del toolkit, sin redibujar |
-| `catalogo.json` | Por ícono: slug, etiqueta oficial, categoría, tamaño y el estilo listo para pegar; y 10 contenedores de la vista física (región, AD, fault domain, tenancy, compartment, VCN, subnet, clúster OKE, on-premises, internet) con el estilo de la leyenda del toolkit |
+| `svg/<slug>.svg` | 232 íconos, exportados con draw.io desde la página «Icons» del toolkit, sin redibujar, y optimizados con SVGO a 0,01 px |
+| `catalogo.json` | Por ícono: slug, etiqueta oficial, categoría, tamaño y el estilo por URL; y 10 contenedores de la vista física (región, AD, fault domain, tenancy, compartment, VCN, subnet, clúster OKE, on-premises, internet) con el estilo de la leyenda del toolkit |
 | `catalogo.md` | La misma lista, legible, por categoría |
 | `scripts/extraer.py` | Regenera todo desde el `.drawio` del toolkit cuando Oracle publique una versión nueva |
-| `scripts/embeber.py` | Reemplaza las URLs por los SVG en línea para el entregable |
-| `scripts/buscar.py` | Busca en el catálogo por slug, etiqueta o categoría, sin cargarlo entero |
+| `scripts/optimizar.py` | Adelgaza los SVG exportados. Lo llama `extraer.py` |
+| `scripts/buscar.py` | Busca en el catálogo sin cargarlo entero y da el estilo en línea (`--estilo`) o por URL (`--url`) |
+| `scripts/embeber.py` | Deja en el entregable cada ícono en línea y canónico |
 | `scripts/empaquetar.py` | Copia íconos, catálogo y scripts a la skill y arma `dist/diagramas-oci.zip` |
 | `skills/diagramas-oci/` | Skill para agentes, autocontenida: cómo buscar los íconos, armar el diagrama en el MCP, las reglas de diagramación verificadas y la entrega |
 
 ## Cómo se usa
 
-1. **Diseñar con el MCP de draw.io.** Cada ícono es una celda con el `estilo` del catálogo y la
-   etiqueta en `value`; cada contenedor, una celda con su estilo. URL de un ícono:
-   `https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/<slug>.svg`.
+1. **Diseñar con el MCP de draw.io.** Cada ícono es una celda con el estilo que da
+   `python3 scripts/buscar.py --estilo <slug>` y la etiqueta en `value`. Cada contenedor es una
+   celda con su estilo. Todo estilo de ícono lleva `ociIcon=<slug>`, una clave que draw.io conserva
+   y que identifica el ícono aunque la imagen vaya en línea.
 2. **Guardar el XML** que devuelve el MCP como `.drawio` en la carpeta del proyecto.
-3. **Embeber antes de entregar**, siempre: `python3 scripts/embeber.py diagrama.drawio`. El
-   entregable queda autocontenido: no depende de este repositorio ni de la red.
+3. **Embeber antes de entregar**, siempre: `python3 scripts/embeber.py diagrama.drawio`.
+   - Pone en cada celda con `ociIcon` el SVG canónico, así corrige una copia mal transcrita y
+     cambia las URLs por el SVG.
+   - Los diagramas anteriores a `ociIcon` se reconocen por la URL del CDN.
+   - El entregable queda autocontenido: no depende de este repositorio ni de la red.
 
-La URL fija la versión (`@v24.2.1`: toolkit 24.2 de Oracle, revisión 1 de este repositorio): cuando llegue otra, los diagramas viejos siguen apuntando a la
-suya.
+La URL fija la versión: `@v24.2.2` es el toolkit 24.2 de Oracle en la revisión 2 de este
+repositorio. Cuando llegue otra, los diagramas viejos siguen apuntando a la suya. Las revisiones
+cambian la codificación, no el dibujo. Se retiró la v24.2 por los colores adaptativos, y la v24.2.1
+son los SVG sin optimizar.
 
 ## La skill
 

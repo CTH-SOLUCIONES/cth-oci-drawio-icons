@@ -1,7 +1,7 @@
 {
- "fuente": "OCI Architecture Diagram Toolkit v24.2.1 (Oracle), página Icons y leyenda de la página Physical",
- "version": "v24.2.1",
- "base_url": "https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg",
+ "fuente": "OCI Architecture Diagram Toolkit v24.2.2 (Oracle), página Icons y leyenda de la página Physical",
+ "version": "v24.2.2",
+ "base_url": "https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg",
  "iconos": [
   {
    "slug": "compute",
@@ -10,7 +10,7 @@
    "ancho": 42,
    "alto": 42,
    "archivo": "svg/compute.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/compute.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=compute;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/compute.svg"
   },
   {
    "slug": "instance-pools",
@@ -19,7 +19,7 @@
    "ancho": 42,
    "alto": 42,
    "archivo": "svg/instance-pools.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/instance-pools.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=instance-pools;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/instance-pools.svg"
   },
   {
    "slug": "functions",
@@ -28,7 +28,7 @@
    "ancho": 42,
    "alto": 42,
    "archivo": "svg/functions.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/functions.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=functions;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/functions.svg"
   },
   {
    "slug": "virtual-machine",
@@ -37,7 +37,7 @@
    "ancho": 42,
    "alto": 42,
    "archivo": "svg/virtual-machine.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/virtual-machine.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=virtual-machine;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/virtual-machine.svg"
   },
   {
    "slug": "autoscaling",
@@ -46,7 +46,7 @@
    "ancho": 42,
    "alto": 42,
    "archivo": "svg/autoscaling.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/autoscaling.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=autoscaling;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/autoscaling.svg"
   },
   {
    "slug": "flex-vm",
@@ -55,7 +55,7 @@
    "ancho": 42,
    "alto": 42,
    "archivo": "svg/flex-vm.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/flex-vm.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=flex-vm;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/flex-vm.svg"
   },
   {
    "slug": "burstable-vm",
@@ -64,7 +64,7 @@
    "ancho": 42,
    "alto": 42,
    "archivo": "svg/burstable-vm.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/burstable-vm.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=burstable-vm;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/burstable-vm.svg"
   },
   {
    "slug": "virtual-machine-application",
@@ -73,7 +73,7 @@
    "ancho": 42,
    "alto": 42,
    "archivo": "svg/virtual-machine-application.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/virtual-machine-application.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=virtual-machine-application;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/virtual-machine-application.svg"
   },
   {
    "slug": "virtual-machine-gpu",
@@ -82,7 +82,7 @@
    "ancho": 42,
    "alto": 40,
    "archivo": "svg/virtual-machine-gpu.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/virtual-machine-gpu.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=virtual-machine-gpu;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/virtual-machine-gpu.svg"
   },
   {
    "slug": "virtual-machine-generic-use",
@@ -91,7 +91,7 @@
    "ancho": 42,
    "alto": 37,
    "archivo": "svg/virtual-machine-generic-use.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/virtual-machine-generic-use.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=virtual-machine-generic-use;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/virtual-machine-generic-use.svg"
   },
   {
    "slug": "file-storage-replication-process",
@@ -100,7 +100,7 @@
    "ancho": 61,
    "alto": 62,
    "archivo": "svg/file-storage-replication-process.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/file-storage-replication-process.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=file-storage-replication-process;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/file-storage-replication-process.svg"
   },
   {
    "slug": "block-storage",
@@ -109,7 +109,7 @@
    "ancho": 42,
    "alto": 42,
    "archivo": "svg/block-storage.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/block-storage.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=block-storage;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/block-storage.svg"
   },
   {
    "slug": "back-up-restore",
@@ -118,7 +118,7 @@
    "ancho": 42,
    "alto": 42,
    "archivo": "svg/back-up-restore.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/back-up-restore.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=back-up-restore;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/back-up-restore.svg"
   },
   {
    "slug": "block-storage-cloning",
@@ -127,7 +127,7 @@
    "ancho": 42,
    "alto": 42,
    "archivo": "svg/block-storage-cloning.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/block-storage-cloning.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=block-storage-cloning;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/block-storage-cloning.svg"
   },
   {
    "slug": "file-storage",
@@ -136,7 +136,7 @@
    "ancho": 42,
    "alto": 42,
    "archivo": "svg/file-storage.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/file-storage.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=file-storage;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/file-storage.svg"
   },
   {
    "slug": "file-storage-replica",
@@ -145,7 +145,7 @@
    "ancho": 42,
    "alto": 42,
    "archivo": "svg/file-storage-replica.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/file-storage-replica.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=file-storage-replica;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/file-storage-replica.svg"
   },
   {
    "slug": "file-storage-snapshots",
@@ -154,7 +154,7 @@
    "ancho": 42,
    "alto": 42,
    "archivo": "svg/file-storage-snapshots.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/file-storage-snapshots.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=file-storage-snapshots;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/file-storage-snapshots.svg"
   },
   {
    "slug": "file-storage-cloning-process",
@@ -163,7 +163,7 @@
    "ancho": 42,
    "alto": 42,
    "archivo": "svg/file-storage-cloning-process.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/file-storage-cloning-process.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=file-storage-cloning-process;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/file-storage-cloning-process.svg"
   },
   {
    "slug": "file-storage-clone",
@@ -172,7 +172,7 @@
    "ancho": 42,
    "alto": 40,
    "archivo": "svg/file-storage-clone.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/file-storage-clone.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=file-storage-clone;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/file-storage-clone.svg"
   },
   {
    "slug": "file-storage-mount-target",
@@ -181,7 +181,7 @@
    "ancho": 41,
    "alto": 41,
    "archivo": "svg/file-storage-mount-target.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/file-storage-mount-target.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=file-storage-mount-target;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/file-storage-mount-target.svg"
   },
   {
    "slug": "block-storage-multiple",
@@ -190,7 +190,7 @@
    "ancho": 42,
    "alto": 35,
    "archivo": "svg/block-storage-multiple.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/block-storage-multiple.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=block-storage-multiple;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/block-storage-multiple.svg"
   },
   {
    "slug": "object-storage",
@@ -199,7 +199,7 @@
    "ancho": 63,
    "alto": 63,
    "archivo": "svg/object-storage.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/object-storage.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=object-storage;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/object-storage.svg"
   },
   {
    "slug": "object-storage-buckets",
@@ -208,7 +208,7 @@
    "ancho": 42,
    "alto": 42,
    "archivo": "svg/object-storage-buckets.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/object-storage-buckets.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=object-storage-buckets;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/object-storage-buckets.svg"
   },
   {
    "slug": "elastic-performance",
@@ -217,7 +217,7 @@
    "ancho": 40,
    "alto": 42,
    "archivo": "svg/elastic-performance.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/elastic-performance.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=elastic-performance;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/elastic-performance.svg"
   },
   {
    "slug": "local-storage",
@@ -226,7 +226,7 @@
    "ancho": 26,
    "alto": 42,
    "archivo": "svg/local-storage.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/local-storage.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=local-storage;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/local-storage.svg"
   },
   {
    "slug": "storage-gateway",
@@ -235,7 +235,7 @@
    "ancho": 43,
    "alto": 36,
    "archivo": "svg/storage-gateway.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/storage-gateway.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=storage-gateway;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/storage-gateway.svg"
   },
   {
    "slug": "persistent-volume",
@@ -244,7 +244,7 @@
    "ancho": 42,
    "alto": 24,
    "archivo": "svg/persistent-volume.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/persistent-volume.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=persistent-volume;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/persistent-volume.svg"
   },
   {
    "slug": "load-balancer",
@@ -253,7 +253,7 @@
    "ancho": 42,
    "alto": 42,
    "archivo": "svg/load-balancer.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/load-balancer.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=load-balancer;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/load-balancer.svg"
   },
   {
    "slug": "flexible-load-balancer",
@@ -262,7 +262,7 @@
    "ancho": 42,
    "alto": 42,
    "archivo": "svg/flexible-load-balancer.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/flexible-load-balancer.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=flexible-load-balancer;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/flexible-load-balancer.svg"
   },
   {
    "slug": "customer-premises-equipment",
@@ -271,7 +271,7 @@
    "ancho": 42,
    "alto": 42,
    "archivo": "svg/customer-premises-equipment.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/customer-premises-equipment.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=customer-premises-equipment;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/customer-premises-equipment.svg"
   },
   {
    "slug": "vtap",
@@ -280,7 +280,7 @@
    "ancho": 42,
    "alto": 41,
    "archivo": "svg/vtap.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/vtap.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=vtap;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/vtap.svg"
   },
   {
    "slug": "on-premises-data-center",
@@ -289,7 +289,7 @@
    "ancho": 23,
    "alto": 42,
    "archivo": "svg/on-premises-data-center.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/on-premises-data-center.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=on-premises-data-center;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/on-premises-data-center.svg"
   },
   {
    "slug": "backbone",
@@ -298,7 +298,7 @@
    "ancho": 42,
    "alto": 42,
    "archivo": "svg/backbone.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/backbone.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=backbone;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/backbone.svg"
   },
   {
    "slug": "network-switch",
@@ -307,7 +307,7 @@
    "ancho": 42,
    "alto": 42,
    "archivo": "svg/network-switch.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/network-switch.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=network-switch;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/network-switch.svg"
   },
   {
    "slug": "vnic",
@@ -316,7 +316,7 @@
    "ancho": 42,
    "alto": 41,
    "archivo": "svg/vnic.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/vnic.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=vnic;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/vnic.svg"
   },
   {
    "slug": "dns",
@@ -325,7 +325,7 @@
    "ancho": 42,
    "alto": 39,
    "archivo": "svg/dns.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/dns.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=dns;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/dns.svg"
   },
   {
    "slug": "cdn",
@@ -334,7 +334,7 @@
    "ancho": 42,
    "alto": 38,
    "archivo": "svg/cdn.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/cdn.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=cdn;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/cdn.svg"
   },
   {
    "slug": "ip-pools",
@@ -343,7 +343,7 @@
    "ancho": 42,
    "alto": 29,
    "archivo": "svg/ip-pools.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/ip-pools.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=ip-pools;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/ip-pools.svg"
   },
   {
    "slug": "byoip",
@@ -352,7 +352,7 @@
    "ancho": 42,
    "alto": 26,
    "archivo": "svg/byoip.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/byoip.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=byoip;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/byoip.svg"
   },
   {
    "slug": "route-table",
@@ -361,7 +361,7 @@
    "ancho": 42,
    "alto": 42,
    "archivo": "svg/route-table.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/route-table.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=route-table;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/route-table.svg"
   },
   {
    "slug": "route-table-and-security-list",
@@ -370,7 +370,7 @@
    "ancho": 42,
    "alto": 42,
    "archivo": "svg/route-table-and-security-list.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/route-table-and-security-list.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=route-table-and-security-list;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/route-table-and-security-list.svg"
   },
   {
    "slug": "drg",
@@ -379,7 +379,7 @@
    "ancho": 42,
    "alto": 42,
    "archivo": "svg/drg.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/drg.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=drg;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/drg.svg"
   },
   {
    "slug": "service-gateway",
@@ -388,7 +388,7 @@
    "ancho": 42,
    "alto": 42,
    "archivo": "svg/service-gateway.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/service-gateway.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=service-gateway;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/service-gateway.svg"
   },
   {
    "slug": "internet-gateway",
@@ -397,7 +397,7 @@
    "ancho": 38,
    "alto": 42,
    "archivo": "svg/internet-gateway.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/internet-gateway.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=internet-gateway;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/internet-gateway.svg"
   },
   {
    "slug": "nat-gateway",
@@ -406,7 +406,7 @@
    "ancho": 36,
    "alto": 42,
    "archivo": "svg/nat-gateway.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/nat-gateway.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=nat-gateway;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/nat-gateway.svg"
   },
   {
    "slug": "local-peering-gateway",
@@ -415,7 +415,7 @@
    "ancho": 42,
    "alto": 42,
    "archivo": "svg/local-peering-gateway.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/local-peering-gateway.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=local-peering-gateway;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/local-peering-gateway.svg"
   },
   {
    "slug": "network-performance-inspector",
@@ -424,7 +424,7 @@
    "ancho": 42,
    "alto": 42,
    "archivo": "svg/network-performance-inspector.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/network-performance-inspector.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=network-performance-inspector;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/network-performance-inspector.svg"
   },
   {
    "slug": "vcn-region-identifier",
@@ -433,7 +433,7 @@
    "ancho": 42,
    "alto": 40,
    "archivo": "svg/vcn-region-identifier.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/vcn-region-identifier.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=vcn-region-identifier;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/vcn-region-identifier.svg"
   },
   {
    "slug": "oracle-services-network",
@@ -442,7 +442,7 @@
    "ancho": 42,
    "alto": 39,
    "archivo": "svg/oracle-services-network.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/oracle-services-network.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=oracle-services-network;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/oracle-services-network.svg"
   },
   {
    "slug": "database",
@@ -451,7 +451,7 @@
    "ancho": 37,
    "alto": 42,
    "archivo": "svg/database.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/database.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=database;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/database.svg"
   },
   {
    "slug": "migrate-autonomous-database",
@@ -460,7 +460,7 @@
    "ancho": 42,
    "alto": 42,
    "archivo": "svg/migrate-autonomous-database.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/migrate-autonomous-database.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=migrate-autonomous-database;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/migrate-autonomous-database.svg"
   },
   {
    "slug": "oracle-autonomous-data-warehouse",
@@ -469,7 +469,7 @@
    "ancho": 39,
    "alto": 42,
    "archivo": "svg/oracle-autonomous-data-warehouse.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/oracle-autonomous-data-warehouse.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=oracle-autonomous-data-warehouse;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/oracle-autonomous-data-warehouse.svg"
   },
   {
    "slug": "adw-d",
@@ -478,7 +478,7 @@
    "ancho": 39,
    "alto": 42,
    "archivo": "svg/adw-d.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/adw-d.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=adw-d;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/adw-d.svg"
   },
   {
    "slug": "oracle-exadata-database-service",
@@ -487,7 +487,7 @@
    "ancho": 32,
    "alto": 42,
    "archivo": "svg/oracle-exadata-database-service.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/oracle-exadata-database-service.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=oracle-exadata-database-service;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/oracle-exadata-database-service.svg"
   },
   {
    "slug": "oracle-compute-cloud-customer",
@@ -496,7 +496,7 @@
    "ancho": 40,
    "alto": 42,
    "archivo": "svg/oracle-compute-cloud-customer.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/oracle-compute-cloud-customer.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=oracle-compute-cloud-customer;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/oracle-compute-cloud-customer.svg"
   },
   {
    "slug": "exadata-cloud-customer",
@@ -505,7 +505,7 @@
    "ancho": 40,
    "alto": 42,
    "archivo": "svg/exadata-cloud-customer.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/exadata-cloud-customer.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=exadata-cloud-customer;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/exadata-cloud-customer.svg"
   },
   {
    "slug": "exadata-fleet-update",
@@ -514,7 +514,7 @@
    "ancho": 39,
    "alto": 42,
    "archivo": "svg/exadata-fleet-update.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/exadata-fleet-update.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=exadata-fleet-update;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/exadata-fleet-update.svg"
   },
   {
    "slug": "atp-d",
@@ -523,7 +523,7 @@
    "ancho": 42,
    "alto": 38,
    "archivo": "svg/atp-d.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/atp-d.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=atp-d;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/atp-d.svg"
   },
   {
    "slug": "oracle-base-database",
@@ -532,7 +532,7 @@
    "ancho": 42,
    "alto": 39,
    "archivo": "svg/oracle-base-database.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/oracle-base-database.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=oracle-base-database;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/oracle-base-database.svg"
   },
   {
    "slug": "oracle-autonomous-transaction-processing-atp",
@@ -541,7 +541,7 @@
    "ancho": 42,
    "alto": 38,
    "archivo": "svg/oracle-autonomous-transaction-processing-atp.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/oracle-autonomous-transaction-processing-atp.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=oracle-autonomous-transaction-processing-atp;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/oracle-autonomous-transaction-processing-atp.svg"
   },
   {
    "slug": "oracle-autonomous-database",
@@ -550,7 +550,7 @@
    "ancho": 42,
    "alto": 36,
    "archivo": "svg/oracle-autonomous-database.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/oracle-autonomous-database.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=oracle-autonomous-database;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/oracle-autonomous-database.svg"
   },
   {
    "slug": "adb-d",
@@ -559,7 +559,7 @@
    "ancho": 39,
    "alto": 42,
    "archivo": "svg/adb-d.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/adb-d.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=adb-d;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/adb-d.svg"
   },
   {
    "slug": "data-safe",
@@ -568,7 +568,7 @@
    "ancho": 43,
    "alto": 41,
    "archivo": "svg/data-safe.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/data-safe.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=data-safe;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/data-safe.svg"
   },
   {
    "slug": "nosql-database",
@@ -577,7 +577,7 @@
    "ancho": 38,
    "alto": 42,
    "archivo": "svg/nosql-database.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/nosql-database.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=nosql-database;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/nosql-database.svg"
   },
   {
    "slug": "mysql-database-system",
@@ -586,7 +586,7 @@
    "ancho": 37,
    "alto": 42,
    "archivo": "svg/mysql-database-system.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/mysql-database-system.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=mysql-database-system;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/mysql-database-system.svg"
   },
   {
    "slug": "rac",
@@ -595,7 +595,7 @@
    "ancho": 36,
    "alto": 42,
    "archivo": "svg/rac.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/rac.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=rac;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/rac.svg"
   },
   {
    "slug": "opensearch",
@@ -604,7 +604,7 @@
    "ancho": 39,
    "alto": 42,
    "archivo": "svg/opensearch.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/opensearch.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=opensearch;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/opensearch.svg"
   },
   {
    "slug": "network-path-analyzer",
@@ -613,7 +613,7 @@
    "ancho": 42,
    "alto": 42,
    "archivo": "svg/network-path-analyzer.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/network-path-analyzer.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=network-path-analyzer;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/network-path-analyzer.svg"
   },
   {
    "slug": "network-visualizer",
@@ -622,7 +622,7 @@
    "ancho": 37,
    "alto": 42,
    "archivo": "svg/network-visualizer.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/network-visualizer.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=network-visualizer;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/network-visualizer.svg"
   },
   {
    "slug": "oracle-cloud-migration-advisor",
@@ -631,7 +631,7 @@
    "ancho": 38,
    "alto": 41,
    "archivo": "svg/oracle-cloud-migration-advisor.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/oracle-cloud-migration-advisor.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=oracle-cloud-migration-advisor;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/oracle-cloud-migration-advisor.svg"
   },
   {
    "slug": "adb-exadata-cloud-customer",
@@ -640,7 +640,7 @@
    "ancho": 42,
    "alto": 41,
    "archivo": "svg/adb-exadata-cloud-customer.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/adb-exadata-cloud-customer.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=adb-exadata-cloud-customer;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/adb-exadata-cloud-customer.svg"
   },
   {
    "slug": "inter-region-latency",
@@ -649,7 +649,7 @@
    "ancho": 40,
    "alto": 40,
    "archivo": "svg/inter-region-latency.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/inter-region-latency.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=inter-region-latency;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/inter-region-latency.svg"
   },
   {
    "slug": "data-guard",
@@ -658,7 +658,7 @@
    "ancho": 38,
    "alto": 42,
    "archivo": "svg/data-guard.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/data-guard.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=data-guard;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/data-guard.svg"
   },
   {
    "slug": "data-guard-recovery",
@@ -667,7 +667,7 @@
    "ancho": 42,
    "alto": 42,
    "archivo": "svg/data-guard-recovery.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/data-guard-recovery.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=data-guard-recovery;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/data-guard-recovery.svg"
   },
   {
    "slug": "data-lake",
@@ -676,7 +676,7 @@
    "ancho": 38,
    "alto": 42,
    "archivo": "svg/data-lake.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/data-lake.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=data-lake;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/data-lake.svg"
   },
   {
    "slug": "oracle-rest-data-services",
@@ -685,7 +685,7 @@
    "ancho": 36,
    "alto": 42,
    "archivo": "svg/oracle-rest-data-services.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/oracle-rest-data-services.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=oracle-rest-data-services;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/oracle-rest-data-services.svg"
   },
   {
    "slug": "database-flashback",
@@ -694,7 +694,7 @@
    "ancho": 39,
    "alto": 42,
    "archivo": "svg/database-flashback.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/database-flashback.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=database-flashback;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/database-flashback.svg"
   },
   {
    "slug": "migration-workbench",
@@ -703,7 +703,7 @@
    "ancho": 36,
    "alto": 42,
    "archivo": "svg/migration-workbench.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/migration-workbench.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=migration-workbench;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/migration-workbench.svg"
   },
   {
    "slug": "oracle-database-migration-service",
@@ -712,7 +712,7 @@
    "ancho": 40,
    "alto": 41,
    "archivo": "svg/oracle-database-migration-service.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/oracle-database-migration-service.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=oracle-database-migration-service;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/oracle-database-migration-service.svg"
   },
   {
    "slug": "database-with-postgresql",
@@ -721,7 +721,7 @@
    "ancho": 41,
    "alto": 42,
    "archivo": "svg/database-with-postgresql.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/database-with-postgresql.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=database-with-postgresql;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/database-with-postgresql.svg"
   },
   {
    "slug": "estate-explorer",
@@ -730,7 +730,7 @@
    "ancho": 42,
    "alto": 40,
    "archivo": "svg/estate-explorer.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/estate-explorer.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=estate-explorer;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/estate-explorer.svg"
   },
   {
    "slug": "database-management",
@@ -739,7 +739,7 @@
    "ancho": 42,
    "alto": 40,
    "archivo": "svg/database-management.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/database-management.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=database-management;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/database-management.svg"
   },
   {
    "slug": "mysql-heatwave",
@@ -748,7 +748,7 @@
    "ancho": 42,
    "alto": 39,
    "archivo": "svg/mysql-heatwave.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/mysql-heatwave.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=mysql-heatwave;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/mysql-heatwave.svg"
   },
   {
    "slug": "data-lakehouse",
@@ -757,7 +757,7 @@
    "ancho": 42,
    "alto": 33,
    "archivo": "svg/data-lakehouse.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/data-lakehouse.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=data-lakehouse;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/data-lakehouse.svg"
   },
   {
    "slug": "goldengate-director",
@@ -766,7 +766,7 @@
    "ancho": 42,
    "alto": 36,
    "archivo": "svg/goldengate-director.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/goldengate-director.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=goldengate-director;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/goldengate-director.svg"
   },
   {
    "slug": "goldengate-studio",
@@ -775,7 +775,7 @@
    "ancho": 42,
    "alto": 36,
    "archivo": "svg/goldengate-studio.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/goldengate-studio.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=goldengate-studio;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/goldengate-studio.svg"
   },
   {
    "slug": "goldengate-application-adapter",
@@ -784,7 +784,7 @@
    "ancho": 42,
    "alto": 36,
    "archivo": "svg/goldengate-application-adapter.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/goldengate-application-adapter.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=goldengate-application-adapter;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/goldengate-application-adapter.svg"
   },
   {
    "slug": "goldengate-plug-in",
@@ -793,7 +793,7 @@
    "ancho": 42,
    "alto": 37,
    "archivo": "svg/goldengate-plug-in.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/goldengate-plug-in.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=goldengate-plug-in;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/goldengate-plug-in.svg"
   },
   {
    "slug": "goldengate-stream-analytics",
@@ -802,7 +802,7 @@
    "ancho": 42,
    "alto": 37,
    "archivo": "svg/goldengate-stream-analytics.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/goldengate-stream-analytics.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=goldengate-stream-analytics;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/goldengate-stream-analytics.svg"
   },
   {
    "slug": "goldengate-veridata",
@@ -811,7 +811,7 @@
    "ancho": 42,
    "alto": 36,
    "archivo": "svg/goldengate-veridata.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/goldengate-veridata.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=goldengate-veridata;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/goldengate-veridata.svg"
   },
   {
    "slug": "goldengate-monitor",
@@ -820,7 +820,7 @@
    "ancho": 42,
    "alto": 36,
    "archivo": "svg/goldengate-monitor.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/goldengate-monitor.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=goldengate-monitor;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/goldengate-monitor.svg"
   },
   {
    "slug": "goldengate-hp-non-stop-guardian",
@@ -829,7 +829,7 @@
    "ancho": 42,
    "alto": 36,
    "archivo": "svg/goldengate-hp-non-stop-guardian.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/goldengate-hp-non-stop-guardian.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=goldengate-hp-non-stop-guardian;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/goldengate-hp-non-stop-guardian.svg"
   },
   {
    "slug": "goldengate-free",
@@ -838,7 +838,7 @@
    "ancho": 42,
    "alto": 37,
    "archivo": "svg/goldengate-free.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/goldengate-free.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=goldengate-free;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/goldengate-free.svg"
   },
   {
    "slug": "goldengate",
@@ -847,7 +847,7 @@
    "ancho": 42,
    "alto": 32,
    "archivo": "svg/goldengate.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/goldengate.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=goldengate;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/goldengate.svg"
   },
   {
    "slug": "goldengate-on-premises",
@@ -856,7 +856,7 @@
    "ancho": 42,
    "alto": 24,
    "archivo": "svg/goldengate-on-premises.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/goldengate-on-premises.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=goldengate-on-premises;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/goldengate-on-premises.svg"
   },
   {
    "slug": "data-integration",
@@ -865,7 +865,7 @@
    "ancho": 42,
    "alto": 42,
    "archivo": "svg/data-integration.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/data-integration.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=data-integration;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/data-integration.svg"
   },
   {
    "slug": "data-flow",
@@ -874,7 +874,7 @@
    "ancho": 41,
    "alto": 42,
    "archivo": "svg/data-flow.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/data-flow.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=data-flow;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/data-flow.svg"
   },
   {
    "slug": "streaming",
@@ -883,7 +883,7 @@
    "ancho": 42,
    "alto": 42,
    "archivo": "svg/streaming.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/streaming.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=streaming;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/streaming.svg"
   },
   {
    "slug": "service-connector-hub",
@@ -892,7 +892,7 @@
    "ancho": 37,
    "alto": 42,
    "archivo": "svg/service-connector-hub.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/service-connector-hub.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=service-connector-hub;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/service-connector-hub.svg"
   },
   {
    "slug": "data-science",
@@ -901,7 +901,7 @@
    "ancho": 38,
    "alto": 42,
    "archivo": "svg/data-science.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/data-science.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=data-science;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/data-science.svg"
   },
   {
    "slug": "artificial-intelligence",
@@ -910,7 +910,7 @@
    "ancho": 39,
    "alto": 42,
    "archivo": "svg/artificial-intelligence.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/artificial-intelligence.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=artificial-intelligence;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/artificial-intelligence.svg"
   },
   {
    "slug": "big-data",
@@ -919,7 +919,7 @@
    "ancho": 42,
    "alto": 41,
    "archivo": "svg/big-data.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/big-data.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=big-data;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/big-data.svg"
   },
   {
    "slug": "document-understanding",
@@ -928,7 +928,7 @@
    "ancho": 43,
    "alto": 41,
    "archivo": "svg/document-understanding.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/document-understanding.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=document-understanding;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/document-understanding.svg"
   },
   {
    "slug": "machine-learning",
@@ -937,7 +937,7 @@
    "ancho": 41,
    "alto": 40,
    "archivo": "svg/machine-learning.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/machine-learning.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=machine-learning;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/machine-learning.svg"
   },
   {
    "slug": "data-catalog",
@@ -946,7 +946,7 @@
    "ancho": 42,
    "alto": 37,
    "archivo": "svg/data-catalog.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/data-catalog.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=data-catalog;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/data-catalog.svg"
   },
   {
    "slug": "digital-assistant",
@@ -955,7 +955,7 @@
    "ancho": 41,
    "alto": 36,
    "archivo": "svg/digital-assistant.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/digital-assistant.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=digital-assistant;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/digital-assistant.svg"
   },
   {
    "slug": "oracle-analytics-cloud",
@@ -964,7 +964,7 @@
    "ancho": 43,
    "alto": 36,
    "archivo": "svg/oracle-analytics-cloud.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/oracle-analytics-cloud.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=oracle-analytics-cloud;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/oracle-analytics-cloud.svg"
   },
   {
    "slug": "essbase",
@@ -973,7 +973,7 @@
    "ancho": 40,
    "alto": 42,
    "archivo": "svg/essbase.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/essbase.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=essbase;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/essbase.svg"
   },
   {
    "slug": "message-listener",
@@ -982,7 +982,7 @@
    "ancho": 42,
    "alto": 42,
    "archivo": "svg/message-listener.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/message-listener.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=message-listener;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/message-listener.svg"
   },
   {
    "slug": "message-producer",
@@ -991,7 +991,7 @@
    "ancho": 42,
    "alto": 42,
    "archivo": "svg/message-producer.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/message-producer.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=message-producer;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/message-producer.svg"
   },
   {
    "slug": "forecasting",
@@ -1000,7 +1000,7 @@
    "ancho": 42,
    "alto": 42,
    "archivo": "svg/forecasting.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/forecasting.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=forecasting;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/forecasting.svg"
   },
   {
    "slug": "language",
@@ -1009,7 +1009,7 @@
    "ancho": 39,
    "alto": 42,
    "archivo": "svg/language.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/language.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=language;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/language.svg"
   },
   {
    "slug": "speech",
@@ -1018,7 +1018,7 @@
    "ancho": 42,
    "alto": 42,
    "archivo": "svg/speech.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/speech.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=speech;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/speech.svg"
   },
   {
    "slug": "vision",
@@ -1027,7 +1027,7 @@
    "ancho": 41,
    "alto": 41,
    "archivo": "svg/vision.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/vision.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=vision;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/vision.svg"
   },
   {
    "slug": "generative-ai",
@@ -1036,7 +1036,7 @@
    "ancho": 42,
    "alto": 39,
    "archivo": "svg/generative-ai.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/generative-ai.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=generative-ai;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/generative-ai.svg"
   },
   {
    "slug": "generative-ai-2",
@@ -1045,7 +1045,7 @@
    "ancho": 42,
    "alto": 39,
    "archivo": "svg/generative-ai-2.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/generative-ai-2.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=generative-ai-2;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/generative-ai-2.svg"
   },
   {
    "slug": "container-engine-for-kubernetes",
@@ -1054,7 +1054,7 @@
    "ancho": 42,
    "alto": 42,
    "archivo": "svg/container-engine-for-kubernetes.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/container-engine-for-kubernetes.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=container-engine-for-kubernetes;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/container-engine-for-kubernetes.svg"
   },
   {
    "slug": "container-registry",
@@ -1063,7 +1063,7 @@
    "ancho": 42,
    "alto": 42,
    "archivo": "svg/container-registry.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/container-registry.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=container-registry;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/container-registry.svg"
   },
   {
    "slug": "container",
@@ -1072,7 +1072,7 @@
    "ancho": 42,
    "alto": 42,
    "archivo": "svg/container.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/container.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=container;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/container.svg"
   },
   {
    "slug": "service-mesh",
@@ -1081,7 +1081,7 @@
    "ancho": 42,
    "alto": 42,
    "archivo": "svg/service-mesh.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/service-mesh.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=service-mesh;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/service-mesh.svg"
   },
   {
    "slug": "apex",
@@ -1090,7 +1090,7 @@
    "ancho": 42,
    "alto": 42,
    "archivo": "svg/apex.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/apex.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=apex;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/apex.svg"
   },
   {
    "slug": "private-endpoint-ip",
@@ -1099,7 +1099,7 @@
    "ancho": 30,
    "alto": 42,
    "archivo": "svg/private-endpoint-ip.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/private-endpoint-ip.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=private-endpoint-ip;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/private-endpoint-ip.svg"
   },
   {
    "slug": "api-gateway",
@@ -1108,7 +1108,7 @@
    "ancho": 40,
    "alto": 42,
    "archivo": "svg/api-gateway.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/api-gateway.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=api-gateway;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/api-gateway.svg"
   },
   {
    "slug": "api-service",
@@ -1117,7 +1117,7 @@
    "ancho": 42,
    "alto": 42,
    "archivo": "svg/api-service.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/api-service.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=api-service;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/api-service.svg"
   },
   {
    "slug": "notifications",
@@ -1126,7 +1126,7 @@
    "ancho": 42,
    "alto": 42,
    "archivo": "svg/notifications.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/notifications.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=notifications;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/notifications.svg"
   },
   {
    "slug": "integration",
@@ -1135,7 +1135,7 @@
    "ancho": 42,
    "alto": 38,
    "archivo": "svg/integration.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/integration.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=integration;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/integration.svg"
   },
   {
    "slug": "container-instances",
@@ -1144,7 +1144,7 @@
    "ancho": 43,
    "alto": 37,
    "archivo": "svg/container-instances.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/container-instances.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=container-instances;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/container-instances.svg"
   },
   {
    "slug": "multiple-containers",
@@ -1153,7 +1153,7 @@
    "ancho": 42,
    "alto": 34,
    "archivo": "svg/multiple-containers.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/multiple-containers.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=multiple-containers;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/multiple-containers.svg"
   },
   {
    "slug": "devops",
@@ -1162,7 +1162,7 @@
    "ancho": 40,
    "alto": 42,
    "archivo": "svg/devops.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/devops.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=devops;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/devops.svg"
   },
   {
    "slug": "content-management",
@@ -1171,7 +1171,7 @@
    "ancho": 40,
    "alto": 42,
    "archivo": "svg/content-management.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/content-management.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=content-management;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/content-management.svg"
   },
   {
    "slug": "jet",
@@ -1180,7 +1180,7 @@
    "ancho": 42,
    "alto": 42,
    "archivo": "svg/jet.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/jet.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=jet;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/jet.svg"
   },
   {
    "slug": "logic-flow",
@@ -1189,7 +1189,7 @@
    "ancho": 42,
    "alto": 42,
    "archivo": "svg/logic-flow.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/logic-flow.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=logic-flow;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/logic-flow.svg"
   },
   {
    "slug": "application-dependency-management",
@@ -1198,7 +1198,7 @@
    "ancho": 37,
    "alto": 42,
    "archivo": "svg/application-dependency-management.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/application-dependency-management.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=application-dependency-management;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/application-dependency-management.svg"
   },
   {
    "slug": "oke-virtual-node",
@@ -1207,7 +1207,7 @@
    "ancho": 42,
    "alto": 42,
    "archivo": "svg/oke-virtual-node.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/oke-virtual-node.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=oke-virtual-node;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/oke-virtual-node.svg"
   },
   {
    "slug": "process-automation",
@@ -1216,7 +1216,7 @@
    "ancho": 37,
    "alto": 42,
    "archivo": "svg/process-automation.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/process-automation.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=process-automation;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/process-automation.svg"
   },
   {
    "slug": "visual-builder",
@@ -1225,7 +1225,7 @@
    "ancho": 42,
    "alto": 39,
    "archivo": "svg/visual-builder.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/visual-builder.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=visual-builder;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/visual-builder.svg"
   },
   {
    "slug": "resource-manager",
@@ -1234,7 +1234,7 @@
    "ancho": 41,
    "alto": 38,
    "archivo": "svg/resource-manager.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/resource-manager.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=resource-manager;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/resource-manager.svg"
   },
   {
    "slug": "email-delivery",
@@ -1243,7 +1243,7 @@
    "ancho": 42,
    "alto": 29,
    "archivo": "svg/email-delivery.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/email-delivery.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=email-delivery;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/email-delivery.svg"
   },
   {
    "slug": "user",
@@ -1252,7 +1252,7 @@
    "ancho": 41,
    "alto": 42,
    "archivo": "svg/user.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/user.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=user;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/user.svg"
   },
   {
    "slug": "user-2",
@@ -1261,7 +1261,7 @@
    "ancho": 33,
    "alto": 42,
    "archivo": "svg/user-2.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/user-2.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=user-2;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/user-2.svg"
   },
   {
    "slug": "user-3",
@@ -1270,7 +1270,7 @@
    "ancho": 38,
    "alto": 42,
    "archivo": "svg/user-3.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/user-3.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=user-3;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/user-3.svg"
   },
   {
    "slug": "policies",
@@ -1279,7 +1279,7 @@
    "ancho": 42,
    "alto": 41,
    "archivo": "svg/policies.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/policies.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=policies;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/policies.svg"
   },
   {
    "slug": "iam",
@@ -1288,7 +1288,7 @@
    "ancho": 42,
    "alto": 39,
    "archivo": "svg/iam.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/iam.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=iam;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/iam.svg"
   },
   {
    "slug": "oracle-identity-cloud-service",
@@ -1297,7 +1297,7 @@
    "ancho": 42,
    "alto": 38,
    "archivo": "svg/oracle-identity-cloud-service.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/oracle-identity-cloud-service.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=oracle-identity-cloud-service;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/oracle-identity-cloud-service.svg"
   },
   {
    "slug": "cloud-guard",
@@ -1306,7 +1306,7 @@
    "ancho": 43,
    "alto": 38,
    "archivo": "svg/cloud-guard.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/cloud-guard.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=cloud-guard;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/cloud-guard.svg"
   },
   {
    "slug": "compartments",
@@ -1315,7 +1315,7 @@
    "ancho": 42,
    "alto": 33,
    "archivo": "svg/compartments.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/compartments.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=compartments;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/compartments.svg"
   },
   {
    "slug": "user-group",
@@ -1324,7 +1324,7 @@
    "ancho": 42,
    "alto": 31,
    "archivo": "svg/user-group.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/user-group.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=user-group;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/user-group.svg"
   },
   {
    "slug": "user-group-2",
@@ -1333,7 +1333,7 @@
    "ancho": 42,
    "alto": 23,
    "archivo": "svg/user-group-2.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/user-group-2.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=user-group-2;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/user-group-2.svg"
   },
   {
    "slug": "user-group-3",
@@ -1342,7 +1342,7 @@
    "ancho": 42,
    "alto": 22,
    "archivo": "svg/user-group-3.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/user-group-3.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=user-group-3;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/user-group-3.svg"
   },
   {
    "slug": "certificates",
@@ -1351,7 +1351,7 @@
    "ancho": 41,
    "alto": 42,
    "archivo": "svg/certificates.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/certificates.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=certificates;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/certificates.svg"
   },
   {
    "slug": "maximum-security-zone",
@@ -1360,7 +1360,7 @@
    "ancho": 41,
    "alto": 42,
    "archivo": "svg/maximum-security-zone.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/maximum-security-zone.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=maximum-security-zone;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/maximum-security-zone.svg"
   },
   {
    "slug": "threat-intelligence",
@@ -1369,7 +1369,7 @@
    "ancho": 32,
    "alto": 42,
    "archivo": "svg/threat-intelligence.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/threat-intelligence.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=threat-intelligence;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/threat-intelligence.svg"
   },
   {
    "slug": "vulnerability-scanning",
@@ -1378,7 +1378,7 @@
    "ancho": 36,
    "alto": 42,
    "archivo": "svg/vulnerability-scanning.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/vulnerability-scanning.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=vulnerability-scanning;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/vulnerability-scanning.svg"
   },
   {
    "slug": "bastion",
@@ -1387,7 +1387,7 @@
    "ancho": 27,
    "alto": 42,
    "archivo": "svg/bastion.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/bastion.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=bastion;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/bastion.svg"
   },
   {
    "slug": "security-lists",
@@ -1396,7 +1396,7 @@
    "ancho": 32,
    "alto": 42,
    "archivo": "svg/security-lists.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/security-lists.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=security-lists;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/security-lists.svg"
   },
   {
    "slug": "waf",
@@ -1405,7 +1405,7 @@
    "ancho": 43,
    "alto": 41,
    "archivo": "svg/waf.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/waf.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=waf;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/waf.svg"
   },
   {
    "slug": "vault",
@@ -1414,7 +1414,7 @@
    "ancho": 42,
    "alto": 40,
    "archivo": "svg/vault.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/vault.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=vault;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/vault.svg"
   },
   {
    "slug": "firewall",
@@ -1423,7 +1423,7 @@
    "ancho": 42,
    "alto": 38,
    "archivo": "svg/firewall.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/firewall.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=firewall;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/firewall.svg"
   },
   {
    "slug": "ddos-protection",
@@ -1432,7 +1432,7 @@
    "ancho": 42,
    "alto": 38,
    "archivo": "svg/ddos-protection.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/ddos-protection.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=ddos-protection;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/ddos-protection.svg"
   },
   {
    "slug": "key-vault",
@@ -1441,7 +1441,7 @@
    "ancho": 42,
    "alto": 38,
    "archivo": "svg/key-vault.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/key-vault.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=key-vault;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/key-vault.svg"
   },
   {
    "slug": "key-management",
@@ -1450,7 +1450,7 @@
    "ancho": 32,
    "alto": 42,
    "archivo": "svg/key-management.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/key-management.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=key-management;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/key-management.svg"
   },
   {
    "slug": "encryption",
@@ -1459,7 +1459,7 @@
    "ancho": 28,
    "alto": 42,
    "archivo": "svg/encryption.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/encryption.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=encryption;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/encryption.svg"
   },
   {
    "slug": "nsg",
@@ -1468,7 +1468,7 @@
    "ancho": 32,
    "alto": 42,
    "archivo": "svg/nsg.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/nsg.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=nsg;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/nsg.svg"
   },
   {
    "slug": "security-lists-2",
@@ -1477,7 +1477,7 @@
    "ancho": 32,
    "alto": 42,
    "archivo": "svg/security-lists-2.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/security-lists-2.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=security-lists-2;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/security-lists-2.svg"
   },
   {
    "slug": "active-directory",
@@ -1486,7 +1486,7 @@
    "ancho": 42,
    "alto": 41,
    "archivo": "svg/active-directory.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/active-directory.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=active-directory;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/active-directory.svg"
   },
   {
    "slug": "threat-defense",
@@ -1495,7 +1495,7 @@
    "ancho": 42,
    "alto": 38,
    "archivo": "svg/threat-defense.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/threat-defense.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=threat-defense;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/threat-defense.svg"
   },
   {
    "slug": "auditing",
@@ -1504,7 +1504,7 @@
    "ancho": 42,
    "alto": 42,
    "archivo": "svg/auditing.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/auditing.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=auditing;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/auditing.svg"
   },
   {
    "slug": "monitoring",
@@ -1513,7 +1513,7 @@
    "ancho": 42,
    "alto": 42,
    "archivo": "svg/monitoring.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/monitoring.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=monitoring;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/monitoring.svg"
   },
   {
    "slug": "alarms",
@@ -1522,7 +1522,7 @@
    "ancho": 40,
    "alto": 41,
    "archivo": "svg/alarms.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/alarms.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=alarms;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/alarms.svg"
   },
   {
    "slug": "health-checks",
@@ -1531,7 +1531,7 @@
    "ancho": 31,
    "alto": 42,
    "archivo": "svg/health-checks.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/health-checks.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=health-checks;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/health-checks.svg"
   },
   {
    "slug": "vcn-flow-logs",
@@ -1540,7 +1540,7 @@
    "ancho": 42,
    "alto": 41,
    "archivo": "svg/vcn-flow-logs.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/vcn-flow-logs.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=vcn-flow-logs;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/vcn-flow-logs.svg"
   },
   {
    "slug": "workflow",
@@ -1549,7 +1549,7 @@
    "ancho": 42,
    "alto": 42,
    "archivo": "svg/workflow.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/workflow.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=workflow;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/workflow.svg"
   },
   {
    "slug": "fullstack-disaster-recovery",
@@ -1558,7 +1558,7 @@
    "ancho": 40,
    "alto": 42,
    "archivo": "svg/fullstack-disaster-recovery.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/fullstack-disaster-recovery.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=fullstack-disaster-recovery;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/fullstack-disaster-recovery.svg"
   },
   {
    "slug": "logging",
@@ -1567,7 +1567,7 @@
    "ancho": 43,
    "alto": 41,
    "archivo": "svg/logging.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/logging.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=logging;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/logging.svg"
   },
   {
    "slug": "events",
@@ -1576,7 +1576,7 @@
    "ancho": 42,
    "alto": 41,
    "archivo": "svg/events.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/events.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=events;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/events.svg"
   },
   {
    "slug": "queue",
@@ -1585,7 +1585,7 @@
    "ancho": 42,
    "alto": 41,
    "archivo": "svg/queue.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/queue.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=queue;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/queue.svg"
   },
   {
    "slug": "operations-insights",
@@ -1594,7 +1594,7 @@
    "ancho": 42,
    "alto": 40,
    "archivo": "svg/operations-insights.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/operations-insights.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=operations-insights;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/operations-insights.svg"
   },
   {
    "slug": "search",
@@ -1603,7 +1603,7 @@
    "ancho": 43,
    "alto": 39,
    "archivo": "svg/search.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/search.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=search;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/search.svg"
   },
   {
    "slug": "logging-analytics",
@@ -1612,7 +1612,7 @@
    "ancho": 42,
    "alto": 37,
    "archivo": "svg/logging-analytics.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/logging-analytics.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=logging-analytics;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/logging-analytics.svg"
   },
   {
    "slug": "application-performance-monitoring",
@@ -1621,7 +1621,7 @@
    "ancho": 42,
    "alto": 32,
    "archivo": "svg/application-performance-monitoring.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/application-performance-monitoring.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=application-performance-monitoring;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/application-performance-monitoring.svg"
   },
   {
    "slug": "dedicated-region",
@@ -1630,7 +1630,7 @@
    "ancho": 42,
    "alto": 42,
    "archivo": "svg/dedicated-region.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/dedicated-region.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=dedicated-region;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/dedicated-region.svg"
   },
   {
    "slug": "roving-edge-device-red",
@@ -1639,7 +1639,7 @@
    "ancho": 42,
    "alto": 41,
    "archivo": "svg/roving-edge-device-red.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/roving-edge-device-red.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=roving-edge-device-red;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/roving-edge-device-red.svg"
   },
   {
    "slug": "roving-edge-ultra",
@@ -1648,7 +1648,7 @@
    "ancho": 42,
    "alto": 41,
    "archivo": "svg/roving-edge-ultra.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/roving-edge-ultra.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=roving-edge-ultra;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/roving-edge-ultra.svg"
   },
   {
    "slug": "roving-edge-infrastructure",
@@ -1657,7 +1657,7 @@
    "ancho": 42,
    "alto": 40,
    "archivo": "svg/roving-edge-infrastructure.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/roving-edge-infrastructure.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=roving-edge-infrastructure;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/roving-edge-infrastructure.svg"
   },
   {
    "slug": "roving-edge-service",
@@ -1666,7 +1666,7 @@
    "ancho": 43,
    "alto": 36,
    "archivo": "svg/roving-edge-service.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/roving-edge-service.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=roving-edge-service;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/roving-edge-service.svg"
   },
   {
    "slug": "database-migration",
@@ -1675,7 +1675,7 @@
    "ancho": 42,
    "alto": 39,
    "archivo": "svg/database-migration.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/database-migration.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=database-migration;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/database-migration.svg"
   },
   {
    "slug": "data-transfer",
@@ -1684,7 +1684,7 @@
    "ancho": 43,
    "alto": 22,
    "archivo": "svg/data-transfer.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/data-transfer.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=data-transfer;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/data-transfer.svg"
   },
   {
    "slug": "organization",
@@ -1693,7 +1693,7 @@
    "ancho": 39,
    "alto": 42,
    "archivo": "svg/organization.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/organization.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=organization;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/organization.svg"
   },
   {
    "slug": "license-manager",
@@ -1702,7 +1702,7 @@
    "ancho": 35,
    "alto": 42,
    "archivo": "svg/license-manager.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/license-manager.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=license-manager;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/license-manager.svg"
   },
   {
    "slug": "tagging",
@@ -1711,7 +1711,7 @@
    "ancho": 42,
    "alto": 42,
    "archivo": "svg/tagging.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/tagging.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=tagging;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/tagging.svg"
   },
   {
    "slug": "cloud-advisor",
@@ -1720,7 +1720,7 @@
    "ancho": 42,
    "alto": 41,
    "archivo": "svg/cloud-advisor.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/cloud-advisor.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=cloud-advisor;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/cloud-advisor.svg"
   },
   {
    "slug": "cloud-migrations",
@@ -1729,7 +1729,7 @@
    "ancho": 42,
    "alto": 36,
    "archivo": "svg/cloud-migrations.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/cloud-migrations.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=cloud-migrations;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/cloud-migrations.svg"
   },
   {
    "slug": "oracle-cloud-identifier",
@@ -1738,7 +1738,7 @@
    "ancho": 43,
    "alto": 22,
    "archivo": "svg/oracle-cloud-identifier.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/oracle-cloud-identifier.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=oracle-cloud-identifier;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/oracle-cloud-identifier.svg"
   },
   {
    "slug": "oracle-soa-suite",
@@ -1747,7 +1747,7 @@
    "ancho": 42,
    "alto": 42,
    "archivo": "svg/oracle-soa-suite.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/oracle-soa-suite.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=oracle-soa-suite;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/oracle-soa-suite.svg"
   },
   {
    "slug": "inventory-management",
@@ -1756,7 +1756,7 @@
    "ancho": 42,
    "alto": 40,
    "archivo": "svg/inventory-management.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/inventory-management.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=inventory-management;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/inventory-management.svg"
   },
   {
    "slug": "product-master-data-management",
@@ -1765,7 +1765,7 @@
    "ancho": 42,
    "alto": 40,
    "archivo": "svg/product-master-data-management.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/product-master-data-management.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=product-master-data-management;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/product-master-data-management.svg"
   },
   {
    "slug": "e-business-suite",
@@ -1774,7 +1774,7 @@
    "ancho": 43,
    "alto": 40,
    "archivo": "svg/e-business-suite.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/e-business-suite.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=e-business-suite;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/e-business-suite.svg"
   },
   {
    "slug": "supply-chain-planning",
@@ -1783,7 +1783,7 @@
    "ancho": 42,
    "alto": 40,
    "archivo": "svg/supply-chain-planning.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/supply-chain-planning.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=supply-chain-planning;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/supply-chain-planning.svg"
   },
   {
    "slug": "innovation-management",
@@ -1792,7 +1792,7 @@
    "ancho": 42,
    "alto": 40,
    "archivo": "svg/innovation-management.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/innovation-management.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=innovation-management;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/innovation-management.svg"
   },
   {
    "slug": "project-financial-managment",
@@ -1801,7 +1801,7 @@
    "ancho": 42,
    "alto": 40,
    "archivo": "svg/project-financial-managment.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/project-financial-managment.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=project-financial-managment;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/project-financial-managment.svg"
   },
   {
    "slug": "engagement",
@@ -1810,7 +1810,7 @@
    "ancho": 42,
    "alto": 40,
    "archivo": "svg/engagement.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/engagement.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=engagement;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/engagement.svg"
   },
   {
    "slug": "bi-cloud-connector",
@@ -1819,7 +1819,7 @@
    "ancho": 42,
    "alto": 37,
    "archivo": "svg/bi-cloud-connector.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/bi-cloud-connector.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=bi-cloud-connector;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/bi-cloud-connector.svg"
   },
   {
    "slug": "cloud-operations",
@@ -1828,7 +1828,7 @@
    "ancho": 42,
    "alto": 38,
    "archivo": "svg/cloud-operations.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/cloud-operations.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=cloud-operations;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/cloud-operations.svg"
   },
   {
    "slug": "erp",
@@ -1837,7 +1837,7 @@
    "ancho": 42,
    "alto": 33,
    "archivo": "svg/erp.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/erp.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=erp;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/erp.svg"
   },
   {
    "slug": "hcm",
@@ -1846,7 +1846,7 @@
    "ancho": 42,
    "alto": 31,
    "archivo": "svg/hcm.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/hcm.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=hcm;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/hcm.svg"
   },
   {
    "slug": "fusion",
@@ -1855,7 +1855,7 @@
    "ancho": 42,
    "alto": 42,
    "archivo": "svg/fusion.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/fusion.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=fusion;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/fusion.svg"
   },
   {
    "slug": "project-management",
@@ -1864,7 +1864,7 @@
    "ancho": 42,
    "alto": 40,
    "archivo": "svg/project-management.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/project-management.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=project-management;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/project-management.svg"
   },
   {
    "slug": "financials",
@@ -1873,7 +1873,7 @@
    "ancho": 42,
    "alto": 40,
    "archivo": "svg/financials.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/financials.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=financials;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/financials.svg"
   },
   {
    "slug": "order-management",
@@ -1882,7 +1882,7 @@
    "ancho": 42,
    "alto": 40,
    "archivo": "svg/order-management.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/order-management.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=order-management;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/order-management.svg"
   },
   {
    "slug": "procurement",
@@ -1891,7 +1891,7 @@
    "ancho": 42,
    "alto": 40,
    "archivo": "svg/procurement.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/procurement.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=procurement;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/procurement.svg"
   },
   {
    "slug": "cpq",
@@ -1900,7 +1900,7 @@
    "ancho": 42,
    "alto": 40,
    "archivo": "svg/cpq.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/cpq.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=cpq;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/cpq.svg"
   },
   {
    "slug": "manufacturing",
@@ -1909,7 +1909,7 @@
    "ancho": 42,
    "alto": 40,
    "archivo": "svg/manufacturing.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/manufacturing.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=manufacturing;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/manufacturing.svg"
   },
   {
    "slug": "epm",
@@ -1918,7 +1918,7 @@
    "ancho": 42,
    "alto": 40,
    "archivo": "svg/epm.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/epm.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=epm;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/epm.svg"
   },
   {
    "slug": "healthcare",
@@ -1927,7 +1927,7 @@
    "ancho": 43,
    "alto": 36,
    "archivo": "svg/healthcare.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/healthcare.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=healthcare;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/healthcare.svg"
   },
   {
    "slug": "crm",
@@ -1936,7 +1936,7 @@
    "ancho": 42,
    "alto": 33,
    "archivo": "svg/crm.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/crm.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=crm;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/crm.svg"
   },
   {
    "slug": "media-flow",
@@ -1945,7 +1945,7 @@
    "ancho": 42,
    "alto": 38,
    "archivo": "svg/media-flow.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/media-flow.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=media-flow;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/media-flow.svg"
   },
   {
    "slug": "digital-media",
@@ -1954,7 +1954,7 @@
    "ancho": 42,
    "alto": 38,
    "archivo": "svg/digital-media.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/digital-media.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=digital-media;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/digital-media.svg"
   },
   {
    "slug": "media-streams",
@@ -1963,7 +1963,7 @@
    "ancho": 42,
    "alto": 38,
    "archivo": "svg/media-streams.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/media-streams.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=media-streams;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/media-streams.svg"
   },
   {
    "slug": "marketplace",
@@ -1972,7 +1972,7 @@
    "ancho": 35,
    "alto": 38,
    "archivo": "svg/marketplace.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/marketplace.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=marketplace;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/marketplace.svg"
   },
   {
    "slug": "cloud-native-environment",
@@ -1981,7 +1981,7 @@
    "ancho": 39,
    "alto": 42,
    "archivo": "svg/cloud-native-environment.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/cloud-native-environment.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=cloud-native-environment;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/cloud-native-environment.svg"
   },
   {
    "slug": "private-cloud",
@@ -1990,7 +1990,7 @@
    "ancho": 40,
    "alto": 42,
    "archivo": "svg/private-cloud.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/private-cloud.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=private-cloud;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/private-cloud.svg"
   },
   {
    "slug": "data-integrator",
@@ -1999,7 +1999,7 @@
    "ancho": 38,
    "alto": 42,
    "archivo": "svg/data-integrator.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/data-integrator.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=data-integrator;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/data-integrator.svg"
   },
   {
    "slug": "remote-agent",
@@ -2008,7 +2008,7 @@
    "ancho": 42,
    "alto": 42,
    "archivo": "svg/remote-agent.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/remote-agent.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=remote-agent;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/remote-agent.svg"
   },
   {
    "slug": "iot",
@@ -2017,7 +2017,7 @@
    "ancho": 42,
    "alto": 42,
    "archivo": "svg/iot.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/iot.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=iot;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/iot.svg"
   },
   {
    "slug": "internet",
@@ -2026,7 +2026,7 @@
    "ancho": 40,
    "alto": 42,
    "archivo": "svg/internet.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/internet.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=internet;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/internet.svg"
   },
   {
    "slug": "zero-data-loss-recovery-appliance",
@@ -2035,7 +2035,7 @@
    "ancho": 25,
    "alto": 42,
    "archivo": "svg/zero-data-loss-recovery-appliance.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/zero-data-loss-recovery-appliance.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=zero-data-loss-recovery-appliance;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/zero-data-loss-recovery-appliance.svg"
   },
   {
    "slug": "blockchain",
@@ -2044,7 +2044,7 @@
    "ancho": 42,
    "alto": 39,
    "archivo": "svg/blockchain.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/blockchain.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=blockchain;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/blockchain.svg"
   },
   {
    "slug": "content-delivery-network-service",
@@ -2053,7 +2053,7 @@
    "ancho": 42,
    "alto": 41,
    "archivo": "svg/content-delivery-network-service.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/content-delivery-network-service.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=content-delivery-network-service;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/content-delivery-network-service.svg"
   },
   {
    "slug": "transaction-manager",
@@ -2062,7 +2062,7 @@
    "ancho": 42,
    "alto": 33,
    "archivo": "svg/transaction-manager.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/transaction-manager.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=transaction-manager;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/transaction-manager.svg"
   },
   {
    "slug": "cross-domain",
@@ -2071,7 +2071,7 @@
    "ancho": 42,
    "alto": 32,
    "archivo": "svg/cross-domain.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/cross-domain.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=cross-domain;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/cross-domain.svg"
   },
   {
    "slug": "multicloud",
@@ -2080,7 +2080,7 @@
    "ancho": 42,
    "alto": 31,
    "archivo": "svg/multicloud.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/multicloud.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=multicloud;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/multicloud.svg"
   },
   {
    "slug": "other-oracle-cloud-service",
@@ -2089,7 +2089,7 @@
    "ancho": 42,
    "alto": 22,
    "archivo": "svg/other-oracle-cloud-service.svg",
-   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.1/svg/other-oracle-cloud-service.svg"
+   "estilo": "shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon=other-oracle-cloud-service;image=https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.2/svg/other-oracle-cloud-service.svg"
   }
  ],
  "contenedores": [

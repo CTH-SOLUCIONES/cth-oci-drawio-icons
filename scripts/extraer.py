@@ -2,9 +2,10 @@
 
 Segmenta la página «Icons» por posición (formas que se tocan = un pictograma; el texto justo
 debajo = su etiqueta; el encabezado más cercano por encima = su categoría), exporta cada
-pictograma con el CLI de draw.io y toma los contenedores de la leyenda de la página «Physical».
+pictograma con el CLI de draw.io, lo adelgaza con `optimizar.py` y toma los contenedores de la
+leyenda de la página «Physical». Escribe `svg/`, `catalogo.json` y `catalogo.md`.
 
-Uso: extraer.py   (toolkit en la variable OCI_TOOLKIT; exige /Applications/draw.io.app)
+Uso: extraer.py   (toolkit en la variable OCI_TOOLKIT; exige /Applications/draw.io.app y npx)
 """
 import re,zlib,base64,urllib.parse,html,collections,json,sys
 import xml.etree.ElementTree as ET
@@ -115,10 +116,12 @@ def categorias(iconos,textos,etiquetas_usadas):
 
 # ----------------------------------------------------------------------------- catálogo
 REPO = "CTH-SOLUCIONES/cth-oci-drawio-icons"
-VERSION = "v24.2.1"  # toolkit 24.2 de Oracle; el último dígito es la revisión de este repo
+VERSION = "v24.2.2"  # toolkit 24.2 de Oracle; el último dígito es la revisión de este repo
 BASE_URL = f"https://cdn.jsdelivr.net/gh/{REPO}@{VERSION}/svg"
 ESTILO_ICONO = ("shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=none;"
-                "imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;image={url}")
+                "imageAspect=0;aspect=fixed;fontFamily=Oracle Sans;fontSize=11;fontColor=#312D2A;ociIcon={slug};image={url}")
+# `ociIcon` no es de draw.io, que conserva las claves que no conoce: identifica el ícono aunque la
+# imagen vaya en línea, para que `embeber.py` la reemplace por la canónica.
 CONTENEDORES = {  # tipo -> etiqueta que lo identifica en la leyenda de la página Physical
     "region": "OCI Region", "availability-domain": "Availability Domain", "fault-domain": "Fault Domain",
     "tenancy": "Tenancy", "compartment": "Compartment A", "vcn": "VCN", "subnet": "Subnet 0.0.0.0/00",
@@ -157,17 +160,32 @@ def main():
         s = base if cuenta[base] == 1 else f"{base}-{cuenta[base]}"
         open(os.path.join(tmp, s + ".drawio"), "w").write(drawio_de(ic))
         cat.append(dict(slug=s, etiqueta=ic["etiqueta"], categoria=ic["categoria"], ancho=round(ic["w"]), alto=round(ic["h"]),
-                        archivo=f"svg/{s}.svg", estilo=ESTILO_ICONO.format(url=f"{BASE_URL}/{s}.svg")))
+                        archivo=f"svg/{s}.svg", estilo=ESTILO_ICONO.format(slug=s, url=f"{BASE_URL}/{s}.svg")))
     os.makedirs(os.path.join(raiz, "svg"), exist_ok=True)
     # `--theme light`: sin él, draw.io exporta colores adaptativos (light-dark) y en un visor oscuro el
     # interior blanco de los íconos sale negro.
     subprocess.run(["/Applications/draw.io.app/Contents/MacOS/draw.io", "-x", "-f", "svg", "-b", "0", "--theme", "light",
                     "-o", os.path.join(raiz, "svg"), tmp], check=True, capture_output=True)
     shutil.rmtree(tmp)
+    subprocess.run([sys.executable, os.path.join(raiz, "scripts", "optimizar.py"), os.path.join(raiz, "svg")], check=True)
     json.dump(dict(fuente=f"OCI Architecture Diagram Toolkit {VERSION} (Oracle), página Icons y leyenda de la página Physical",
                    version=VERSION, base_url=BASE_URL, iconos=cat, contenedores=contenedores()),
               open(os.path.join(raiz, "catalogo.json"), "w"), ensure_ascii=False, indent=1)
+    escribir_md(cat, contenedores(), os.path.join(raiz, "catalogo.md"))
     print(f"{len(cat)} íconos exportados a svg/ y catálogo escrito")
+
+
+def escribir_md(cat, conts, ruta):
+    lineas = ["# Catálogo de íconos OCI para draw.io", "",
+              f"Toolkit v24.2 (revisión {VERSION}). Estilo base de cada ícono en `catalogo.json`; "
+              f"URL: `{BASE_URL}/<slug>.svg`.", ""]
+    for categoria in sorted({i["categoria"] for i in cat}):
+        lineas += [f"## {categoria}", "", "| slug | Etiqueta oficial | Tamaño |", "|---|---|---|"]
+        lineas += [f"| `{i['slug']}` | {i['etiqueta']} | {i['ancho']}×{i['alto']} |" for i in cat if i["categoria"] == categoria]
+        lineas.append("")
+    lineas += ["## Contenedores (vista física)", "", "| tipo | Etiqueta en el toolkit | Tamaño de referencia |", "|---|---|---|"]
+    lineas += [f"| `{c['tipo']}` | {c['etiqueta']} | {c['ancho']}×{c['alto']} |" for c in conts]
+    open(ruta, "w", encoding="utf-8").write("\n".join(lineas) + "\n")
 
 
 if __name__ == "__main__":
