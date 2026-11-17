@@ -9,7 +9,7 @@ works, never the drawings.
 
 ## 24.2.4 — 2026-11-16
 
-First public release. Same icons as 24.2.3, with the repository prepared for others to use.
+First release prepared for use outside CTH. Same icons as 24.2.3.
 
 - Everything is in English: the skill (`oci-drawio-diagrams`, previously `diagramas-oci`), the
   catalog keys, the scripts and their command-line interface, and the documentation.
