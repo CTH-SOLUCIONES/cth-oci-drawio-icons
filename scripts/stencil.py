@@ -1,17 +1,18 @@
 #!/usr/bin/env python3
-"""Convierte los SVG de los íconos en stencils de draw.io: vectoriales, comprimidos y sin imagen externa.
+"""Convert the icon SVGs into draw.io stencils: vector, compressed and with no external image.
 
-La respuesta de `create_diagram` repite el XML entero. Con los íconos como SVG en línea (base64),
-una vista mediana superaba el tope de tokens que el cliente admite para el resultado de una
-herramienta, y el visor recibía el aviso de error en vez del diagrama. Un stencil comprimido
-(`shape=stencil(…)`) pesa un 37 % menos en los íconos más usados, lo dibuja el visor sin cargar nada
-y es el mismo formato con que draw.io guarda las formas propias. Las coordenadas van absolutas y
-redondeadas a 0,1 px: sin acumular error, como pasaba con las relativas de SVGO a esa precisión.
+The `create_diagram` response repeats the whole XML. With the icons as inline SVG (base64), a
+medium-sized view exceeded the token cap the client allows for a tool result, and the viewer got
+the error notice instead of the diagram. A compressed stencil (`shape=stencil(...)`) weighs 37 %
+less on the most used icons, the viewer draws it without loading anything, and it is the same
+format draw.io uses to save custom shapes. Coordinates are absolute and rounded to 0.1 px: no
+accumulated error, as happened with SVGO's relative ones at that precision.
 
-Solo cubre lo que traen estos SVG: `<path>` con `fill`, y un trazo con `stroke`, sin `transform`
-ni `fill-rule`. Si un SVG trae otra cosa, falla en lugar de dibujar algo distinto.
+It only covers what these SVGs contain: `<path>` with `fill`, and a stroke with `stroke`, without
+`transform` or `fill-rule`. If an SVG has anything else, it fails instead of drawing something
+different.
 
-Uso: stencil.py <archivo.svg>   # imprime el valor de `shape=stencil(…)`
+Usage: stencil.py <file.svg>   # prints the value of `shape=stencil(...)`
 """
 import base64
 import re
@@ -29,8 +30,8 @@ def _f(v: float) -> str:
 
 
 def _tokens(d: str):
-    """Comandos y números de un atributo `d`, respetando las banderas de arco compactadas por SVGO
-    (`a2 2 0 012 2` son las banderas 0 y 1 seguidas de 2)."""
+    """Commands and numbers of a `d` attribute, honoring the arc flags that SVGO packs together
+    (`a2 2 0 012 2` is flags 0 and 1 followed by 2)."""
     i, n, cmd, idx = 0, len(d), None, 0
     while i < n:
         c = d[i]
@@ -43,21 +44,21 @@ def _tokens(d: str):
             i += 1
             continue
         if cmd in "Aa" and idx % 7 in (3, 4):
-            yield c  # bandera de arco: un solo carácter
+            yield c  # arc flag: a single character
             i += 1
         else:
             m = _NUM.match(d, i)
             if not m:
-                raise ValueError(f"no entiendo {d[i:i + 20]!r}")
+                raise ValueError(f"cannot parse {d[i:i + 20]!r}")
             yield m.group()
             i = m.end()
         idx += 1
 
 
 def _path(d: str) -> str:
-    """Traduce un `d` de SVG a los elementos de path de un stencil, en coordenadas absolutas."""
+    """Translate an SVG `d` into the path elements of a stencil, in absolute coordinates."""
     out, toks, x, y, sx, sy = [], list(_tokens(d)), 0.0, 0.0, 0.0, 0.0
-    prev_c = prev_q = None  # último punto de control, para S y T
+    prev_c = prev_q = None  # last control point, for S and T
     i, cmd = 0, None
     while i < len(toks):
         if toks[i].isalpha():
@@ -69,14 +70,14 @@ def _path(d: str) -> str:
                 continue
         rel = cmd.islower()
         C = cmd.upper()
-        aridad = {"M": 2, "L": 2, "H": 1, "V": 1, "C": 6, "S": 4, "Q": 4, "T": 2, "A": 7}[C]
-        a = [float(t) for t in toks[i:i + aridad]]
-        i += aridad
+        arity = {"M": 2, "L": 2, "H": 1, "V": 1, "C": 6, "S": 4, "Q": 4, "T": 2, "A": 7}[C]
+        a = [float(t) for t in toks[i:i + arity]]
+        i += arity
         if C == "M":
             x, y = (x + a[0], y + a[1]) if rel else (a[0], a[1])
             sx, sy = x, y
             out.append(f'<move x="{_f(x)}" y="{_f(y)}"/>')
-            cmd = "l" if rel else "L"  # pares siguientes a un M son líneas
+            cmd = "l" if rel else "L"  # pairs following an M are lines
             prev_c = prev_q = None
         elif C in "LHV":
             if C == "L":
@@ -114,37 +115,37 @@ def _path(d: str) -> str:
 
 
 def stencil_xml(svg: str) -> str:
-    raiz = ET.fromstring(svg)
-    _, _, w, h = (float(v) for v in raiz.get("viewBox").split())
-    partes, color = [], None
-    for el in raiz.iter():
+    root = ET.fromstring(svg)
+    _, _, w, h = (float(v) for v in root.get("viewBox").split())
+    parts, color = [], None
+    for el in root.iter():
         if el.tag in (NS + "svg", NS + "g", NS + "defs"):
             continue
         if el.tag != NS + "path" or el.get("transform") or el.get("fill-rule"):
-            raise ValueError(f"elemento no soportado: {el.tag} {el.attrib}")
+            raise ValueError(f"unsupported element: {el.tag} {el.attrib}")
         fill, stroke = el.get("fill", "#000"), el.get("stroke")
-        if fill != "none" and fill != color:  # solo cuando cambia: casi todos alternan dos colores
-            partes.append(f'<fillcolor color="{fill}"/>')
+        if fill != "none" and fill != color:  # only when it changes: almost all alternate two colors
+            parts.append(f'<fillcolor color="{fill}"/>')
             color = fill
         if stroke:
-            partes.append(f'<strokecolor color="{stroke}"/><strokewidth width="{el.get("stroke-width", "1")}"/>')
+            parts.append(f'<strokecolor color="{stroke}"/><strokewidth width="{el.get("stroke-width", "1")}"/>')
             if el.get("stroke-miterlimit"):
-                partes.append(f'<miterlimit limit="{el.get("stroke-miterlimit")}"/>')
-        partes.append(_path(el.get("d")))
-        partes.append("<fillstroke/>" if stroke and fill != "none" else "<stroke/>" if stroke else "<fill/>")
+                parts.append(f'<miterlimit limit="{el.get("stroke-miterlimit")}"/>')
+        parts.append(_path(el.get("d")))
+        parts.append("<fillstroke/>" if stroke and fill != "none" else "<stroke/>" if stroke else "<fill/>")
     return (f'<shape w="{_f(w)}" h="{_f(h)}" aspect="fixed"><foreground>'
-            + "".join(partes) + "</foreground></shape>")
+            + "".join(parts) + "</foreground></shape>")
 
 
-def comprimir(xml: str) -> str:
-    """Como `Graph.compress` de draw.io: deflate crudo y base64. Sin `encodeURIComponent`, que no
-    hace falta porque el XML no trae `%` y `decodeURIComponent` lo deja igual."""
+def compress(xml: str) -> str:
+    """Like draw.io's `Graph.compress`: raw deflate and base64. Without `encodeURIComponent`, which is
+    not needed because the XML has no `%` and `decodeURIComponent` leaves it unchanged."""
     c = zlib.compressobj(9, zlib.DEFLATED, -15)
     return base64.b64encode(c.compress(xml.encode("utf-8")) + c.flush()).decode()
 
 
 def stencil(svg: str) -> str:
-    return comprimir(stencil_xml(svg))
+    return compress(stencil_xml(svg))
 
 
 if __name__ == "__main__":

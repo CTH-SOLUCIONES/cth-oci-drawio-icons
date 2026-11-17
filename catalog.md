@@ -1,10 +1,10 @@
-# Catálogo de íconos OCI para draw.io
+# OCI icon catalog for draw.io
 
-Toolkit v24.2 (revisión v24.2.3). Estilo base de cada ícono en `catalogo.json`; URL: `https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.3/svg/<slug>.svg`.
+Toolkit v24.2 (release v24.2.4). Base style of each icon in `catalog.json`; URL: `https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.4/svg/<slug>.svg`.
 
 ## Analytics and AI
 
-| slug | Etiqueta oficial | Tamaño |
+| slug | Official label | Size |
 |---|---|---|
 | `data-integration` | OCI Data Integration | 42×42 |
 | `data-flow` | Data Flow | 41×42 |
@@ -30,7 +30,7 @@ Toolkit v24.2 (revisión v24.2.3). Estilo base de cada ícono en `catalogo.json`
 
 ## Applications
 
-| slug | Etiqueta oficial | Tamaño |
+| slug | Official label | Size |
 |---|---|---|
 | `oracle-soa-suite` | Oracle SOA Suite | 42×42 |
 | `inventory-management` | Inventory Management | 42×40 |
@@ -60,7 +60,7 @@ Toolkit v24.2 (revisión v24.2.3). Estilo base de cada ícono en `catalogo.json`
 
 ## Compute
 
-| slug | Etiqueta oficial | Tamaño |
+| slug | Official label | Size |
 |---|---|---|
 | `compute` | OCI Compute | 42×42 |
 | `instance-pools` | Instance Pools | 42×42 |
@@ -75,7 +75,7 @@ Toolkit v24.2 (revisión v24.2.3). Estilo base de cada ícono en `catalogo.json`
 
 ## Database
 
-| slug | Etiqueta oficial | Tamaño |
+| slug | Official label | Size |
 |---|---|---|
 | `database` | Database | 37×42 |
 | `migrate-autonomous-database` | OCI Migrate Autonomous Database | 42×42 |
@@ -126,7 +126,7 @@ Toolkit v24.2 (revisión v24.2.3). Estilo base de cada ícono en `catalogo.json`
 
 ## Developer Services
 
-| slug | Etiqueta oficial | Tamaño |
+| slug | Official label | Size |
 |---|---|---|
 | `container-engine-for-kubernetes` | OCI Container Engine for Kubernetes | 42×42 |
 | `container-registry` | OCI Container Registry | 42×42 |
@@ -153,7 +153,7 @@ Toolkit v24.2 (revisión v24.2.3). Estilo base de cada ícono en `catalogo.json`
 
 ## Governance and Administration
 
-| slug | Etiqueta oficial | Tamaño |
+| slug | Official label | Size |
 |---|---|---|
 | `organization` | Organization | 39×42 |
 | `license-manager` | License Manager | 35×42 |
@@ -164,7 +164,7 @@ Toolkit v24.2 (revisión v24.2.3). Estilo base de cada ícono en `catalogo.json`
 
 ## Hybrid
 
-| slug | Etiqueta oficial | Tamaño |
+| slug | Official label | Size |
 |---|---|---|
 | `dedicated-region` | Dedicated Region | 42×42 |
 | `roving-edge-device-red` | Roving Edge Device (RED) | 42×41 |
@@ -174,7 +174,7 @@ Toolkit v24.2 (revisión v24.2.3). Estilo base de cada ícono en `catalogo.json`
 
 ## Identity & Security
 
-| slug | Etiqueta oficial | Tamaño |
+| slug | Official label | Size |
 |---|---|---|
 | `user` | User | 41×42 |
 | `user-2` | User | 33×42 |
@@ -207,20 +207,20 @@ Toolkit v24.2 (revisión v24.2.3). Estilo base de cada ícono en `catalogo.json`
 
 ## Marketplace
 
-| slug | Etiqueta oficial | Tamaño |
+| slug | Official label | Size |
 |---|---|---|
 | `marketplace` | Marketplace | 35×38 |
 
 ## Migration
 
-| slug | Etiqueta oficial | Tamaño |
+| slug | Official label | Size |
 |---|---|---|
 | `database-migration` | Database Migration | 42×39 |
 | `data-transfer` | Data Transfer | 43×22 |
 
 ## Networking
 
-| slug | Etiqueta oficial | Tamaño |
+| slug | Official label | Size |
 |---|---|---|
 | `load-balancer` | Load Balancer | 42×42 |
 | `flexible-load-balancer` | Flexible Load Balancer | 42×42 |
@@ -247,7 +247,7 @@ Toolkit v24.2 (revisión v24.2.3). Estilo base de cada ícono en `catalogo.json`
 
 ## Observability and Management
 
-| slug | Etiqueta oficial | Tamaño |
+| slug | Official label | Size |
 |---|---|---|
 | `auditing` | Auditing | 42×42 |
 | `monitoring` | Monitoring | 42×42 |
@@ -266,7 +266,7 @@ Toolkit v24.2 (revisión v24.2.3). Estilo base de cada ícono en `catalogo.json`
 
 ## Other
 
-| slug | Etiqueta oficial | Tamaño |
+| slug | Official label | Size |
 |---|---|---|
 | `cloud-native-environment` | Cloud Native Environment | 39×42 |
 | `private-cloud` | Private Cloud | 40×42 |
@@ -284,7 +284,7 @@ Toolkit v24.2 (revisión v24.2.3). Estilo base de cada ícono en `catalogo.json`
 
 ## Storage
 
-| slug | Etiqueta oficial | Tamaño |
+| slug | Official label | Size |
 |---|---|---|
 | `file-storage-replication-process` | File Storage Replication Process | 61×62 |
 | `block-storage` | Block Storage | 42×42 |
@@ -304,9 +304,9 @@ Toolkit v24.2 (revisión v24.2.3). Estilo base de cada ícono en `catalogo.json`
 | `storage-gateway` | Storage Gateway | 43×36 |
 | `persistent-volume` | Persistent Volume | 42×24 |
 
-## Contenedores (vista física)
+## Containers (physical view)
 
-| tipo | Etiqueta en el toolkit | Tamaño de referencia |
+| type | Label in the toolkit | Reference size |
 |---|---|---|
 | `region` | OCI Region | 120×60 |
 | `availability-domain` | Availability Domain | 120×60 |

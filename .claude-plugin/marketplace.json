@@ -1,0 +1,15 @@
+{
+  "name": "cth-oci-drawio-icons",
+  "description": "Skill for drawing OCI architecture diagrams in draw.io with Oracle's official icons.",
+  "owner": {
+    "name": "CTH Soluciones Tecnológicas"
+  },
+  "plugins": [
+    {
+      "name": "oci-drawio-diagrams",
+      "source": "./",
+      "description": "Draws OCI architecture diagrams in draw.io with the icons from Oracle's OCI Architecture Diagram Toolkit v24.2, as inline stencils, with layout rules verified by rendering.",
+      "version": "24.2.4"
+    }
+  ]
+}

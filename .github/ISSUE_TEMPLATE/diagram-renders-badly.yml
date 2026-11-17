@@ -1,0 +1,33 @@
+name: Diagram renders badly
+description: A diagram built with the skill shows empty icons, crossing arrows, or is cut off.
+labels: ["rendering"]
+body:
+  - type: input
+    id: drawio-version
+    attributes:
+      label: draw.io version
+      description: Desktop app or web, and the version.
+      placeholder: draw.io desktop, version from Help > About
+    validations:
+      required: true
+  - type: input
+    id: viewer
+    attributes:
+      label: Where you see the problem
+      description: The draw.io MCP viewer in chat, draw.io desktop, draw.io web, an export.
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What you see
+      description: What is wrong, and what you expected. If an icon is empty, say whether the file was run through embed.py.
+    validations:
+      required: true
+  - type: textarea
+    id: files
+    attributes:
+      label: Files
+      description: Attach the `.drawio` file and a PNG of how it renders. Drag them into this box; remove anything you don't want public from the diagram first.
+    validations:
+      required: true
