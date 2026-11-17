@@ -1,13 +1,22 @@
-# Aviso
+# Notice
 
-Los archivos de `svg/` son íconos de Oracle Cloud Infrastructure, © Oracle y/o sus afiliadas.
-Provienen del **OCI Architecture Diagram Toolkit v24.2** (archivo `OCI-Style-Guide-for-Drawio.zip`,
-publicado por Oracle el 29/04/2024 en
-https://docs.oracle.com/en-us/iaas/Content/General/Reference/graphicsfordiagrams.htm), donde Oracle
-los ofrece para dibujar diagramas de arquitectura de implementaciones de OCI.
+The files in `svg/` are Oracle Cloud Infrastructure icons, © Oracle and/or its affiliates. They come
+from the **OCI Architecture Diagram Toolkit v24.2** (the file `OCI-Style-Guide-for-Drawio.zip`,
+published by Oracle on 29/04/2024 at
+https://docs.oracle.com/en-us/iaas/Content/General/Reference/graphicsfordiagrams.htm), where Oracle
+offers them for drawing architecture diagrams of OCI implementations.
 
-CTH Soluciones Tecnológicas no es propietaria de estos íconos, no concede ninguna licencia sobre
-ellos y no está afiliada a Oracle. Este repositorio los reorganiza —un archivo por ícono y un
-catálogo— solo para usarlos en ese mismo fin. Si Oracle pide retirarlos, se retiran.
+The draw.io stencils in `catalog.json`, and in the copy of the catalog inside
+`skills/oci-drawio-diagrams/`, are derived from those icons and are covered by the same notice.
 
-Oracle, OCI y los nombres de sus servicios son marcas de Oracle y/o sus afiliadas.
+CTH Soluciones Tecnológicas does not own these icons, grants no license on them, and is not
+affiliated with Oracle. Oracle publishes the toolkit to draw diagrams of OCI implementations and
+does not grant permission to redistribute it. This repository only reorganizes the icons (one file per
+icon, a searchable catalog, draw.io stencils) for that same purpose. The icons are not redrawn: the
+conversion rounds coordinates (SVGO to 0.01 px, stencils to 0.1 px), with no visible difference when
+rendered.
+If Oracle asks for them to be removed, they will be removed.
+
+Oracle, OCI and the names of its services are trademarks of Oracle and/or its affiliates.
+
+The MIT license in [LICENSE](LICENSE) covers only this repository's own text and code, not the icons.

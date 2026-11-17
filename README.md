@@ -1,87 +1,200 @@
 # cth-oci-drawio-icons
 
-Los íconos oficiales de OCI, del **OCI Architecture Diagram Toolkit v24.2** de Oracle, convertidos
-a stencils de draw.io y a SVG optimizados para usarlos con el servidor MCP de draw.io.
+An [Agent Skill](https://agentskills.io) and an icon set for drawing Oracle Cloud Infrastructure (OCI)
+architecture diagrams in draw.io. It carries the 232 icons of Oracle's **OCI Architecture Diagram
+Toolkit v24.2** as draw.io stencils, a catalog to search them, and the layout rules that keep an
+agent's diagrams readable.
 
-## Por qué existe
+**Audience:** anyone who draws OCI architectures in draw.io, whether a person or a coding or chat
+agent that uses the draw.io MCP server.
 
-Los íconos del toolkit son grupos de formas vectoriales de 5 a 20 KB cada uno. Metidos en el XML
-de un diagrama, una vista física real pesa 150–200 KB, demasiado para escribirla en una llamada al
-MCP. Además, `create_diagram` devuelve el XML entero, y el cliente corta los resultados de más de
-25.000 tokens: un XML de unos 50 KB le llegó al visor como aviso de error.
+> **The icons belong to Oracle.** Oracle publishes them to draw diagrams of OCI implementations and
+> does not grant permission to redistribute them. This repository grants no license on them, is not
+> affiliated with Oracle, and will remove them if Oracle asks. See [Icon ownership](#icon-ownership)
+> and [NOTICE.md](NOTICE.md).
 
-Hay dos formas de usarlos:
+## Why it exists
 
-- **En línea, como stencil** (`shape=stencil(…)`, vectorial y comprimido): se ven en el visor del
-  chat. Pesan 1,4 KB de mediana entre los más usados, y una vista física de 9 íconos queda en unos
-  24.000 caracteres.
-- **Por URL del CDN**: unos 300 caracteres por ícono, pero **el visor del chat no los muestra**.
-  Su política de contenido solo deja cargar imágenes de diagrams.net o en línea. draw.io, en
-  cambio, sí los abre.
+Three constraints shape how the icons are packaged.
 
-El set «OCI Icons» que trae el propio servicio de draw.io no sirve: son glifos genéricos en negro,
-no los íconos oficiales.
+1. **Size.** The toolkit's icons are groups of vector shapes of 5 to 20 KB each. Put inside a diagram's
+   XML, a real physical view weighs 150 to 200 KB, too much to write in one call to the MCP.
+2. **The result limit.** `create_diagram` returns the whole XML, and the client cuts results over
+   25,000 tokens. A diagram of about 50 KB (53,638 characters, with base64 SVGs) reached the viewer as
+   a notice instead of the diagram.
+3. **The viewer's content policy.** The draw.io MCP viewer only loads images from diagrams.net
+   domains and `data:` URIs. Icons referenced by CDN URL render empty in the chat viewer, although
+   draw.io itself opens them.
 
-**Para quién:** quien diagrame arquitecturas de OCI en CTH Soluciones, sea una persona o un agente.
+The answer is to ship each icon as a **draw.io stencil** (`shape=stencil(…)`) that goes inline in the
+style. It is vector and compressed: the most used icons weigh 1.4 KB at the median, 37 % less than
+the same icon as base64 SVG, and a physical view of 9 icons went from 33,563 to 24,118 characters. The
+skill keeps the whole XML under 30,000 characters. That budget is a criterion derived from the failure
+above, not a measured limit.
 
-## Qué hay
+The "OCI Icons" set that draw.io ships doesn't solve it: it is generic black glyphs, and services such
+as Autonomous Database, Object Storage, Vault or OKE don't exist in it by name.
 
-| Ruta | Contenido |
+How the icons were made: exported with draw.io from the toolkit without redrawing them, slimmed
+with SVGO, and converted to stencils with absolute coordinates at 0.1 px. Relative coordinates at that
+precision deformed the DRG ring.
+
+## What's inside
+
+| Path | Content |
 |---|---|
-| `svg/<slug>.svg` | 232 íconos, exportados con draw.io desde la página «Icons» del toolkit, sin redibujar, y optimizados con SVGO a 0,01 px |
-| `catalogo.json` | Por ícono: slug, etiqueta oficial, categoría, tamaño, el estilo en línea (`estilo`, stencil) y el estilo por URL (`estilo_url`); y 10 contenedores de la vista física (región, AD, fault domain, tenancy, compartment, VCN, subnet, clúster OKE, on-premises, internet) con el estilo de la leyenda del toolkit |
-| `catalogo.md` | La misma lista, legible, por categoría |
-| `scripts/extraer.py` | Regenera todo desde el `.drawio` del toolkit cuando Oracle publique una versión nueva |
-| `scripts/optimizar.py` | Adelgaza los SVG exportados. Lo llama `extraer.py` |
-| `scripts/stencil.py` | Convierte cada SVG en stencil de draw.io, con coordenadas absolutas a 0,1 px. Lo llama `extraer.py` |
-| `scripts/buscar.py` | Busca en el catálogo sin cargarlo entero, da el estilo en línea (`--estilo`) o por URL (`--url`) y suma contra el presupuesto de 30.000 caracteres |
-| `scripts/embeber.py` | Deja en el entregable cada ícono como el stencil canónico, conservando el resto del estilo de la celda |
-| `scripts/empaquetar.py` | Copia íconos, catálogo y scripts a la skill y arma `dist/diagramas-oci.zip` |
-| `skills/diagramas-oci/` | Skill para agentes, autocontenida: cómo buscar los íconos, armar el diagrama en el MCP, las reglas de diagramación verificadas y la entrega |
+| [`skills/oci-drawio-diagrams/`](skills/oci-drawio-diagrams/SKILL.md) | The skill, self-contained: how to search the icons, build the diagram in the MCP, the layout rules verified by rendering, and how to deliver. It carries its own `catalog.json` and two scripts (`search.py`, `embed.py`) |
+| `svg/<slug>.svg` | The 232 icons, one SVG each, exported from the toolkit's "Icons" page |
+| `catalog.json` | Per icon: `slug`, `label`, `category`, `width`, `height`, `file`, `style` (the inline stencil) and `url_style` (the CDN URL). Also 10 physical-view containers (region, availability domain, fault domain, tenancy, compartment, VCN, subnet, OKE cluster, on-premises, internet) with the style from the toolkit's legend |
+| `catalog.md` | The same list, readable, by category |
+| `scripts/search.py` | Searches the catalog without loading it whole. `--style` gives the inline style and sums it against the 30,000-character budget; `--url` gives the CDN style; `--containers` lists the containers |
+| `scripts/embed.py` | Replaces every icon in a `.drawio` file with its canonical stencil, keeping the rest of the cell's style |
+| `scripts/package.py` | Syncs the skill's copy of the catalog and scripts, and builds `dist/oci-drawio-diagrams.zip`. With `--check` it fails if the copy differs from the root |
+| `scripts/extract.py`, `optimize.py`, `stencil.py` | Regenerate everything from a new toolkit. `extract.py` calls the other two |
+| `tests/` | Tests for the scripts, standard library only |
 
-## Cómo se usa
+## Install
 
-1. **Diseñar con el MCP de draw.io.** Cada ícono es una celda con el estilo que da
-   `python3 scripts/buscar.py --estilo <slug>` y la etiqueta en `value`. Cada contenedor es una
-   celda con su estilo. Todo estilo de ícono lleva `ociIcon=<slug>`, una clave que draw.io conserva
-   y que identifica el ícono aunque la imagen vaya en línea.
-2. **Guardar el XML** que devuelve el MCP como `.drawio` en la carpeta del proyecto.
-3. **Embeber antes de entregar**, siempre: `python3 scripts/embeber.py diagrama.drawio`.
-   - Pone en cada celda con `ociIcon` el stencil canónico, así corrige una copia mal transcrita y
-     cambia las URLs por el stencil.
-   - Los diagramas anteriores a `ociIcon` se reconocen por la URL del CDN.
-   - El entregable queda autocontenido: no depende de este repositorio ni de la red.
+**Any agent that supports skills** (Claude Code, Codex, Gemini CLI, Cursor, GitHub Copilot and others),
+with the [`skills`](https://github.com/vercel-labs/skills) CLI:
 
-La URL fija la versión: `@v24.2.3` es el toolkit 24.2 de Oracle en la revisión 3 de este
-repositorio. Cuando llegue otra, los diagramas viejos siguen apuntando a la suya. Las revisiones
-cambian la codificación, no el dibujo:
-- se retiró la v24.2 por los colores adaptativos;
-- la v24.2.1 son los SVG sin optimizar;
-- la v24.2.2 embebía los SVG en base64 y desbordaba el resultado del MCP.
+```sh
+npx skills add CTH-SOLUCIONES/cth-oci-drawio-icons        # current project
+npx skills add CTH-SOLUCIONES/cth-oci-drawio-icons -g     # every project (global)
+```
 
-## La skill
+**Claude Code**, as a plugin:
 
-La skill `diagramas-oci` hace que un agente lo haga siempre igual. Lleva su propia copia de los
-íconos, del catálogo y de los scripts, porque en claude.ai el entorno de ejecución solo sale por
-defecto a gestores de paquetes y no alcanzaría el CDN para embeber. Los íconos van dentro del
-catálogo, como stencils, y no uno por archivo, porque la subida de skills en claude.ai rechaza zips
-de más de 200 archivos. La fuente de verdad es la raíz
-del repositorio, y `python3 scripts/empaquetar.py` sincroniza la copia y arma el `.zip`. Córrelo
-antes de cada commit que toque `svg/`, el catálogo o los scripts.
+```
+/plugin marketplace add CTH-SOLUCIONES/cth-oci-drawio-icons
+/plugin install oci-drawio-diagrams@cth-oci-drawio-icons
+```
 
-**Para la organización en Claude:** el propietario sube `dist/diagramas-oci.zip` en
-*Organization settings > Plugins & skills > Add > Upload a skill*. Con eso queda activa para
-todos los miembros en claude.ai, Claude Desktop, Cowork y Claude Code con sesión de la
-organización. Cada miembro puede apagarla, pero no borrarla. Requiere que la pestaña *Policy*
-tenga activos *Cloud code execution and file creation* y *Skills*. Al diseñar, cada miembro necesita
-además el conector de draw.io.
+**A Claude organization**, by uploading the zip. The skill is self-contained for this reason: in
+claude.ai, code execution by default only reaches package registries, not the CDN, and the skill
+upload rejects zips of more than 200 files. The icons therefore live inside the catalog, as stencils,
+and not one per file.
 
-**Fuera de la organización, o en otros agentes** (Codex, Gemini CLI…):
-`npx skills@latest add CTH-SOLUCIONES/cth-oci-drawio-icons -g -y`.
+1. Build the zip with `python3 scripts/package.py`. It writes `dist/oci-drawio-diagrams.zip`, and
+   `dist/` is not versioned.
+2. The organization's owner uploads it in *Organization settings > Plugins & skills > Add > Upload a
+   skill*. The skill is then active for every member in claude.ai, Claude Desktop, Cowork and Claude
+   Code signed in to the organization. Members can turn it off but not delete it.
+3. The *Policy* tab must have *Cloud code execution and file creation* and *Skills* enabled.
+4. To design, each member also needs the draw.io connector.
 
-## Propiedad de los íconos
+**By hand:** copy `skills/oci-drawio-diagrams/` into your agent's skills folder, for example
+`~/.claude/skills/oci-drawio-diagrams/` for Claude Code.
 
-Los íconos son **de Oracle** (© Oracle y/o sus afiliadas) y vienen del toolkit que Oracle publica
-en su [documentación](https://docs.oracle.com/en-us/iaas/Content/General/Reference/graphicsfordiagrams.htm)
-para «draw custom architecture diagrams for your OCI implementation». Este repositorio **no concede
-ninguna licencia** sobre ellos: solo los reorganiza para ese uso. Ver `NOTICE.md`.
+The scripts need Python 3.10 or later and nothing else. Diagrams are drawn through the draw.io MCP
+server when it is connected; without it, the skill writes the `.drawio` file directly.
+
+## Use
+
+The skill activates when you ask for a diagram of an architecture on OCI. You can also ask for it
+directly:
+
+- "Draw the physical view of a VCN with a public subnet for the load balancer and a private one for
+  OKE, using the OCI icons."
+- "Make a logical diagram of an API Gateway in front of Functions that read from Autonomous Database
+  and Object Storage."
+- "Add a WAF and a bastion to this `.drawio` and embed the icons again."
+
+The agent searches the catalog, writes the XML with each icon's inline style, saves a `.drawio` file,
+and runs `embed.py` on it before delivering. You can run the same steps by hand:
+
+```sh
+python3 skills/oci-drawio-diagrams/scripts/search.py --style vault waf    # inline style and total
+python3 skills/oci-drawio-diagrams/scripts/embed.py diagram.drawio        # in place, leaves a .bak
+python3 skills/oci-drawio-diagrams/scripts/embed.py diagram.drawio out.drawio
+```
+
+Every icon style carries `ociIcon=<slug>`, a key draw.io keeps and that identifies the icon even when
+the image is inline. `embed.py` uses it to replace each icon with the canonical stencil, which fixes
+mistranscribed copies and swaps URL-mode icons for the stencil. The deliverable then depends on no URL
+and no network.
+
+## URL mode and the CDN
+
+`search.py --url <slug>` gives a style that references the icon by URL. It costs about 300 characters
+per icon instead of 1.4 KB, so it helps when a diagram doesn't fit the budget. The price is that the
+MCP viewer shows those icons empty, while draw.io shows them. Run `embed.py` before delivering.
+
+The URL is pinned to a tag:
+
+```
+https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.4/svg/<slug>.svg
+```
+
+It goes through jsDelivr and not through raw GitHub URLs, because those are served as `text/plain`.
+The tag also fixes the version: `v24.2.4` is the toolkit 24.2 in revision 4 of this repository. When
+another version comes out, old diagrams keep pointing at their own tag.
+
+Revisions change the encoding, never the drawing. The [changelog](CHANGELOG.md) has the detail; in
+short:
+
+- v24.2 was withdrawn: adaptive colors turned the icons' interiors black in dark viewers, and jsDelivr
+  caches a tag forever, so it couldn't be fixed in place.
+- v24.2.1 shipped unoptimized SVGs.
+- v24.2.2 inlined them as base64 SVG, which overflowed the MCP result.
+- v24.2.3 moved to stencils.
+- v24.2.4 is the English rename and the public release.
+
+## Regenerating from a new toolkit
+
+When Oracle publishes a new version of the toolkit, `scripts/extract.py` rebuilds `svg/`,
+`catalog.json` and `catalog.md` from the toolkit's `.drawio` file. It needs:
+
+- The path to the toolkit file, in the `OCI_TOOLKIT` environment variable or as the first argument.
+- The draw.io desktop binary, in `DRAWIO_BIN`. The default is
+  `/Applications/draw.io.app/Contents/MacOS/draw.io`.
+- Node, because the script runs `npx svgo@4.1.0`.
+
+Then run `python3 scripts/package.py` to sync the skill's copy and build the zip. CI fails if the copy
+and the root differ. [CONTRIBUTING.md](CONTRIBUTING.md) covers the version number.
+
+## Scope and limits
+
+- **In scope:** the 232 icons and 10 containers of toolkit 24.2, the search and embed scripts, and the
+  layout rules in the skill.
+- **Not in scope:** icons that aren't in Oracle's toolkit, in other styles or for other clouds. Anything
+  that isn't OCI is drawn as a neutral shape. The skill says so when a service has no icon.
+- **Layout rules are for the default routing.** The chat viewer applies its own routing (`libavoid`),
+  but the saved XML keeps draw.io's default one. The rules were verified by rendering with the default
+  one. They don't promise a good layout for every diagram, and the skill asks for a render check before
+  delivery when draw.io desktop is available.
+- **The 30,000-character budget** comes from one observed failure, not from a documented limit of the
+  client.
+- **The draw.io MCP server gives the best result.** Without it, the agent writes the `.drawio` file
+  directly, and you check the render in draw.io.
+- **Python 3.10 or later.**
+
+## Icon ownership
+
+The icons are **Oracle's** (© Oracle and/or its affiliates). They come from the toolkit that Oracle
+publishes in its
+[documentation](https://docs.oracle.com/en-us/iaas/Content/General/Reference/graphicsfordiagrams.htm)
+to draw architecture diagrams of OCI implementations. This repository only reorganizes them for that
+use: one file per icon, a searchable catalog, and draw.io stencils. The icons are not redrawn: the
+conversion rounds coordinates (SVGO to 0.01 px, stencils to 0.1 px), with no visible difference when
+rendered.
+
+- Oracle does not grant redistribution of the icons, and this repository grants no license on them.
+  The same goes for the stencils derived from them in `catalog.json` and in the skill's copy.
+- If Oracle asks for them to be removed, they will be removed.
+- CTH Soluciones Tecnológicas is not affiliated with Oracle.
+
+If you need certainty about your use of the icons, check Oracle's terms. [NOTICE.md](NOTICE.md) has
+the details.
+
+## Contributing
+
+Issues and pull requests are welcome: missing or misnamed icons, layout rules, script fixes and new
+toolkit versions. A layout rule has to be verified by rendering the saved XML with draw.io's default
+routing, with the PNG attached. Read [CONTRIBUTING.md](CONTRIBUTING.md) before you open a pull
+request.
+
+## License
+
+The text and the scripts are [MIT](LICENSE) © 2026 CTH Soluciones Tecnológicas. The icons in `svg/`,
+and the stencils derived from them, are not covered by that license; see [NOTICE.md](NOTICE.md).
