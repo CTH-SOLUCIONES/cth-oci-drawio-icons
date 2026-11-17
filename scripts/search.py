@@ -15,10 +15,10 @@ import unicodedata
 from pathlib import Path
 
 CATALOG = Path(__file__).resolve().parent.parent / "catalog.json"
-# `create_diagram` returns the whole XML, and the client cuts tool results above 25,000 tokens:
-# an XML of about 50 KB already failed to reach the viewer. 30,000 characters leaves room for
-# containers and arrows.
-BUDGET = 30_000
+# `create_diagram` returns the whole XML plus an editor link with the diagram compressed inside; with
+# stencils the result is close to twice the XML, and the client cuts tool results above 25,000 tokens. Measured on
+# 2026-11-16: 27,426 characters of XML did not reach the viewer, 21,176 did. 20,000 leaves a margin.
+BUDGET = 20_000
 BUDGET_WARNING_RATIO = 0.8
 
 

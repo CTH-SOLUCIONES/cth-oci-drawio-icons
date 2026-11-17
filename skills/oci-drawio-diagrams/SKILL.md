@@ -5,7 +5,7 @@ license: MIT for the skill's text and scripts. The icons, and the stencils deriv
 compatibility: Python 3.10+. Works best with the draw.io MCP server; without it, write the .drawio file directly with the same styles. draw.io desktop is optional, for the render check.
 metadata:
   author: CTH Soluciones Tecnológicas
-  version: "24.2.4"
+  version: "24.2.5"
 ---
 
 # OCI architecture diagrams with the official icons
@@ -64,11 +64,13 @@ phone, a customer's system) goes as a neutral shape with its name.
 - **Copy the style from `--style` whole and untouched**, including the `ociIcon=<slug>` key, which is
   how the script identifies the icon when it embeds. Ask for the style once per service and repeat it
   in every cell that uses it.
-- **Budget: the whole XML under 30,000 characters.** `create_diagram` returns the entire XML, and the
-  client cuts results over 25,000 tokens. With about 50 KB (53,638 characters, with base64 SVGs), the
-  viewer received an error notice instead of the diagram. The most used icons weigh 1.4 KB at the
-  median, and a physical view of 9 icons came to 24,118 characters. `--style` sums what you asked for
-  and warns if it doesn't fit; every cell that repeats an icon adds to the total again.
+- **Budget: the whole XML under 20,000 characters.** `create_diagram` returns the entire XML and,
+  after it, a link to the draw.io editor with the diagram compressed inside. With stencils that link is
+  about 85 % as long as the XML, so the result is close to twice the XML, and the client cuts results over
+  25,000 tokens. A physical view with 10 icons (27,426 characters of XML) came back as a 53,883-character
+  result and the viewer received nothing; one with 7 icons (21,176 characters) showed. An icon's style
+  weighs from about 0.8 to 8.6 KB, so count with `--style`, which sums what you asked for and warns if it doesn't fit; every cell that
+  repeats an icon adds to the total again.
 - **If it doesn't fit**, split the diagram into views (physical and logical, or one per layer) or use
   `--url` for the icons. `--url` costs about 300 characters per icon, but the viewer shows the icon
   empty: tell the person they will see it when they open the file in draw.io, and embed anyway before
@@ -99,6 +101,11 @@ has to look right that way too. These rules were verified by rendering with the 
   draw.io builds a vertical trunk between the two columns without touching any icon.
 - **Nothing leaves from below an icon**, because its label is there. No arrow should run down through
   a container's label either, which sits at the top left.
+- **Keep container borders away from each arrow's midpoint.** For an arrow from A to B, take
+  x = (A's right edge + B's left edge) / 2. A bent arrow runs its vertical segment at x, and a straight
+  arrow's label is centered at x, so a border at x puts the line or the label on top of it. Between
+  two sibling containers, center their gap on x. A single border in the way (a VCN's or the region's)
+  goes at the 40 px margin from the nearer icon, which the 200 px column spacing keeps clear of x.
 - **A container's bottom margin must count the icon's label.** Leave at least 60 px between the bottom
   edge of the lowest icon and the container's edge. The other margins are 40 px.
 - Put text on an arrow only when it clarifies the protocol or the flow.
