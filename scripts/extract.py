@@ -36,7 +36,7 @@ import stencil
 
 # ----------------------------------------------------------------------------- catalog constants
 REPO = "CTH-SOLUCIONES/cth-oci-drawio-icons"
-VERSION = "v24.2.4"  # release of this repo; the source of the catalog files. The other places that carry it are listed in CONTRIBUTING.md and checked by tests/test_version.py
+VERSION = "v24.2.5"  # release of this repo; the source of the catalog files. The other places that carry it are listed in CONTRIBUTING.md and checked by tests/test_version.py
 TOOLKIT_VERSION = VERSION.rsplit(".", 1)[0]  # v24.2: Oracle's toolkit; the last digit is this repo's revision
 SOURCE = f"OCI Architecture Diagram Toolkit {TOOLKIT_VERSION} (Oracle): Icons page, and the legend of the Physical page"
 BASE_URL = f"https://cdn.jsdelivr.net/gh/{REPO}@{VERSION}/svg"

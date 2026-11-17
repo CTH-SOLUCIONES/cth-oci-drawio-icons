@@ -5,7 +5,7 @@ license: MIT for the skill's text and scripts. The icons, and the stencils deriv
 compatibility: Python 3.10+. Works best with the draw.io MCP server; without it, write the .drawio file directly with the same styles. draw.io desktop is optional, for the render check.
 metadata:
   author: CTH Soluciones Tecnológicas
-  version: "24.2.4"
+  version: "24.2.5"
 ---
 
 # OCI architecture diagrams with the official icons

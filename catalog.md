@@ -1,6 +1,6 @@
 # OCI icon catalog for draw.io
 
-Toolkit v24.2 (release v24.2.4). Base style of each icon in `catalog.json`; URL: `https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.4/svg/<slug>.svg`.
+Toolkit v24.2 (release v24.2.5). Base style of each icon in `catalog.json`; URL: `https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.5/svg/<slug>.svg`.
 
 ## Analytics and AI
 

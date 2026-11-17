@@ -7,6 +7,20 @@ works, never the drawings.
 
 ## Unreleased
 
+## 24.2.5 — 2026-11-16
+
+Same icons as 24.2.4. The skill's XML budget and layout rules change after a usage test.
+
+- The draw.io MCP server now returns, after the XML, a link to the editor with the diagram compressed
+  inside; with stencils the result is close to twice the XML. A 10-icon physical view (27,426 characters of XML) came
+  back as a 53,883-character result, over the client's 25,000-token cut, and the viewer received
+  nothing; a 7-icon view (21,176 characters) showed. The budget in `SKILL.md`, the README and
+  `search.py` goes from 30,000 to 20,000 characters.
+- New layout rule: draw.io puts an arrow's vertical segment halfway between the two columns it joins,
+  so container borders must stay off that point. Arrow labels sit at the middle of the arrow too.
+  Found and checked by rendering.
+- The CDN URLs now point at `@v24.2.5`.
+
 ## 24.2.4 — 2026-11-16
 
 First release prepared for use outside CTH. Same icons as 24.2.3.

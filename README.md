@@ -126,11 +126,11 @@ MCP viewer shows those icons empty, while draw.io shows them. Run `embed.py` bef
 The URL is pinned to a tag:
 
 ```
-https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.4/svg/<slug>.svg
+https://cdn.jsdelivr.net/gh/CTH-SOLUCIONES/cth-oci-drawio-icons@v24.2.5/svg/<slug>.svg
 ```
 
 It goes through jsDelivr and not through raw GitHub URLs, because those are served as `text/plain`.
-The tag also fixes the version: `v24.2.4` is the toolkit 24.2 in revision 4 of this repository. When
+The tag also fixes the version: `v24.2.5` is the toolkit 24.2 in revision 5 of this repository. When
 another version comes out, old diagrams keep pointing at their own tag.
 
 Revisions change the encoding, never the drawing. The [changelog](CHANGELOG.md) has the detail; in
@@ -142,6 +142,7 @@ short:
 - v24.2.2 inlined them as base64 SVG, which overflowed the MCP result.
 - v24.2.3 moved to stencils.
 - v24.2.4 is the English rename and the public release.
+- v24.2.5 lowers the XML budget to 20,000 characters and adds a layout rule about container borders.
 
 ## Regenerating from a new toolkit
 

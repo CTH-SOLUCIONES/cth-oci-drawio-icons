@@ -7,8 +7,8 @@ from support import ROOT, SKILL, load_catalog  # first: puts scripts/ on sys.pat
 
 import extract  # noqa: E402
 
-VERSION = extract.VERSION            # "v24.2.4"
-BARE = VERSION.removeprefix("v")     # "24.2.4": plugin manifests, SKILL.md and CHANGELOG headings
+VERSION = extract.VERSION            # e.g. "v24.2.5"
+BARE = VERSION.removeprefix("v")     # e.g. "24.2.5": plugin manifests, SKILL.md and CHANGELOG headings
 
 
 def read(path) -> str:

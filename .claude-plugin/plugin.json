@@ -1,6 +1,6 @@
 {
   "name": "oci-drawio-diagrams",
-  "version": "24.2.4",
+  "version": "24.2.5",
   "description": "Draw OCI architecture diagrams in draw.io with Oracle's official icons, as inline stencils that render in the draw.io MCP viewer.",
   "author": {
     "name": "CTH Soluciones Tecnológicas",

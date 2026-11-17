@@ -9,7 +9,7 @@
       "name": "oci-drawio-diagrams",
       "source": "./",
       "description": "Draws OCI architecture diagrams in draw.io with the icons from Oracle's OCI Architecture Diagram Toolkit v24.2, as inline stencils, with layout rules verified by rendering.",
-      "version": "24.2.4"
+      "version": "24.2.5"
     }
   ]
 }

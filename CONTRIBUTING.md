@@ -54,7 +54,7 @@ change the docs, the skill or the other scripts.
 
 ## Versions and releases
 
-Versions follow `v<toolkit>.<revision>`: `v24.2.4` is revision 4 of the icons from toolkit 24.2. A
+Versions follow `v<toolkit>.<revision>`: `v24.2.5` is revision 5 of the icons from toolkit 24.2. A
 new Oracle toolkit changes the first two numbers. A revision changes how the icons are
 encoded or how the skill works, never the drawings.
 
