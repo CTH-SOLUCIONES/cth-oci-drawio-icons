@@ -1,0 +1,29 @@
+name: validate
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - name: Validate the skill against the Agent Skills spec
+        run: pipx run --spec skills-ref==0.1.1 agentskills validate skills/oci-drawio-diagrams
+      - name: Keep SKILL.md under 500 lines (spec recommendation)
+        run: test "$(wc -l < skills/oci-drawio-diagrams/SKILL.md)" -lt 500
+      - name: Check that the JSON files are valid
+        run: |
+          python3 -m json.tool .claude-plugin/plugin.json > /dev/null
+          python3 -m json.tool .claude-plugin/marketplace.json > /dev/null
+          python3 -m json.tool catalog.json > /dev/null
+          python3 -m json.tool skills/oci-drawio-diagrams/catalog.json > /dev/null
+      - name: Run the tests
+        run: python3 -m unittest discover -s tests -v
+      - name: Check that the skill copy matches the repository root
+        run: python3 scripts/package.py --check

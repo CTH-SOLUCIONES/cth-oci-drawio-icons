@@ -1,0 +1,37 @@
+name: Wrong or missing icon
+description: An icon has the wrong label, slug or drawing, or an OCI service has no icon in the catalog.
+labels: ["icon"]
+body:
+  - type: input
+    id: icon
+    attributes:
+      label: Icon
+      description: The slug or label, or the service that has no icon.
+      placeholder: object-storage-buckets
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What is wrong
+      options:
+        - Missing from the catalog
+        - Wrong label or slug
+        - Wrong drawing or colors
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: What you expected and what the catalog has. Say how you looked (search.py output, svg file, rendered diagram).
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Where it appears in Oracle's toolkit
+      description: The toolkit version and the page or entry where the icon is. Only icons from Oracle's official OCI Architecture Diagram Toolkit are accepted.
+    validations:
+      required: true
