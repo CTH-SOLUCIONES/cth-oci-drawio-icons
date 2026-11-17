@@ -19,18 +19,21 @@ Three constraints shape how the icons are packaged.
 
 1. **Size.** The toolkit's icons are groups of vector shapes of 5 to 20 KB each. Put inside a diagram's
    XML, a real physical view weighs 150 to 200 KB, too much to write in one call to the MCP.
-2. **The result limit.** `create_diagram` returns the whole XML, and the client cuts results over
-   25,000 tokens. A diagram of about 50 KB (53,638 characters, with base64 SVGs) reached the viewer as
-   a notice instead of the diagram.
+2. **The result limit.** `create_diagram` returns the whole XML and, after it, a link to the draw.io
+   editor with the diagram compressed inside; with stencils the result is close to twice the XML. The
+   client cuts results over 25,000 tokens. In v24.2.2 a diagram of about 50 KB (53,638 characters, with
+   base64 SVGs) reached the viewer as a notice instead of the diagram; in November 2026, 27,426
+   characters of stencil XML came back as a 53,883-character result and didn't show.
 3. **The viewer's content policy.** The draw.io MCP viewer only loads images from diagrams.net
    domains and `data:` URIs. Icons referenced by CDN URL render empty in the chat viewer, although
    draw.io itself opens them.
 
 The answer is to ship each icon as a **draw.io stencil** (`shape=stencil(…)`) that goes inline in the
 style. It is vector and compressed: the most used icons weigh 1.4 KB at the median, 37 % less than
-the same icon as base64 SVG, and a physical view of 9 icons went from 33,563 to 24,118 characters. The
-skill keeps the whole XML under 30,000 characters. That budget is a criterion derived from the failure
-above, not a measured limit.
+the same icon as base64 SVG, and a physical view of 9 icons went from 33,563 to 24,118 characters
+(today that view needs splitting). The skill keeps the whole XML under 20,000 characters. That budget sits below two measurements taken with
+the editor link in the result: 27,426 characters of XML did not reach the viewer and 21,176 did. It is
+a criterion with a margin, not a documented limit.
 
 The "OCI Icons" set that draw.io ships doesn't solve it: it is generic black glyphs, and services such
 as Autonomous Database, Object Storage, Vault or OKE don't exist in it by name.
@@ -47,7 +50,7 @@ precision deformed the DRG ring.
 | `svg/<slug>.svg` | The 232 icons, one SVG each, exported from the toolkit's "Icons" page |
 | `catalog.json` | Per icon: `slug`, `label`, `category`, `width`, `height`, `file`, `style` (the inline stencil) and `url_style` (the CDN URL). Also 10 physical-view containers (region, availability domain, fault domain, tenancy, compartment, VCN, subnet, OKE cluster, on-premises, internet) with the style from the toolkit's legend |
 | `catalog.md` | The same list, readable, by category |
-| `scripts/search.py` | Searches the catalog without loading it whole. `--style` gives the inline style and sums it against the 30,000-character budget; `--url` gives the CDN style; `--containers` lists the containers |
+| `scripts/search.py` | Searches the catalog without loading it whole. `--style` gives the inline style and sums it against the 20,000-character budget; `--url` gives the CDN style; `--containers` lists the containers |
 | `scripts/embed.py` | Replaces every icon in a `.drawio` file with its canonical stencil, keeping the rest of the cell's style |
 | `scripts/package.py` | Syncs the skill's copy of the catalog and scripts, and builds `dist/oci-drawio-diagrams.zip`. With `--check` it fails if the copy differs from the root |
 | `scripts/extract.py`, `optimize.py`, `stencil.py` | Regenerate everything from a new toolkit. `extract.py` calls the other two |
@@ -163,8 +166,8 @@ and the root differ. [CONTRIBUTING.md](CONTRIBUTING.md) covers the version numbe
   but the saved XML keeps draw.io's default one. The rules were verified by rendering with the default
   one. They don't promise a good layout for every diagram, and the skill asks for a render check before
   delivery when draw.io desktop is available.
-- **The 30,000-character budget** comes from one observed failure, not from a documented limit of the
-  client.
+- **The 20,000-character budget** comes from measurements with the draw.io MCP server as of November
+  2026, not from a documented limit of the client. If the server changes what it returns, it can move.
 - **The draw.io MCP server gives the best result.** Without it, the agent writes the `.drawio` file
   directly, and you check the render in draw.io.
 - **Python 3.10 or later.**

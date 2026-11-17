@@ -25,8 +25,8 @@ Everyone who takes part follows the [Code of Conduct](CODE_OF_CONDUCT.md).
    in the chat viewer is not enough.
 2. **Icons come only from Oracle's official toolkit.** Don't add icons from other sources, redrawn
    icons, or icons for non-OCI products. The icons are Oracle's; see [NOTICE.md](NOTICE.md).
-3. **Numbers stay sourced.** The 30,000-character budget is a criterion derived from one observed
-   failure, not a measured limit; don't present it or any other figure as more than that. If you
+3. **Numbers stay sourced.** The 20,000-character budget is a criterion set below two measurements,
+   not a documented limit; don't present it or any other figure as more than that. If you
    measure something, say how.
 4. **Keep `SKILL.md` lean.** It is loaded every time the skill activates, and it has to stay under
    500 lines.

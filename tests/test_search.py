@@ -1,5 +1,6 @@
 """search.py: term search, --style with its budget line, --url, --containers and unknown slugs."""
 import json
+import math
 import subprocess
 import sys
 import tempfile
@@ -10,6 +11,8 @@ from support import ROOT, SKILL, load_catalog, run_main  # first: puts scripts/ 
 
 import extract  # noqa: E402
 import search  # noqa: E402
+
+WARNING_FROM = math.ceil(search.BUDGET * search.BUDGET_WARNING_RATIO)  # first total that warns
 
 
 def _icon(slug, label="Label", category="Category", style="s", url_style="u"):
@@ -69,7 +72,7 @@ class TermSearchTest(SyntheticCatalogCase):
 
 
 class BudgetLineTest(SyntheticCatalogCase):
-    """The budget line warns from 80 % of 30,000 characters (24,000) up."""
+    """The budget line warns from 80 % of the budget (WARNING_FROM characters) up."""
 
     def style_line(self, total_chars):
         self.use_catalog([_icon("big", style="x" * total_chars)])
@@ -77,19 +80,20 @@ class BudgetLineTest(SyntheticCatalogCase):
         return out.splitlines()[-1]
 
     def test_just_under_the_threshold_has_no_warning(self):
-        line = self.style_line(23_999)
-        self.assertIn("# 23999 characters in styles", line)
-        self.assertTrue(line.endswith("the full XML must stay under 30000"), line)
+        line = self.style_line(WARNING_FROM - 1)
+        self.assertIn(f"# {WARNING_FROM - 1} characters in styles", line)
+        self.assertTrue(line.endswith(f"the full XML must stay under {search.BUDGET}"), line)
 
     def test_at_the_threshold_warns(self):
-        line = self.style_line(24_000)
+        line = self.style_line(WARNING_FROM)
         self.assertIn("it does not fit, use --url", line)
 
     def test_a_repeated_slug_counts_each_time(self):
-        self.use_catalog([_icon("a", style="x" * 10_000)])
+        each = WARNING_FROM // 3 + 1  # one cell stays under the warning, three together pass it
+        self.use_catalog([_icon("a", style="x" * each)])
         out, _, _ = run_main(search.main, ["--style", "a", "a", "a"])
         self.assertEqual(out.count("a | 10x20 |"), 3)
-        self.assertIn("# 30000 characters", out)
+        self.assertIn(f"# {3 * each} characters", out)
         self.assertIn("it does not fit", out)
 
     def test_unknown_slug_is_reported_and_not_counted(self):
@@ -127,7 +131,7 @@ class RealCatalogCliTest(unittest.TestCase):
 
     def test_many_real_icons_exceed_the_budget_warning(self):
         size = len(next(i for i in load_catalog()["icons"] if i["slug"] == "vault")["style"])
-        slugs = ["vault"] * (24_000 // size + 1)  # enough repeated cells to pass 80 % of the budget
+        slugs = ["vault"] * (WARNING_FROM // size + 1)  # enough repeated cells to pass 80 % of the budget
         result = self.cli(self.SCRIPTS_UNDER_TEST[0], "--style", *slugs)
         self.assertIn("it does not fit, use --url", result.stdout.splitlines()[-1])
 
